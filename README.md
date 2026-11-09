@@ -24,11 +24,25 @@ A relational database project for clubs, players, matches, and match events in T
 4. Add sample data for one season.
 5. Add triggers, queries, and views.
 
+## SQL Scripts
+
+- `sql/turkish-super-league-schema.sql`: create the relational tables and constraints.
+- `sql/turkish-super-league-reports.sql`: create the league table, top scorers, cards by club, and player club history views.
+
 ## Setup
 
 1. Create or select an empty SQL Server database.
-2. Open `sql/turkish-super-league-schema.sql` in SQL Server Management Studio.
-3. Select the target database and execute the script.
+2. Execute `sql/turkish-super-league-schema.sql` in SQL Server Management Studio.
+3. Execute `sql/turkish-super-league-reports.sql` after the schema exists.
+4. Load the approved one-season data when its source is selected.
+
+To display the league table in the approved order, run:
+
+```sql
+SELECT *
+FROM dbo.vw_league_table
+ORDER BY points DESC, goal_difference DESC, goals_for DESC, club_name ASC;
+```
 
 ## Reference Materials
 
@@ -39,3 +53,4 @@ The project follows the supplied proposal and EER diagram. Their original PDF fi
 - `sql/`: SQL Server schema scripts
 - `documents/`: local reference PDFs, excluded from version control
 - `review-assets/`: local page renders, excluded from version control
+
