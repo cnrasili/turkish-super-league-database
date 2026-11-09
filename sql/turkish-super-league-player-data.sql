@@ -8,7 +8,7 @@ DECLARE @RosterInput TABLE (
     row_id INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
     club_name NVARCHAR(120) NOT NULL,
     tff_license_no BIGINT NOT NULL,
-    shirt_no INT NOT NULL,
+    shirt_no INT NULL,
     player_name NVARCHAR(120) NOT NULL,
     birth_date DATE NULL,
     nationality NVARCHAR(80) NULL,
@@ -169,40 +169,44 @@ VALUES
         (N'Fenerbahçe A.Ş.', 1139318, 13, N'TARIK ÇETİN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/720a3e1ff14f42fd8863d2880d21f967.pdf', N'https://www.tff.org/Resources/TFF/Auto/2726d73512824ff9aef2f79bdd84a981.pdf'),
         (N'Fenerbahçe A.Ş.', 2581224, 14, N'YİĞİT EFE DEMİR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/720a3e1ff14f42fd8863d2880d21f967.pdf', N'https://www.tff.org/Resources/TFF/Auto/2726d73512824ff9aef2f79bdd84a981.pdf'),
         (N'Fenerbahçe A.Ş.', 18975, 19, N'YOUSSEF EN NESYRI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/720a3e1ff14f42fd8863d2880d21f967.pdf', NULL),
--- Galatasaray A.Ş. roster
-        (N'Galatasaray A.Ş.', 815227, 42, N'ABDÜLKERİM BARDAKCI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 16880, 21, N'AHMED KUTUCU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 3066313, 91, N'ARDA ÜNYAY', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 1732358, 53, N'BARIŞ ALPER YILMAZ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 2533607, 12, N'BATUHAN AHMET ŞEN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 17492, 18, N'BERKAN İSMAİL KUTLU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', NULL),
-        (N'Galatasaray A.Ş.', 19857, 27, N'CAN ARMANDO GÜNER', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 18707, 6, N'DAVINSON SANCHEZ MINA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 2643834, 65, N'EGE ARAÇ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', NULL),
-        (N'Galatasaray A.Ş.', 2543505, 17, N'EVREN EREN ELMALI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 19006, 8, N'GABRIEL DAVI GOMES SARA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 18361, 33, N'GÖKDENİZ GÜRPÜZ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 15726, 19, N'GÜNAY GÜVENÇ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 19082, 4, N'ISMAIL JOSHUA JAKOBS', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 15198, 20, N'İLKAY GÜNDOĞAN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 15027, 23, N'KAAN AYHAN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 3501493, 88, N'KAZIMCAN KARATAŞ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', NULL),
-        (N'Galatasaray A.Ş.', 19420, 10, N'LEROY AZIZ SANE', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 18215, 34, N'LUCAS SEBASTIAN TORREIRA DI PASCUA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 17353, 99, N'MARIO RENE JUNIOR LEMINA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 18314, 9, N'MAURO EMANUEL ICARDI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 2561466, 3, N'METEHAN BALTACI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 3570361, 63, N'MUSTAFA DURU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', NULL),
-        (N'Galatasaray A.Ş.', 19812, 77, N'NOA NOËLL LANG', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 19848, 74, N'RENATO SAM-NA NHAGA', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 19192, 7, N'ROLAND SALLAI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 17776, 93, N'SACHA BOEY', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 991785, 1, N'UĞURCAN ÇAKIR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 19101, 45, N'VICTOR JAMES OSIMHEN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 19565, 90, N'WILFRIED STEPHANE SINGO', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 19816, 22, N'YASER ESNEYDER ASPRILLA MARTINEZ', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 2542908, 11, N'YUNUS AKGÜN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
-        (N'Galatasaray A.Ş.', 18317, 30, N'YUSUF DEMİR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', NULL),
+-- Source: TFF records and owner-provided 25/26 squad screenshot.
+-- Galatasaray A.Ş. first-team and loaned-out roster
+        (N'Galatasaray A.Ş.', 815227, 42, N'ABDÜLKERİM BARDAKCI', '1994-09-07', N'TC', N'Centre-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 16880, 21, N'AHMED KUTUCU', '2000-03-01', N'TC', N'Left Winger', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 1732358, 53, N'BARIŞ ALPER YILMAZ', '2000-05-23', N'TC', N'Left Winger', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 2533607, 12, N'BATUHAN AHMET ŞEN', '1999-09-03', N'TC', N'Goalkeeper', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2292522&pageId=30.
+        (N'Galatasaray A.Ş.', 17492, 18, N'BERKAN İSMAİL KUTLU', '1998-01-25', N'TC', N'Central Midfield', '2021-07-29', '2026-01-02', N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', NULL),
+        (N'Galatasaray A.Ş.', 19857, 27, N'CAN ARMANDO GÜNER', '2008-12-07', N'ARG', N'Right Winger', NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 18707, 6, N'DAVINSON SANCHEZ MINA', '1996-07-12', N'COL', N'Centre-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1911614&pageId=30.
+        (N'Galatasaray A.Ş.', 2639006, 70, N'ENES EMRE BÜYÜK', '2006-05-08', N'TC', N'Goalkeeper', '2025-07-17', '2027-06-30', NULL, NULL),
+        (N'Galatasaray A.Ş.', 2543505, 17, N'EVREN EREN ELMALI', '2000-05-07', N'TC', N'Left-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 19006, 8, N'GABRIEL DAVI GOMES SARA', '1999-06-26', N'BRA', N'Central Midfield', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 18361, 33, N'GÖKDENİZ GÜRPÜZ', '2006-02-25', N'TC', N'Attacking Midfield', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 15726, 19, N'GÜNAY GÜVENÇ', '1991-01-25', N'TC', N'Goalkeeper', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 19082, 4, N'ISMAIL JOSHUA JAKOBS', '1999-08-17', N'SEN', N'Left-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 15198, 20, N'İLKAY GÜNDOĞAN', '1990-10-24', N'GER', N'Central Midfield', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1790244&pageId=30.
+        (N'Galatasaray A.Ş.', 2027795, NULL, N'JANKAT YILMAZ', '2004-08-16', N'TC', N'Goalkeeper', '2025-06-01', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1564936&pageId=30.
+        (N'Galatasaray A.Ş.', 3501493, 88, N'KAZIMCAN KARATAŞ', '2003-01-16', N'TC', N'Left-Back', '2022-07-01', '2027-05-31', N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', NULL),
+        (N'Galatasaray A.Ş.', 19420, 10, N'LEROY AZIZ SANE', '1996-01-11', N'GER', N'Right Winger', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 18215, 34, N'LUCAS SEBASTIAN TORREIRA DI PASCUA', '1996-06-11', N'URY', N'Defensive Midfield', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 17353, 99, N'MARIO RENE JUNIOR LEMINA', '1993-09-01', N'GAB', N'Defensive Midfield', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 18314, 9, N'MAURO EMANUEL ICARDI', '1993-02-19', N'ARG', N'Centre-Forward', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 2561466, 3, N'METEHAN BALTACI', '2002-11-03', N'TC', N'Centre-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+-- Source: TFF profile https://www.tff.org/Default.aspx?kisiId=2501727&pageId=30; screenshot confirms loan-out.
+        (N'Galatasaray A.Ş.', 18447, NULL, N'NICOLO ZANIOLO', '1999-07-02', N'ITA', N'Attacking Midfield', '2023-02-08', '2026-06-25', NULL, NULL),
+        (N'Galatasaray A.Ş.', 19812, 77, N'NOA NOËLL LANG', '1999-12-17', N'NED', N'Left Winger', NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 19848, 74, N'RENATO SAM-NA NHAGA', '2007-03-27', N'GNB', N'Central Midfield', NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 19192, 7, N'ROLAND SALLAI', '1997-05-22', N'HUN', N'Right-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 17776, 93, N'SACHA BOEY', '2000-09-13', N'FRA', N'Right-Back', NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 991785, 1, N'UĞURCAN ÇAKIR', '1996-04-05', N'TC', N'Goalkeeper', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 19101, 45, N'VICTOR JAMES OSIMHEN', '1998-12-29', N'NGA', N'Centre-Forward', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 19565, 90, N'WILFRIED STEPHANE SINGO', '2000-12-25', N'CIV', N'Right-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 19816, 22, N'YASER ESNEYDER ASPRILLA MARTINEZ', '2003-11-19', N'COL', N'Right Winger', NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+        (N'Galatasaray A.Ş.', 2542908, 11, N'YUNUS AKGÜN', '2000-07-07', N'TC', N'Right Winger', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
 -- Gaziantep Futbol Kulübü A.Ş. roster
         (N'Gaziantep Futbol Kulübü A.Ş.', 17427, 44, N'ALEXANDRU IULIAN MAXIM', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1ab9f534a1f1432dae6a723a0d99eeb7.pdf'),
         (N'Gaziantep Futbol Kulübü A.Ş.', 1494070, 16, N'ALİ MEVRAN ABLAK', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1ab9f534a1f1432dae6a723a0d99eeb7.pdf'),
@@ -351,7 +355,8 @@ VALUES
         (N'İstanbul Başakşehir FK', 19349, 77, N'IVAN BRNIC', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 18604, 18, N'JAKUB KALUZINSKI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 18763, 3, N'JEROME OPOKU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
-        (N'İstanbul Başakşehir FK', 3501493, 88, N'KAZIMCAN KARATAŞ', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1564936&pageId=30.
+        (N'İstanbul Başakşehir FK', 3501493, 88, N'KAZIMCAN KARATAŞ', '2003-01-16', N'TC', N'Left-Back', '2026-02-06', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 17665, 5, N'LEONARDO CAMPOS DUARTE DA SILVA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 17954, 13, N'MIGUEL CRESPO DA SILVA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 1632520, 16, N'MUHAMMED ŞENGEZER', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
@@ -385,7 +390,7 @@ VALUES
         (N'İkas Eyüpspor', 19582, 3, N'GILBERT MENDY', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', NULL),
         (N'İkas Eyüpspor', 1835653, 7, N'HALİL AKBUNAR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', NULL),
         (N'İkas Eyüpspor', 19833, 27, N'ISMAILA MANGA', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
-        (N'İkas Eyüpspor', 2027795, 24, N'JANKAT YILMAZ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
+        (N'İkas Eyüpspor', 2027795, 24, N'JANKAT YILMAZ', '2004-08-16', N'TC', N'Goalkeeper', '2025-09-12', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 19788, 68, N'JEROME JUNIOR ONGUENE', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 15458, 10, N'KEREM DEMİRBAY', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', NULL),
         (N'İkas Eyüpspor', 19783, 23, N'LENNY JEAN PIERRE PINTOR', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
@@ -590,7 +595,8 @@ VALUES
         (N'Tümosan Konyaspor', 17390, 18, N'ALASSANE NDAO', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', NULL),
         (N'Tümosan Konyaspor', 1741833, 24, N'ARİF BOŞLUK', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 1030507, 13, N'BAHADIR HAN GÜNGÖRDÜ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
-        (N'Tümosan Konyaspor', 17492, 18, N'BERKAN İSMAİL KUTLU', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2292522&pageId=30.
+        (N'Tümosan Konyaspor', 17492, 18, N'BERKAN İSMAİL KUTLU', '1998-01-25', N'TC', N'Central Midfield', '2026-01-05', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 19177, 99, N'BLAZ KRAMER', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 3525618, 1, N'DENİZ ERTAŞ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 16212, 9, N'DENİZ TÜRÜÇ', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
@@ -656,11 +662,11 @@ VALUES
         (N'Zecorner Kayserispor', 1248888, 99, N'TALHA SARIARSLAN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 3508914, 21, N'YİĞİT EMRE ÇELTİK', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 17967, 15, N'YOUSSEF AIT BENASSER', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf');
-IF (SELECT COUNT(*) FROM @RosterInput) <> 605
-    THROW 50009, 'Expected 605 TFF roster registrations.', 1;
+IF (SELECT COUNT(*) FROM @RosterInput) <> 603
+    THROW 50009, 'Expected 603 curated roster registrations.', 1;
 
-IF (SELECT COUNT(DISTINCT tff_license_no) FROM @RosterInput) <> 582
-    THROW 50010, 'Expected 582 distinct TFF player licenses.', 1;
+IF (SELECT COUNT(DISTINCT tff_license_no) FROM @RosterInput) <> 579
+    THROW 50010, 'Expected 579 distinct TFF player licenses.', 1;
 
 IF (SELECT COUNT(DISTINCT club_name) FROM @RosterInput) <> 18
     THROW 50011, 'Expected roster records for 18 clubs.', 1;
