@@ -63,6 +63,31 @@ FROM dbo.vw_league_table
 ORDER BY league_position;
 ```
 
+To display 2025-2026 player records in contiguous club-name blocks, run:
+
+```sql
+SELECT
+    club.name AS club_name,
+    person.name AS player_name,
+    player.[position],
+    person.birth_date,
+    person.nationality,
+    player_contract.start_date,
+    player_contract.end_date
+FROM dbo.[contract] AS player_contract
+INNER JOIN dbo.club AS club
+    ON club.club_id = player_contract.club_id
+INNER JOIN dbo.player AS player
+    ON player.person_id = player_contract.player_id
+INNER JOIN dbo.person AS person
+    ON person.person_id = player.person_id
+WHERE player_contract.start_date <= '2026-06-30'
+    AND player_contract.end_date >= '2025-07-01'
+ORDER BY club.name, person.name;
+```
+
+Base tables have no guaranteed row order; use `ORDER BY` for grouped roster output.
+
 ## Reference Materials
 
 The project follows the supplied proposal and EER diagram. Their original PDF files are retained locally and excluded from version control.
