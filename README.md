@@ -27,14 +27,16 @@ A relational database project for clubs, players, matches, and match events in T
 ## SQL Scripts
 
 - `sql/turkish-super-league-schema.sql`: create the relational tables and constraints.
+- `sql/turkish-super-league-integrity.sql`: apply subtype and goal-lineup integrity rules.
 - `sql/turkish-super-league-reports.sql`: create the league table, top scorers, cards by club, and player club history views.
 
 ## Setup
 
 1. Create or select an empty SQL Server database.
 2. Execute `sql/turkish-super-league-schema.sql` in SQL Server Management Studio.
-3. Execute `sql/turkish-super-league-reports.sql` after the schema exists.
-4. Load the approved one-season data when its source is selected.
+3. Execute `sql/turkish-super-league-integrity.sql` before loading data.
+4. Execute `sql/turkish-super-league-reports.sql` after the schema exists.
+5. Load the approved one-season data when its source is selected.
 
 To display the league table in the approved order, run:
 
