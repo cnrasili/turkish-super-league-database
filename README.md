@@ -16,17 +16,26 @@ A relational database project for clubs, players, matches, and match events in T
 - Cards by club
 - Clubs played for by a player
 
-## Roadmap
+## Implementation Status
 
-1. Define requirements and the EER model.
-2. Map the existing model to relational tables.
-3. Implement the schema and constraints in SQL Server.
-4. Add sample data for one season.
-5. Add triggers, queries, and views.
+- The 18-table schema covers every relation, entity, and attribute in the proposal and EER; the integrity script and four reporting views are drafted.
+- `sql/turkish-super-league-reference-data.sql` seeds the 2025-2026 season, its 18 clubs, their TFF profile stadiums, and source-backed club colours.
+- The match relation follows the approved model: season, home club, away club, referee, and week; it has no date, kickoff-time, or venue attributes.
+- Match-event participants must have an appearance in that match. Run `dbo.assert_match_event_subtypes_complete` after data loading to verify every event has exactly one goal, card, or substitution subtype.
+- The scripts have not yet been executed against SQL Server.
+- The selected sample season is 2025-2026.
+- Official TFF season, squad, match, and profile records are the primary data sources.
+- All 306 TFF fixture results reconcile with the computed final records for the 18 clubs; 305 linked match details also confirm the score and goal-event total.
+- The [TFF detail page for Alanyaspor 1-3 Eyüpspor](https://www.tff.org/Default.aspx?macId=283725&pageID=29) timed out. Its fixture result is confirmed, but its goal events remain unchecked.
+- TFF goal type codes are `F` (foot), `H` (header), `K` (own goal), and `P` (penalty); card colours are yellow and red.
+- TFF's official A-team lists and match sheets anchor 2025-2026 player membership. Transfermarkt 25/26 squad pages are located for all 18 clubs and supplement positions only after matching a player to TFF; their current-squad view can include post-season changes. Player, coach, referee, contract, match, lineup, and event rows still need collection and TFF reconciliation. Referee birth dates are verified for 22 of 25 listed officials; the owner will supply the remaining three. No reliable event-level source for substitution injury status has been found.
+- The owner will supply remaining missing values. Further searches stop when available source coverage is sufficient; unresolved rows are not fabricated or loaded.
+- The league-table view applies TFF head-to-head tie-break rules while keeping the proposal and EER table set unchanged.
 
 ## SQL Scripts
 
 - `sql/turkish-super-league-schema.sql`: create the relational tables and constraints.
+- `sql/turkish-super-league-reference-data.sql`: seed source-backed 2025-2026 clubs, colours, stadiums, and season participation.
 - `sql/turkish-super-league-integrity.sql`: apply subtype and goal-lineup integrity rules.
 - `sql/turkish-super-league-reports.sql`: create the league table, top scorers, cards by club, and player club history views.
 
@@ -34,21 +43,36 @@ A relational database project for clubs, players, matches, and match events in T
 
 1. Create or select an empty SQL Server database.
 2. Execute `sql/turkish-super-league-schema.sql` in SQL Server Management Studio.
-3. Execute `sql/turkish-super-league-integrity.sql` before loading data.
-4. Execute `sql/turkish-super-league-reports.sql` after the schema exists.
-5. Load the approved one-season data when its source is selected.
+3. Execute `sql/turkish-super-league-reference-data.sql` to load the available club and season reference rows.
+4. Execute `sql/turkish-super-league-integrity.sql` before loading people and match data.
+5. Execute `sql/turkish-super-league-reports.sql` after the schema exists.
+6. Add the remaining 2025-2026 people, roster, contract, match, lineup, and event rows after supplying unresolved values.
+7. Run the event-subtype assertion after loading:
 
-To display the league table in the approved order, run:
+```sql
+EXEC dbo.assert_match_event_subtypes_complete;
+```
+
+To display the league table in TFF order, run:
 
 ```sql
 SELECT *
 FROM dbo.vw_league_table
-ORDER BY points DESC, goal_difference DESC, goals_for DESC, club_name ASC;
+ORDER BY league_position;
 ```
 
 ## Reference Materials
 
 The project follows the supplied proposal and EER diagram. Their original PDF files are retained locally and excluded from version control.
+
+## 2025-2026 Data Sources
+
+- [TFF season fixtures and standings](https://www.tff.org/default.aspx?pageID=1768)
+- Official [first-window](https://www.tff.org/Default.aspx?ftxtId=48473&pageId=200) and [second-window](https://www.tff.org/default.aspx?ftxtID=49698&pageID=204) A-team player lists
+- [TFF match detail example](https://www.tff.org/Default.aspx?macId=283853&pageId=29)
+- TFF [player](https://www.tff.org/default.aspx?pageID=130), [technical director](https://www.tff.org/default.aspx?pageID=163), [referee](https://www.tff.org/default.aspx?pageID=161), and [club](https://www.tff.org/default.aspx?pageID=119) records from the Football Knowledge Bank
+- TFF stadium profiles linked from its official club and match pages
+- Transfermarkt is a supplementary source only for fields missing from checked TFF records, such as [2025-2026 player positions](https://www.transfermarkt.com/galatasaray/kader/verein/141/saison_id/2025), [coach details](https://www.transfermarkt.com/nuri-sahin/profil/trainer/96813/sort/points), and [referee details](https://www.transfermarkt.com/yasin-kol/profil/schiedsrichter/9968/saison/2025/wettbewerb_id/TR1/plus/1). TFF remains primary for season membership, fixtures, results, match sheets, and rules.
 
 ## Repository Layout
 

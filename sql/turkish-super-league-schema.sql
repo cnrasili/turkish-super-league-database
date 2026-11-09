@@ -33,7 +33,6 @@ GO
 CREATE TABLE dbo.referee (
     person_id INT NOT NULL,
     referee_class NVARCHAR(40) NOT NULL,
-    license_level NVARCHAR(50) NOT NULL,
     CONSTRAINT PK_referee PRIMARY KEY (person_id),
     CONSTRAINT FK_referee_person FOREIGN KEY (person_id)
         REFERENCES dbo.person (person_id)

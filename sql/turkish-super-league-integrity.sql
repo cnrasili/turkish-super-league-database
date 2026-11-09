@@ -26,6 +26,28 @@ BEGIN
 END;
 GO
 
+-- Require every event participant to appear in the same match lineup.
+CREATE OR ALTER TRIGGER dbo.trg_event_player_require_appearance
+ON dbo.event_player
+AFTER INSERT, UPDATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF EXISTS (
+        SELECT 1
+        FROM inserted AS i
+        LEFT JOIN dbo.appearance AS a
+            ON a.match_id = i.match_id
+            AND a.player_id = i.player_id
+        WHERE a.player_id IS NULL
+    )
+    BEGIN
+        ;THROW 51010, 'An event participant must appear in the same match lineup.', 1;
+    END;
+END;
+GO
+
 -- Keep PERSON subtypes disjoint.
 CREATE OR ALTER TRIGGER dbo.trg_player_subtype_disjoint
 ON dbo.player
@@ -316,7 +338,12 @@ BEGIN
 END;
 GO
 
-CREATE OR ALTER TRIGGER dbo.trg_appearance_preserve_goal_lineup
+IF OBJECT_ID(N'dbo.trg_appearance_preserve_goal_lineup', N'TR') IS NOT NULL
+    DROP TRIGGER dbo.trg_appearance_preserve_goal_lineup;
+GO
+
+-- Preserve appearances referenced by any match event.
+CREATE OR ALTER TRIGGER dbo.trg_appearance_preserve_event_lineup
 ON dbo.appearance
 AFTER UPDATE, DELETE
 AS
@@ -329,16 +356,7 @@ BEGIN
         JOIN dbo.event_player AS ep
             ON ep.match_id = d.match_id
             AND ep.player_id = d.player_id
-        JOIN dbo.goal AS g
-            ON g.match_id = ep.match_id
-            AND g.event_no = ep.event_no
-        WHERE ep.[role] IN (
-            'scorer_home',
-            'scorer_away',
-            'own_goal_by_home_player',
-            'own_goal_by_away_player'
-        )
-        AND NOT EXISTS (
+        WHERE NOT EXISTS (
             SELECT 1
             FROM inserted AS i
             WHERE i.match_id = d.match_id
@@ -346,7 +364,34 @@ BEGIN
         )
     )
     BEGIN
-        ;THROW 51009, 'A goal participant must remain in the same match lineup.', 1;
+        ;THROW 51009, 'An event participant must remain in the same match lineup.', 1;
+    END;
+END;
+GO
+
+-- Validate total MATCH_EVENT subtype coverage after loading data.
+CREATE OR ALTER PROCEDURE dbo.assert_match_event_subtypes_complete
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF EXISTS (
+        SELECT me.match_id, me.event_no
+        FROM dbo.match_event AS me
+        LEFT JOIN (
+            SELECT match_id, event_no FROM dbo.goal
+            UNION ALL
+            SELECT match_id, event_no FROM dbo.card
+            UNION ALL
+            SELECT match_id, event_no FROM dbo.substitution
+        ) AS subtype
+            ON subtype.match_id = me.match_id
+            AND subtype.event_no = me.event_no
+        GROUP BY me.match_id, me.event_no
+        HAVING COUNT(subtype.event_no) <> 1
+    )
+    BEGIN
+        ;THROW 51011, 'Every match event must have exactly one subtype.', 1;
     END;
 END;
 GO
