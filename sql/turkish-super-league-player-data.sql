@@ -220,7 +220,6 @@ VALUES
         (N'Gençlerbirliği', 18774, 99, N'CİHAN ÇANAK', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 18621, 53, N'DAL VARESANOVIC', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 17774, 6, N'DIMITRIOS GOUTAS', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
-        (N'Gençlerbirliği', 19505, 21, N'DİLHAN DEMİR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', NULL),
         (N'Gençlerbirliği', 1668491, 33, N'EBRAR YİĞİT AYDIN', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 19138, 27, N'EMİRHAN ÜNAL', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 2600611, 61, N'ENSAR KEMALOĞLU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
@@ -228,10 +227,8 @@ VALUES
         (N'Gençlerbirliği', 1662364, 88, N'FIRATCAN ÜZÜM', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 19584, 70, N'FRANCO DARYL TONGYA HEUBANG', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 3072107, 16, N'FURKAN AYAZ ÖZCAN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
-        (N'Gençlerbirliği', 802684, 1, N'GÖKHAN AKKAN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', NULL),
         (N'Gençlerbirliği', 17147, 11, N'GÖKTAN GÜRPÜZ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 16956, 7, N'HENRY CHUKWUEMEKA ONYEKURU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
-        (N'Gençlerbirliği', 19620, 17, N'KEVIN CSOBOTH', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', NULL),
         (N'Gençlerbirliği', 19640, 24, N'MARIO RICARDO DA SILVA VELHO', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 18176, 23, N'MATEJ HANOUSEK', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 18607, 29, N'MBAYE HAMADY NIANG', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
@@ -239,12 +236,9 @@ VALUES
         (N'Gençlerbirliği', 1847884, 35, N'OĞULCAN ÜLGÜN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 3140109, 42, N'OUSMANE DIABATE', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 18255, 13, N'PEDRO MIGUEL DE ALMEIDA LOPES PEREIRA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
-        (N'Gençlerbirliği', 19531, 0, N'PRINCE MARTOR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', NULL),
         (N'Gençlerbirliği', 17184, 8, N'SAMED ONUR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 19543, 22, N'SEKOU KOITA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
-        (N'Gençlerbirliği', 909361, 90, N'SİNAN OSMANOĞLU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', NULL),
         (N'Gençlerbirliği', 18998, 2, N'THALISSON KELVEN DA SILVA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
-        (N'Gençlerbirliği', 3055959, 25, N'UMUT İSLAMOĞLU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', NULL),
         (N'Gençlerbirliği', 3057184, 93, N'YİĞİT HAMZA AYDAR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 19029, 4, N'ZAN ZUZEK', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
 -- Göztepe A.Ş. post-winter 2025-2026 roster
@@ -281,25 +275,23 @@ VALUES
         (N'Hesap.com Antalyaspor', 2014032, 7, N'BÜNYAMİN BALCI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 18689, 88, N'DARIO SARIC', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 2003142, 70, N'DOĞUKAN SİNİK', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
-        (N'Hesap.com Antalyaspor', 1756405, 99, N'ENGİN POYRAZ EFE YILDIRIM', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', NULL),
+        (N'Hesap.com Antalyaspor', 2038434, 98, N'EGE İZMİRLİ', NULL, NULL, N'Centre-Back', NULL, NULL, NULL, NULL),
+        (N'Hesap.com Antalyaspor', 2038031, 27, N'ENSAR BUĞRA TİVSİZ', NULL, NULL, N'Centre-Back', NULL, NULL, NULL, NULL),
         (N'Hesap.com Antalyaspor', 15995, 17, N'ERDOĞAN YEŞİLYURT', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 19514, 14, N'GEORGII DZHIKIIA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 1716713, 4, N'HÜSEYİN TÜRKMEN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
-        (N'Hesap.com Antalyaspor', 19189, 0, N'ISMAIL TAIEB CHEHAIMA', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 19525, 23, N'JESPER ISMAILA CEESAY', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 19558, 1, N'JULIAN CUESTA DIAZ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 2032387, 96, N'KAĞAN ARICAN', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 19482, 3, N'KENNETH IMMANUEL PAAL', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 2630092, 90, N'KEREM KAYAARASI', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 19522, 30, N'LAUTARO DANIEL GIANNETTI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
-        (N'Hesap.com Antalyaspor', 1663972, 16, N'MEHMET ATABERK DADAKDENİZ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', NULL),
         (N'Hesap.com Antalyaspor', 19633, 24, N'MOUHAMED EL BACHIR GUEYE', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 19501, 26, N'NIKOLA STORM', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 18761, 8, N'RAMZI SAFURI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 2559200, 2, N'SAMET KARAKOÇ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 19629, 11, N'SAMUEL LEO BEAT BALLET', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 802632, 6, N'SONER DİKMEN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
-        (N'Hesap.com Antalyaspor', 19483, 9, N'TOMAS CVANCARA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', NULL),
         (N'Hesap.com Antalyaspor', 873639, 89, N'VEYSEL SARI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 19602, 77, N'YOHAN ALEXANDRE MADY BOLI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
 -- İstanbul Başakşehir FK post-winter 2025-2026 roster
@@ -421,10 +413,7 @@ VALUES
         (N'Mısırlı.com.tr Fatih Karagümrük', 19768, 15, N'ABDUL KADER MOUSSA KONE', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 19753, 88, N'AHMED TRAORE', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 2658456, 17, N'AHMET SİVRİ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
-        (N'Mısırlı.com.tr Fatih Karagümrük', 19360, 34, N'ALPER EMRE DEMİROL', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', NULL),
-        (N'Mısırlı.com.tr Fatih Karagümrük', 19265, 91, N'ANDRE ANTHONY GRAY', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', NULL),
         (N'Mısırlı.com.tr Fatih Karagümrük', 2592624, 94, N'ANIL YİĞİT ÇINAR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
-        (N'Mısırlı.com.tr Fatih Karagümrük', 1853062, 6, N'ATAKAN RIDVAN ÇANKAYA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', NULL),
         (N'Mısırlı.com.tr Fatih Karagümrük', 18366, 72, N'BARIŞ JAKOB KALAYCI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 2567473, 6, N'BARTUĞ ELMAZ', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 17352, 8, N'BERKAY ÖZCAN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
@@ -433,21 +422,14 @@ VALUES
         (N'Mısırlı.com.tr Fatih Karagümrük', 2599675, 33, N'ÇAĞTAY KURUKALIP', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 19084, 11, N'DANIEL ANTHONY JOHNSON', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 19862, 10, N'DANIELE VERDE', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
-        (N'Mısırlı.com.tr Fatih Karagümrük', 19185, 0, N'DATRO DAVID FOFANA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', NULL),
         (N'Mısırlı.com.tr Fatih Karagümrük', 18027, 4, N'DAVIDE BIRASCHI', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
-        (N'Mısırlı.com.tr Fatih Karagümrük', 16972, 3, N'ENZO PABLO ROCO ROCO', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', NULL),
         (N'Mısırlı.com.tr Fatih Karagümrük', 1854021, 22, N'FATİH KURUCUK', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 19858, 25, N'FILIP MLADENOVIC', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 3004110, 99, N'FURKAN BEKLEVİÇ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 19853, 3, N'IGOR LICHNOVSKY OSORIO', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 19158, 13, N'IVO GRBIC', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
-        (N'Mısırlı.com.tr Fatih Karagümrük', 18964, 37, N'JOAO PEDRO GOMES CAMACHO', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', NULL),
-        (N'Mısırlı.com.tr Fatih Karagümrük', 17587, 29, N'JURE BALKOVEC', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', NULL),
         (N'Mısırlı.com.tr Fatih Karagümrük', 2633453, 96, N'KEREM YANDAL', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
-        (N'Mısırlı.com.tr Fatih Karagümrük', 18993, 14, N'MARUIS TRESOR DOH', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', NULL),
         (N'Mısırlı.com.tr Fatih Karagümrük', 2714304, 32, N'MUHAMMED İYYAD KADIOĞLU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
-        (N'Mısırlı.com.tr Fatih Karagümrük', 19455, 27, N'NIKOLOZ UGREKHELIDZE', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', NULL),
-        (N'Mısırlı.com.tr Fatih Karagümrük', 2568396, 88, N'ÖMER FARUK GÜMÜŞ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', NULL),
         (N'Mısırlı.com.tr Fatih Karagümrük', 19576, 47, N'RICARDO DE SOUSA ESGAIO', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 18157, 23, N'SAM ANDREAS LARSSON', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 17571, 70, N'SERGIO ANTONIO DA LUZ JUNIOR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
@@ -572,11 +554,11 @@ VALUES
         (N'Zecorner Kayserispor', 1248888, 99, N'TALHA SARIARSLAN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 3508914, 21, N'YİĞİT EMRE ÇELTİK', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 17967, 15, N'YOUSSEF AIT BENASSER', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf');
-IF (SELECT COUNT(*) FROM @RosterInput) <> 513
-    THROW 50009, 'Expected 513 curated roster registrations.', 1;
+IF (SELECT COUNT(*) FROM @RosterInput) <> 495
+    THROW 50009, 'Expected 495 curated roster registrations.', 1;
 
-IF (SELECT COUNT(DISTINCT tff_license_no) FROM @RosterInput) <> 513
-    THROW 50010, 'Expected 513 distinct TFF player licenses.', 1;
+IF (SELECT COUNT(DISTINCT tff_license_no) FROM @RosterInput) <> 495
+    THROW 50010, 'Expected 495 distinct TFF player licenses.', 1;
 
 IF (SELECT COUNT(DISTINCT club_name) FROM @RosterInput) <> 18
     THROW 50011, 'Expected roster records for 18 clubs.', 1;
