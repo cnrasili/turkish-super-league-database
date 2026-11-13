@@ -62,11 +62,10 @@ VALUES
         (N'Beşiktaş A.Ş.', 19556, 35, N'TIAGO EMANUEL EMBALO DJALO', NULL, NULL, N'Centre-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/768b84e41bc34610973e6cd949a06319.pdf', N'https://www.tff.org/Resources/TFF/Auto/a3ee5188b7bb441bbeff5185d63a4666.pdf'),
         (N'Beşiktaş A.Ş.', 19575, 18, N'VACLAV CERNY', NULL, NULL, N'Right Winger', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/768b84e41bc34610973e6cd949a06319.pdf', N'https://www.tff.org/Resources/TFF/Auto/a3ee5188b7bb441bbeff5185d63a4666.pdf'),
         (N'Beşiktaş A.Ş.', 1254261, 58, N'YASİN ÖZCAN', NULL, NULL, N'Centre-Back', NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/a3ee5188b7bb441bbeff5185d63a4666.pdf'),
--- Corendon Alanyaspor roster
+-- Corendon Alanyaspor post-winter 2025-2026 roster
         (N'Corendon Alanyaspor', 18890, 58, N'ANTONIO SIMAO MUANZA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 19244, 18, N'BARAN MOĞULTAY', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 19342, 2, N'BATUHAN YAVUZ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
-        (N'Corendon Alanyaspor', 2568096, 4, N'BEDİRHAN ÖZYURT', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', NULL),
         (N'Corendon Alanyaspor', 19032, 30, N'BRUNO VIANA WILLEMEM DA SILVA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 1686349, 25, N'BULUTHAN BULUT', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 3576560, 98, N'CİHAN MEMİK', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
@@ -82,19 +81,17 @@ VALUES
         (N'Corendon Alanyaspor', 2562284, 27, N'İBRAHİM KAYA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 1482760, 6, N'İZZET ÇELİK', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 908371, 1, N'MAHMUT ERTUĞRUL TAŞKIRAN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
-        (N'Corendon Alanyaspor', 3527047, 23, N'MERT FURKAN BAYRAM', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', NULL),
         (N'Corendon Alanyaspor', 19609, 12, N'MESCHACK ELIA LINA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 18530, 17, N'NICOLAS JEAN PAUL NOEL JANVIER', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 18753, 3, N'NUNO MIGUEL REIS LIMA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 16653, 48, N'PAULO VICTOR MILEO VIDOTTI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 19611, 11, N'RUAN PEREIRA DUARTE', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 19608, 9, N'STEVE MICHEL KEVİN MOUNIE', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
-        (N'Corendon Alanyaspor', 19066, 22, N'UCHENNA OGUNDU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', NULL),
         (N'Corendon Alanyaspor', 18876, 16, N'UI JO HWANG', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 2050527, 50, N'ÜMİT AKDAĞ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 2044429, 38, N'YUSUF CAN KARADEMİR', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 2576122, 88, N'YUSUF ÖZDEMİR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
--- Çaykur Rizespor A.Ş. roster
+-- Çaykur Rizespor A.Ş. post-winter 2025-2026 roster
         (N'Çaykur Rizespor A.Ş.', 19795, 17, N'ADEDIRE EMMANUEL OLUWATOFUNMI AWOKOYA-MEBUDE', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/8239628807c34b8297421b73e07a4824.pdf'),
         (N'Çaykur Rizespor A.Ş.', 18165, 9, N'ALI SOWE', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/8239628807c34b8297421b73e07a4824.pdf'),
         (N'Çaykur Rizespor A.Ş.', 18613, 77, N'ALTIN ZEQIRI', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/8239628807c34b8297421b73e07a4824.pdf'),
@@ -351,7 +348,6 @@ VALUES
         (N'İkas Eyüpspor', 19784, 22, N'DENIS RAZVAN RADU', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 19834, 14, N'DIABEL NDOYE', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 19077, 7, N'DORIN ROTARIU', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
-        (N'İkas Eyüpspor', 3035025, 5, N'EMİR ORTAKAYA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', NULL),
         (N'İkas Eyüpspor', 2017795, 8, N'EMRE AKBABA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 19582, 3, N'GILBERT MENDY', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', NULL),
         (N'İkas Eyüpspor', 1835653, 7, N'HALİL AKBUNAR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', NULL),
@@ -540,10 +536,9 @@ VALUES
         (N'Trabzonspor A.Ş.', 1755930, 92, N'TAHA EMRE İNCE', NULL, NULL, N'Centre-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/67fce590900e4850a5ab3ca4c2c43f49.pdf', N'https://www.tff.org/Resources/TFF/Auto/1bba3674b9694f60a54231f2888e3cc9.pdf'),
         (N'Trabzonspor A.Ş.', 19361, 26, N'TIM LUCA PACO JABOL - FOLCARELLI', NULL, NULL, N'Central Midfield', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/67fce590900e4850a5ab3ca4c2c43f49.pdf', N'https://www.tff.org/Resources/TFF/Auto/1bba3674b9694f60a54231f2888e3cc9.pdf'),
         (N'Trabzonspor A.Ş.', 19402, 20, N'WAGNER FABRICIO CARDOSO DE PINA', NULL, NULL, N'Right-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/67fce590900e4850a5ab3ca4c2c43f49.pdf', N'https://www.tff.org/Resources/TFF/Auto/1bba3674b9694f60a54231f2888e3cc9.pdf'),
--- Tümosan Konyaspor roster
+-- Tümosan Konyaspor post-winter 2025-2026 roster
         (N'Tümosan Konyaspor', 19826, 39, N'ADAMO NAGALO', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 1905970, 4, N'ADİL DEMİRBAĞ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
-        (N'Tümosan Konyaspor', 17390, 18, N'ALASSANE NDAO', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', NULL),
         (N'Tümosan Konyaspor', 1741833, 24, N'ARİF BOŞLUK', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 1030507, 13, N'BAHADIR HAN GÜNGÖRDÜ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
 -- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2292522&pageId=30.
@@ -558,19 +553,13 @@ VALUES
         (N'Tümosan Konyaspor', 3047299, 30, N'İSMAİL ESAT BUĞA', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 18070, 40, N'JACKSON KYANVUBU MULEKA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 2728934, 21, N'JINHO JO', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
-        (N'Tümosan Konyaspor', 18976, 15, N'JOSIP CALUSIC', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', NULL),
-        (N'Tümosan Konyaspor', 1699865, 70, N'KAAN AKYAZI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', NULL),
         (N'Tümosan Konyaspor', 1136941, 3, N'KARAHAN YASİR SUBAŞI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 19504, 70, N'KAZEEM ADEREMI J. OLAIGBE', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 19484, 11, N'MARIUS STEFANESCU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 16986, 16, N'MARKO JEVTOVIC', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
-        (N'Tümosan Konyaspor', 1171927, 17, N'MELİH BOSTAN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', NULL),
         (N'Tümosan Konyaspor', 17652, 77, N'MELİH İBRAHİMOĞLU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 19363, 42, N'MORTEN BJORLO', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 18974, 7, N'MUHAMMET TUNAHAN TAŞCI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
-        (N'Tümosan Konyaspor', 1254469, 37, N'MUZAFFER UTKU ERİŞ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', NULL),
-        (N'Tümosan Konyaspor', 19441, 14, N'MÜCAHİT İBRAHİMOĞLU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', NULL),
-        (N'Tümosan Konyaspor', 18977, 8, N'PEDRO HENRIQUE OLIVEIRA DOS SANTOS', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', NULL),
         (N'Tümosan Konyaspor', 17780, 22, N'RAYYAN BANİYA', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 19169, 20, N'RIECHEDLY GUILLERMO BAZOER', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 19756, 32, N'SANDER SVENDSEN', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
@@ -612,11 +601,11 @@ VALUES
         (N'Zecorner Kayserispor', 1248888, 99, N'TALHA SARIARSLAN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 3508914, 21, N'YİĞİT EMRE ÇELTİK', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 17967, 15, N'YOUSSEF AIT BENASSER', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf');
-IF (SELECT COUNT(*) FROM @RosterInput) <> 553
-    THROW 50009, 'Expected 553 curated roster registrations.', 1;
+IF (SELECT COUNT(*) FROM @RosterInput) <> 542
+    THROW 50009, 'Expected 542 curated roster registrations.', 1;
 
-IF (SELECT COUNT(DISTINCT tff_license_no) FROM @RosterInput) <> 548
-    THROW 50010, 'Expected 548 distinct TFF player licenses.', 1;
+IF (SELECT COUNT(DISTINCT tff_license_no) FROM @RosterInput) <> 539
+    THROW 50010, 'Expected 539 distinct TFF player licenses.', 1;
 
 IF (SELECT COUNT(DISTINCT club_name) FROM @RosterInput) <> 18
     THROW 50011, 'Expected roster records for 18 clubs.', 1;
