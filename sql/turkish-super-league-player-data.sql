@@ -362,43 +362,35 @@ VALUES
         (N'İkas Eyüpspor', 16578, 28, N'TAŞKIN İLTER', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 15648, 19, N'UMUT DİLAN BOZOK', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 3520603, 31, N'UMUT KESECİ', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
--- Kasımpaşa A.Ş. roster
+-- Kasımpaşa A.Ş. post-winter 2025-2026 roster
         (N'Kasımpaşa A.Ş.', 19579, 4, N'ADAM AROUS', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 19840, 19, N'ADRIAN DAWID BENEDYCZAK', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 17765, 12, N'AHMED MORTADHA BEN OUANES', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
+        (N'Kasımpaşa A.Ş.', 3522291, 30, N'AHMET TAHA DAĞBAŞI', '2005-04-01', N'TC', N'Centre-Back', '2026-02-06', '2030-06-30', NULL, NULL),
         (N'Kasımpaşa A.Ş.', 1847163, 25, N'ALİ EMRE YANAR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 2019040, 11, N'ALİ YAVUZ KOL', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 18586, 1, N'ANDREAS GIANNIOTIS', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 19478, 16, N'ANDRI FANNAR BALDURSSON', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
-        (N'Kasımpaşa A.Ş.', 2570359, 5, N'ATAKAN MÜJDE', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', NULL),
-        (N'Kasımpaşa A.Ş.', 17686, 41, N'ATTILA ARPAD SZALAI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', NULL),
-        (N'Kasımpaşa A.Ş.', 2664488, 27, N'BAHTİYAR ARAS ÖZDEN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', NULL),
         (N'Kasımpaşa A.Ş.', 2664496, 47, N'BERKAY MURATOĞLU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
-        (N'Kasımpaşa A.Ş.', 19416, 6, N'CEM ÜSTÜNDAĞ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', NULL),
         (N'Kasımpaşa A.Ş.', 15302, 23, N'CENK TOSUN', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 18522, 2, N'CLAUDIO WINCK NETO', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 2631978, 42, N'EMİRHAN YİĞİT', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 814191, 33, N'EMRE TAŞDEMİR', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
-        (N'Kasımpaşa A.Ş.', 3010177, 0, N'ERDEM ÇETİNKAYA', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
+        (N'Kasımpaşa A.Ş.', 1756032, 61, N'EGE ALBAYRAK', '2007-08-20', N'TC', N'Goalkeeper', '2025-09-03', '2028-06-30', NULL, NULL),
         (N'Kasımpaşa A.Ş.', 18767, 5, N'EYÜP AYDIN', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 17122, 34, N'FOUSSENI DIABATE', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 19506, 21, N'GODFRİED AYESU OWUSU FRİMPONG', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
-        (N'Kasımpaşa A.Ş.', 17117, 10, N'HARIS HAJRADINOVIC', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', NULL),
         (N'Kasımpaşa A.Ş.', 802431, 71, N'İRFAN CAN KAHVECİ', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
-        (N'Kasımpaşa A.Ş.', 19083, 14, N'JHON JAIRO', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', NULL),
         (N'Kasımpaşa A.Ş.', 19824, 18, N'JİM EMİLLEN NGOWET ALLEVINAH', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 14646, 22, N'KAMİL AHMET ÇÖREKÇİ', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 15458, 26, N'KEREM DEMİRBAY', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 1636101, 17, N'KUBİLAY KANATSIZKUŞ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
-        (N'Kasımpaşa A.Ş.', 18025, 7, N'MAMADOU FALL', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', NULL),
         (N'Kasımpaşa A.Ş.', 19050, 20, N'NICHOLAS OPOKU', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
-        (N'Kasımpaşa A.Ş.', 3012196, 23, N'OĞUZHAN EFE YILMAZ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', NULL),
         (N'Kasımpaşa A.Ş.', 19487, 77, N'PAPE HABIB GUEYE', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 19036, 8, N'RIBEIRO DIAS CARLOS MIGUEL', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 18546, 50, N'RODRIGO NASCIMENTO FRANCA', NULL, NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 2672434, 98, N'ŞANT KAZANCI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 2633455, 29, N'TAYLAN UTKU AYDIN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
-        (N'Kasımpaşa A.Ş.', 1528427, 72, N'YASİN ERATİLLA', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', NULL),
         (N'Kasımpaşa A.Ş.', 17657, 9, N'YUSUF BARASI', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
 -- Kocaelispor roster
         (N'Kocaelispor', 791137, 22, N'AHMET OĞUZ', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
@@ -588,11 +580,11 @@ VALUES
         (N'Zecorner Kayserispor', 1248888, 99, N'TALHA SARIARSLAN', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 3508914, 21, N'YİĞİT EMRE ÇELTİK', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 17967, 15, N'YOUSSEF AIT BENASSER', NULL, NULL, NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf');
-IF (SELECT COUNT(*) FROM @RosterInput) <> 529
-    THROW 50009, 'Expected 529 curated roster registrations.', 1;
+IF (SELECT COUNT(*) FROM @RosterInput) <> 521
+    THROW 50009, 'Expected 521 curated roster registrations.', 1;
 
-IF (SELECT COUNT(DISTINCT tff_license_no) FROM @RosterInput) <> 529
-    THROW 50010, 'Expected 529 distinct TFF player licenses.', 1;
+IF (SELECT COUNT(DISTINCT tff_license_no) FROM @RosterInput) <> 521
+    THROW 50010, 'Expected 521 distinct TFF player licenses.', 1;
 
 IF (SELECT COUNT(DISTINCT club_name) FROM @RosterInput) <> 18
     THROW 50011, 'Expected roster records for 18 clubs.', 1;
