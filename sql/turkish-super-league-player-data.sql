@@ -1,6 +1,6 @@
 -- Source: TFF first-window A-team lists published on 2025-09-19.
 -- Source: TFF second-window A-team lists published on 2026-02-13.
--- Complete verified player facts and contract dates before running this seed.
+-- Load verified player facts and available professional contract periods.
 SET NOCOUNT ON;
 SET XACT_ABORT ON;
 
@@ -80,7 +80,7 @@ VALUES
         (N'Corendon Alanyaspor', 19589, 14, N'IANIS HAGI', '1998-10-22', N'ROM', N'Attacking Midfield', '2025-09-05', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 2562284, 27, N'İBRAHİM KAYA', '2001-03-09', N'TC', N'Attacking Midfield', '2025-07-02', '2029-06-30', N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 1482760, 6, N'İZZET ÇELİK', '2004-06-20', N'TC', N'Central Midfield', '2025-07-01', '2029-06-30', N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
-        (N'Corendon Alanyaspor', 908371, 1, N'MAHMUT ERTUĞRUL TAŞKIRAN', '1989-11-05', N'TC', N'Goalkeeper', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
+        (N'Corendon Alanyaspor', 908371, 1, N'MAHMUT ERTUĞRUL TAŞKIRAN', '1989-11-05', N'TC', N'Goalkeeper', '2023-07-04', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 19609, 12, N'MESCHACK ELIA LINA', '1997-08-06', N'CGO', N'Attacking Midfield', '2025-09-12', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 18530, 17, N'NICOLAS JEAN PAUL NOEL JANVIER', '1998-08-11', N'FRA', N'Central Midfield', '2023-07-03', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 18753, 3, N'NUNO MIGUEL REIS LIMA', '2001-03-16', N'POR', N'Centre-Back', '2023-09-14', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
@@ -211,7 +211,7 @@ VALUES
         (N'Gaziantep Futbol Kulübü A.Ş.', 841983, 23, N'TAYYİP TALHA SANUÇ', '1999-12-17', N'TC', N'Centre-Back', '2025-09-07', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/1ab9f534a1f1432dae6a723a0d99eeb7.pdf'),
         (N'Gaziantep Futbol Kulübü A.Ş.', 19765, 8, N'VICTOR NTINO-EMO GIDADO', '2004-07-14', N'NGR', N'Attacking Midfield', '2026-01-08', '2029-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/1ab9f534a1f1432dae6a723a0d99eeb7.pdf'),
         (N'Gaziantep Futbol Kulübü A.Ş.', 17202, 32, N'YUSUF KARHAN KABADAYI', '2004-02-02', N'TC', N'Left Winger', '2025-09-12', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/1ab9f534a1f1432dae6a723a0d99eeb7.pdf'),
-        (N'Gaziantep Futbol Kulübü A.Ş.', 3501109, 20, N'ZAFER GÖRGEN', '2000-06-21', N'TC', N'Goalkeeper', NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1ab9f534a1f1432dae6a723a0d99eeb7.pdf'),
+        (N'Gaziantep Futbol Kulübü A.Ş.', 3501109, 20, N'ZAFER GÖRGEN', '2000-06-21', N'TC', N'Goalkeeper', '2025-08-15', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/1ab9f534a1f1432dae6a723a0d99eeb7.pdf'),
 -- Gençlerbirliği roster
         (N'Gençlerbirliği', 235431, 77, N'ABDURRAHİM DURSUN', '1998-04-01', N'TC', N'Left-Back', '2025-08-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 19534, 20, N'ADAMA TRAORE', '1995-06-05', N'MLI', N'Right Winger', '2025-08-15', '2027-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
@@ -224,7 +224,7 @@ VALUES
         (N'Gençlerbirliği', 19138, 27, N'EMİRHAN ÜNAL', '2005-02-04', N'TC', N'Right-Back', '2024-08-15', '2027-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 2600611, 61, N'ENSAR KEMALOĞLU', '1998-10-05', N'TC', N'Central Midfield', '2024-08-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 1853012, 18, N'ERHAN ERENTÜRK', '1995-05-30', N'TC', N'Goalkeeper', '2025-07-08', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
-        (N'Gençlerbirliği', 1662364, 88, N'FIRATCAN ÜZÜM', '1999-01-04', N'TC', N'Right-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
+        (N'Gençlerbirliği', 1662364, 88, N'FIRATCAN ÜZÜM', '1999-01-04', N'TC', N'Right-Back', '2024-06-25', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 19584, 70, N'FRANCO DARYL TONGYA HEUBANG', '2002-03-13', N'ITA', N'Central Midfield', '2025-09-05', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 3072107, 16, N'FURKAN AYAZ ÖZCAN', '2009-10-01', N'TC', N'Centre-Forward', '2025-08-04', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 17147, 11, N'GÖKTAN GÜRPÜZ', '2003-01-22', N'TC', N'Attacking Midfield', '2025-07-31', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
@@ -271,7 +271,7 @@ VALUES
         (N'Hesap.com Antalyaspor', 1517676, 21, N'ABDULLAH YİĞİTER', '2000-08-20', N'TC', N'Goalkeeper', '2024-07-25', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 1731006, 10, N'ABDÜLKADİR ÖMÜR', '1999-07-25', N'TC', N'Right Winger', '2025-07-29', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 18656, 22, N'ALEXANDER GERARD VAN DE STREEK', '1993-03-24', N'NED', N'Attacking Midfield', '2025-07-14', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
-        (N'Hesap.com Antalyaspor', 2021055, 5, N'BAHADIR ÖZTÜRK', '1995-10-01', N'TC', N'Centre-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
+        (N'Hesap.com Antalyaspor', 2021055, 5, N'BAHADIR ÖZTÜRK', '1995-10-01', N'TC', N'Centre-Back', '2021-06-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 2014032, 7, N'BÜNYAMİN BALCI', '2000-05-31', N'TC', N'Right-Back', '2025-06-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 18689, 88, N'DARIO SARIC', '1997-05-30', N'ITA', N'Central Midfield', '2025-08-18', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 2003142, 70, N'DOĞUKAN SİNİK', '1999-01-21', N'TC', N'Left Winger', '2023-01-12', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
@@ -291,13 +291,13 @@ VALUES
         (N'Hesap.com Antalyaspor', 18761, 8, N'RAMZI SAFURI', '1995-10-21', N'ISR', N'Attacking Midfield', '2025-07-07', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 2559200, 2, N'SAMET KARAKOÇ', '2002-10-22', N'TC', N'Left-Back', '2025-09-12', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 19629, 11, N'SAMUEL LEO BEAT BALLET', '2001-03-12', N'SUI', N'Centre-Forward', '2025-09-11', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
-        (N'Hesap.com Antalyaspor', 802632, 6, N'SONER DİKMEN', '1993-09-01', N'TC', N'Central Midfield', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
+        (N'Hesap.com Antalyaspor', 802632, 6, N'SONER DİKMEN', '1993-09-01', N'TC', N'Central Midfield', '2024-07-06', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 873639, 89, N'VEYSEL SARI', '1988-07-25', N'TC', N'Centre-Back', '2025-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 19602, 77, N'YOHAN ALEXANDRE MADY BOLI', '1993-11-17', N'CIV', N'Centre-Forward', '2025-09-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
 -- İstanbul Başakşehir FK post-winter 2025-2026 roster
         (N'İstanbul Başakşehir FK', 19492, 11, N'ABBOSBEK FAYZULLAYEV', '2003-10-03', N'UZB', N'Left Winger', '2025-07-30', '2030-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 19639, 25, N'AMINE HARIT', '1997-06-18', N'FRA', N'Right Winger', '2025-09-12', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
-        (N'İstanbul Başakşehir FK', 821331, 2, N'BERAT AYBERK ÖZDEMİR', '1998-05-23', N'TC', N'Defensive Midfield', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
+        (N'İstanbul Başakşehir FK', 821331, 2, N'BERAT AYBERK ÖZDEMİR', '1998-05-23', N'TC', N'Defensive Midfield', '2024-08-10', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 18783, 45, N'BERKAY ASLAN', '2007-01-05', N'TC', N'Left Winger', '2025-07-03', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 2576523, 91, N'BERTUĞ ÖZGÜR YILDIRIM', '2002-07-12', N'TC', N'Centre-Forward', '2025-09-11', '2029-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 19255, 21, N'CHRİSTOPHER TEA DOMORAUD OPERI', '1997-04-29', N'CIV', N'Left-Back', '2025-01-13', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
@@ -318,9 +318,9 @@ VALUES
         (N'İstanbul Başakşehir FK', 18719, 10, N'NUNO MIGUEL DA COSTA JOIA', '1991-02-10', N'CPV', N'Centre-Forward', '2025-07-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 17847, 8, N'OLIVER MICHEL KEMEN', '1996-07-20', N'FRA', N'Central Midfield', '2024-01-30', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 15622, 6, N'ONUR BULUT', '1994-04-16', N'TC', N'Right-Back', '2025-07-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
-        (N'İstanbul Başakşehir FK', 1810160, 4, N'ONUR ERGÜN', '1992-11-15', N'TC', N'Defensive Midfield', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
+        (N'İstanbul Başakşehir FK', 1810160, 4, N'ONUR ERGÜN', '1992-11-15', N'TC', N'Defensive Midfield', '2023-08-25', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 18698, 27, N'OUSSEYNOU BA', '1995-11-11', N'SEN', N'Centre-Back', '2024-07-15', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
-        (N'İstanbul Başakşehir FK', 791105, 42, N'ÖMER ALİ ŞAHİNER', '1992-01-02', N'TC', N'Right-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
+        (N'İstanbul Başakşehir FK', 791105, 42, N'ÖMER ALİ ŞAHİNER', '1992-01-02', N'TC', N'Right-Back', '2021-01-26', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 17309, 20, N'UMUT GÜNEŞ', '2000-03-16', N'TC', N'Central Midfield', '2025-02-11', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 182384, 1, N'VOLKAN BABACAN', '1988-08-11', N'TC', N'Goalkeeper', '2025-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 16934, 7, N'YUSUF SARI', '1998-11-20', N'TC', N'Right Winger', '2025-01-13', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
@@ -336,7 +336,7 @@ VALUES
         (N'İkas Eyüpspor', 19784, 22, N'DENIS RAZVAN RADU', '2003-03-25', N'ROM', N'Right Winger', '2026-01-08', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 19834, 14, N'DIABEL NDOYE', '2007-08-27', N'SEN', N'Centre-Back', '2026-02-02', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 19077, 7, N'DORIN ROTARIU', '1995-06-29', N'ROM', N'Right Winger', '2026-02-06', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
-        (N'İkas Eyüpspor', 2017795, 8, N'EMRE AKBABA', '1992-10-04', N'TC', N'Attacking Midfield', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
+        (N'İkas Eyüpspor', 2017795, 8, N'EMRE AKBABA', '1992-10-04', N'TC', N'Attacking Midfield', '2024-07-07', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 19833, 27, N'ISMAILA MANGA', '2007-05-15', N'SEN', N'Attacking Midfield', '2026-02-02', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 2027795, 24, N'JANKAT YILMAZ', '2004-08-16', N'TC', N'Goalkeeper', '2025-09-12', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 19788, 68, N'JEROME JUNIOR ONGUENE', '1997-12-22', N'FRA', N'Centre-Back', '2026-01-13', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
@@ -348,7 +348,7 @@ VALUES
         (N'İkas Eyüpspor', 1680635, 26, N'METEHAN ALTUNBAŞ', '2003-01-07', N'TC', N'Centre-Forward', '2025-07-02', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 2689661, 94, N'ÖMER FARUK UĞURLU', '2006-12-22', N'TC', N'Left Winger', '2025-09-11', '2027-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 18545, 40, N'PRINCE OBENG AMPEM', '1998-04-13', N'GHA', N'Left Winger', '2023-07-19', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
-        (N'İkas Eyüpspor', 1688041, 16, N'SEYFETTİN ANIL YAŞAR', '2002-07-01', N'TC', N'Centre-Back', NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
+        (N'İkas Eyüpspor', 1688041, 16, N'SEYFETTİN ANIL YAŞAR', '2002-07-01', N'TC', N'Centre-Back', '2026-02-05', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 17656, 17, N'TALHA ÜLVAN', '2001-04-20', N'TC', N'Right-Back', '2025-07-02', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 16578, 28, N'TAŞKIN İLTER', '1994-07-05', N'TC', N'Defensive Midfield', '2025-06-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 15648, 19, N'UMUT DİLAN BOZOK', '1996-09-19', N'TC', N'Centre-Forward', '2025-02-03', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
@@ -358,7 +358,7 @@ VALUES
         (N'Kasımpaşa A.Ş.', 19840, 19, N'ADRIAN DAWID BENEDYCZAK', '2000-11-24', N'POL', N'Centre-Forward', '2026-02-03', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 17765, 12, N'AHMED MORTADHA BEN OUANES', '1994-07-02', N'TUN', N'Left Winger', '2025-07-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 3522291, 30, N'AHMET TAHA DAĞBAŞI', '2005-04-01', N'TC', N'Centre-Back', '2026-02-06', '2030-06-30', NULL, NULL),
-        (N'Kasımpaşa A.Ş.', 1847163, 25, N'ALİ EMRE YANAR', '1998-05-15', N'TC', N'Goalkeeper', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
+        (N'Kasımpaşa A.Ş.', 1847163, 25, N'ALİ EMRE YANAR', '1998-05-15', N'TC', N'Goalkeeper', '2023-07-31', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 2019040, 11, N'ALİ YAVUZ KOL', '2001-01-29', N'TC', N'Left Winger', '2025-07-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 18586, 1, N'ANDREAS GIANNIOTIS', '1992-12-18', N'GRE', N'Goalkeeper', '2025-07-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 19478, 16, N'ANDRI FANNAR BALDURSSON', '2002-01-10', N'ISL', N'Defensive Midfield', '2025-07-29', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
@@ -371,11 +371,11 @@ VALUES
         (N'Kasımpaşa A.Ş.', 18767, 5, N'EYÜP AYDIN', '2004-08-02', N'TC', N'Defensive Midfield', '2026-02-03', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 17122, 34, N'FOUSSENI DIABATE', '1995-10-18', N'FRA', N'Right Winger', '2025-09-08', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 19506, 21, N'GODFRİED AYESU OWUSU FRİMPONG', '1999-04-21', N'NED', N'Left-Back', '2025-08-06', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
-        (N'Kasımpaşa A.Ş.', 802431, 71, N'İRFAN CAN KAHVECİ', '1995-07-15', N'TC', N'Attacking Midfield', NULL, NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
+        (N'Kasımpaşa A.Ş.', 802431, 71, N'İRFAN CAN KAHVECİ', '1995-07-15', N'TC', N'Attacking Midfield', '2026-01-08', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 19824, 18, N'JİM EMİLLEN NGOWET ALLEVINAH', '1995-02-27', N'FRA', N'Right Winger', '2026-01-29', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 14646, 22, N'KAMİL AHMET ÇÖREKÇİ', '1992-02-01', N'TC', N'Right-Back', '2026-01-06', '2027-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 15458, 26, N'KEREM DEMİRBAY', '1993-07-03', N'GER', N'Central Midfield', '2026-01-15', '2029-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
-        (N'Kasımpaşa A.Ş.', 1636101, 17, N'KUBİLAY KANATSIZKUŞ', '1997-03-28', N'TC', N'Centre-Forward', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
+        (N'Kasımpaşa A.Ş.', 1636101, 17, N'KUBİLAY KANATSIZKUŞ', '1997-03-28', N'TC', N'Centre-Forward', '2025-07-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 19050, 20, N'NICHOLAS OPOKU', '1997-08-11', N'GHA', N'Centre-Back', '2024-08-16', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 19487, 77, N'PAPE HABIB GUEYE', '1999-09-20', N'SEN', N'Centre-Forward', '2025-08-01', '2029-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 19036, 8, N'RIBEIRO DIAS CARLOS MIGUEL', '1993-02-26', N'POR', N'Central Midfield', '2024-08-10', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
@@ -395,7 +395,7 @@ VALUES
         (N'Kocaelispor', 19568, 17, N'DARKO CHURLINOV', '2000-07-11', N'MAK', N'Right Winger', '2025-09-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
         (N'Kocaelispor', 4030232, 16, N'DENİZ CEYLAN', '2008-10-29', N'TC', N'Centre-Back', NULL, NULL, NULL, NULL),
         (N'Kocaelispor', 1162813, 18, N'FURKAN GEDİK', '2002-07-12', N'TC', N'Left Winger', '2024-08-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
-        (N'Kocaelispor', 434452, 35, N'GÖKHAN DEĞİRMENCİ', '1989-03-21', N'TC', N'Goalkeeper', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
+        (N'Kocaelispor', 434452, 35, N'GÖKHAN DEĞİRMENCİ', '1989-03-21', N'TC', N'Goalkeeper', '2022-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
         (N'Kocaelispor', 19616, 8, N'HABIB ALI KEITA', '2002-02-05', N'MLI', N'Central Midfield', '2025-09-12', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
         (N'Kocaelispor', 19577, 6, N'HRVOJE SMOLCIC', '2000-08-17', N'CRO', N'Centre-Back', '2025-09-05', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
         (N'Kocaelispor', 19425, 98, N'JOSEPH NONGE BOENDE', '2005-05-15', N'BEL', N'Central Midfield', '2025-07-07', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
@@ -460,7 +460,7 @@ VALUES
         (N'Samsunspor A.Ş.', 1627508, 1, N'OKAN KOCUK', '1995-07-27', N'TC', N'Goalkeeper', '2025-07-14', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/6de0eaf827b74b46a8b7a95587b89eb6.pdf', N'https://www.tff.org/Resources/TFF/Auto/11a1d40e00804f77821b93bf9e124ee6.pdf'),
         (N'Samsunspor A.Ş.', 17488, 19, N'PAPE CHERIF NDIAYE', '1996-01-23', N'SEN', N'Centre-Forward', '2025-09-12', '2029-06-30', N'https://www.tff.org/Resources/TFF/Auto/6de0eaf827b74b46a8b7a95587b89eb6.pdf', N'https://www.tff.org/Resources/TFF/Auto/11a1d40e00804f77821b93bf9e124ee6.pdf'),
         (N'Samsunspor A.Ş.', 18518, 4, N'RİCK VAN DRONGELEN', '1998-12-20', N'NED', N'Centre-Back', '2025-07-03', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/6de0eaf827b74b46a8b7a95587b89eb6.pdf', N'https://www.tff.org/Resources/TFF/Auto/11a1d40e00804f77821b93bf9e124ee6.pdf'),
-        (N'Samsunspor A.Ş.', 1716961, 28, N'SONER GÖNÜL', '1997-06-11', N'TC', N'Left-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/6de0eaf827b74b46a8b7a95587b89eb6.pdf', N'https://www.tff.org/Resources/TFF/Auto/11a1d40e00804f77821b93bf9e124ee6.pdf'),
+        (N'Samsunspor A.Ş.', 1716961, 28, N'SONER GÖNÜL', '1997-06-11', N'TC', N'Left-Back', '2021-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/6de0eaf827b74b46a8b7a95587b89eb6.pdf', N'https://www.tff.org/Resources/TFF/Auto/11a1d40e00804f77821b93bf9e124ee6.pdf'),
         (N'Samsunspor A.Ş.', 1054760, 16, N'TAHSİN BÜLBÜL', '2006-06-09', N'TC', N'Right Winger', '2025-09-01', '2030-06-30', N'https://www.tff.org/Resources/TFF/Auto/6de0eaf827b74b46a8b7a95587b89eb6.pdf', N'https://www.tff.org/Resources/TFF/Auto/11a1d40e00804f77821b93bf9e124ee6.pdf'),
         (N'Samsunspor A.Ş.', 19572, 70, N'TANGUY BEMIN COULIBALY', '2001-02-18', N'FRA', N'Right Winger', '2025-09-02', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/6de0eaf827b74b46a8b7a95587b89eb6.pdf', N'https://www.tff.org/Resources/TFF/Auto/11a1d40e00804f77821b93bf9e124ee6.pdf'),
         (N'Samsunspor A.Ş.', 19530, 24, N'TONI BOREVKOVIC', '1997-06-18', N'CRO', N'Centre-Back', '2025-08-15', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/6de0eaf827b74b46a8b7a95587b89eb6.pdf', N'https://www.tff.org/Resources/TFF/Auto/11a1d40e00804f77821b93bf9e124ee6.pdf'),
@@ -523,7 +523,7 @@ VALUES
         (N'Tümosan Konyaspor', 19169, 20, N'RIECHEDLY GUILLERMO BAZOER', '1996-10-12', N'NED', N'Centre-Back', '2024-09-11', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 19756, 32, N'SANDER SVENDSEN', '1997-08-06', N'NOR', N'Left Winger', '2026-01-02', '2027-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 16582, 19, N'UFUK AKYOL', '1997-08-27', N'TC', N'Defensive Midfield', '2024-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
-        (N'Tümosan Konyaspor', 1508782, 5, N'UĞURCAN YAZĞILI', '1999-04-09', N'TC', N'Centre-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
+        (N'Tümosan Konyaspor', 1508782, 5, N'UĞURCAN YAZĞILI', '1999-04-09', N'TC', N'Centre-Back', '2022-01-28', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 19438, 23, N'YHOAN MANY ANDZOUANA', '1996-12-13', N'FRA', N'Right-Back', '2025-07-09', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
 -- Zecorner Kayserispor roster
         (N'Zecorner Kayserispor', 17848, 25, N'BİLAL BAYAZIT', '1999-04-08', N'TC', N'Goalkeeper', '2024-06-01', '2026-05-31', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
@@ -531,9 +531,9 @@ VALUES
         (N'Zecorner Kayserispor', 17867, 20, N'CARLOS MANUEL CARDOSO MANE', '1994-03-11', N'POR', N'Right Winger', '2024-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 19819, 18, N'DENIS MAKAROV', '1998-02-18', N'RUS', N'Right Winger', '2026-01-26', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 4516275, 27, N'DENİZ EREN DÖNMEZER', '2008-09-21', N'TC', N'Goalkeeper', '2025-09-12', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
-        (N'Zecorner Kayserispor', 1650151, 24, N'DORUKHAN TOKÖZ', '1996-05-21', N'TC', N'Defensive Midfield', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
+        (N'Zecorner Kayserispor', 1650151, 24, N'DORUKHAN TOKÖZ', '1996-05-21', N'TC', N'Defensive Midfield', '2025-07-20', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 19847, 63, N'FEDOR CHALOV', '1998-04-10', N'RUS', N'Centre-Forward', '2026-02-04', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
-        (N'Zecorner Kayserispor', 815947, 33, N'FURKAN SOYALP', '1995-06-12', N'TC', N'Central Midfield', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
+        (N'Zecorner Kayserispor', 815947, 33, N'FURKAN SOYALP', '1995-06-12', N'TC', N'Central Midfield', '2025-09-08', '2026-06-26', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 19630, 9, N'GERMAN ONUGKHA', '1996-07-06', N'RUS', N'Centre-Forward', '2025-09-12', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 18294, 61, N'GÖRKEM SAĞLAM', '1998-04-11', N'TC', N'Central Midfield', '2026-01-16', '2027-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 19498, 22, N'INDRIT TUCI', '2000-09-14', N'ALB', N'Centre-Forward', '2025-08-08', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
@@ -544,10 +544,10 @@ VALUES
         (N'Zecorner Kayserispor', 19535, 8, N'LASZLO BENES', '1997-09-09', N'SVK', N'Central Midfield', '2025-08-16', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 16191, 23, N'LIONEL JULES CAROLE', '1994-03-11', N'FRA', N'Left-Back', '2025-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 1248453, 16, N'MEHMET ERAY ÖZBEK', '2003-01-09', N'TC', N'Attacking Midfield', '2022-06-01', '2026-05-31', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
-        (N'Zecorner Kayserispor', 17845, 7, N'MIGUEL FILIPE NUNES CARDOSO', '1994-06-19', N'POR', N'Left Winger', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
-        (N'Zecorner Kayserispor', 1245621, 77, N'NURETTİN KORKMAZ', '2002-06-27', N'TC', N'Left Winger', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
+        (N'Zecorner Kayserispor', 17845, 7, N'MIGUEL FILIPE NUNES CARDOSO', '1994-06-19', N'POR', N'Left Winger', '2024-06-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
+        (N'Zecorner Kayserispor', 1245621, 77, N'NURETTİN KORKMAZ', '2002-06-27', N'TC', N'Left Winger', '2025-07-07', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 1710422, 1, N'ONURCAN PİRİ', '1994-09-28', N'TC', N'Goalkeeper', '2023-09-15', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
-        (N'Zecorner Kayserispor', 953111, 28, N'RAMAZAN CİVELEK', '1996-01-22', N'TC', N'Right-Back', NULL, NULL, N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
+        (N'Zecorner Kayserispor', 953111, 28, N'RAMAZAN CİVELEK', '1996-01-22', N'TC', N'Right-Back', '2021-01-20', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 19793, 11, N'SAMUEL JAMES MATHER', '2004-09-03', N'GBR', N'Left Winger', '2026-01-16', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 16052, 6, N'SEMİH GÜLER', '1994-11-30', N'TC', N'Centre-Back', '2026-01-16', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 17899, 4, N'STEFANO WILFRED DENSWIL', '1993-05-07', N'NED', N'Centre-Back', '2025-08-08', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
@@ -569,8 +569,6 @@ IF EXISTS (
     WHERE birth_date IS NULL
         OR nationality IS NULL
         OR [position] IS NULL
-        OR contract_start_date IS NULL
-        OR contract_end_date IS NULL
 )
 BEGIN
     SELECT
@@ -589,11 +587,37 @@ BEGIN
     WHERE birth_date IS NULL
         OR nationality IS NULL
         OR [position] IS NULL
-        OR contract_start_date IS NULL
-        OR contract_end_date IS NULL
     ORDER BY club_name, player_name;
 
-    THROW 50012, 'Complete the missing source-backed player and contract values before running this seed.', 1;
+    THROW 50012, 'Complete the required source-backed player profile values before running this seed.', 1;
+END;
+
+IF EXISTS (
+    SELECT 1
+    FROM @RosterInput
+    WHERE (contract_start_date IS NULL AND contract_end_date IS NOT NULL)
+        OR (contract_start_date IS NOT NULL AND contract_end_date IS NULL)
+        OR (contract_start_date IS NOT NULL AND contract_end_date IS NOT NULL
+            AND (contract_end_date < contract_start_date
+                OR contract_start_date > '2026-06-30'
+                OR contract_end_date < '2025-07-01'))
+)
+BEGIN
+    SELECT
+        club_name,
+        tff_license_no,
+        player_name,
+        contract_start_date,
+        contract_end_date
+    FROM @RosterInput
+    WHERE (contract_start_date IS NULL AND contract_end_date IS NOT NULL)
+        OR (contract_start_date IS NOT NULL AND contract_end_date IS NULL)
+        OR (contract_start_date IS NOT NULL AND contract_end_date IS NOT NULL
+            AND (contract_end_date < contract_start_date
+                OR contract_start_date > '2026-06-30'
+                OR contract_end_date < '2025-07-01'));
+
+    THROW 50016, 'Contract dates must be complete, ordered, and overlap the 2025-2026 season.', 1;
 END;
 
 IF EXISTS (
@@ -669,7 +693,9 @@ BEGIN TRY
     INNER JOIN @PersonMap AS person_map
         ON person_map.tff_license_no = roster.tff_license_no
     INNER JOIN dbo.club AS club
-        ON club.name = roster.club_name;
+        ON club.name = roster.club_name
+    WHERE roster.contract_start_date IS NOT NULL
+        AND roster.contract_end_date IS NOT NULL;
 
     COMMIT TRANSACTION;
 END TRY
