@@ -276,7 +276,6 @@ VALUES
         (N'Hesap.com Antalyaspor', 18689, 88, N'DARIO SARIC', '1997-05-30', N'ITA', N'Central Midfield', '2025-08-18', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 2003142, 70, N'DOĞUKAN SİNİK', '1999-01-21', N'TC', N'Left Winger', '2023-01-12', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 2038434, 98, N'EGE İZMİRLİ', '2008-10-23', N'TC', N'Centre-Back', '2026-02-04', '2029-06-30', NULL, NULL),
-        (N'Hesap.com Antalyaspor', 2038031, 27, N'ENSAR BUĞRA TİVSİZ', '2007-11-11', N'TC', N'Centre-Back', NULL, NULL, NULL, NULL),
         (N'Hesap.com Antalyaspor', 15995, 17, N'ERDOĞAN YEŞİLYURT', '1993-11-06', N'TC', N'Right-Back', '2023-07-13', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 19514, 14, N'GEORGII DZHIKIIA', '1993-05-21', N'RUS', N'Centre-Back', '2025-07-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 1716713, 4, N'HÜSEYİN TÜRKMEN', '1998-01-01', N'TC', N'Centre-Back', '2025-07-09', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
@@ -393,7 +392,6 @@ VALUES
         (N'Kocaelispor', 18525, 70, N'CAN KELEŞ', '2001-09-02', N'TC', N'Right Winger', '2025-08-14', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
         (N'Kocaelispor', 19403, 7, N'DANIEL EBENEZER KWASI AGYEI', '1997-06-01', N'GBR', N'Right Winger', '2025-07-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
         (N'Kocaelispor', 19568, 17, N'DARKO CHURLINOV', '2000-07-11', N'MAK', N'Right Winger', '2025-09-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
-        (N'Kocaelispor', 4030232, 16, N'DENİZ CEYLAN', '2008-10-29', N'TC', N'Centre-Back', NULL, NULL, NULL, NULL),
         (N'Kocaelispor', 1162813, 18, N'FURKAN GEDİK', '2002-07-12', N'TC', N'Left Winger', '2024-08-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
         (N'Kocaelispor', 434452, 35, N'GÖKHAN DEĞİRMENCİ', '1989-03-21', N'TC', N'Goalkeeper', '2022-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
         (N'Kocaelispor', 19616, 8, N'HABIB ALI KEITA', '2002-02-05', N'MLI', N'Central Midfield', '2025-09-12', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
@@ -554,11 +552,11 @@ VALUES
         (N'Zecorner Kayserispor', 1248888, 99, N'TALHA SARIARSLAN', '2004-01-18', N'TC', N'Centre-Forward', '2024-06-01', '2026-05-31', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 3508914, 21, N'YİĞİT EMRE ÇELTİK', '2003-04-07', N'TC', N'Central Midfield', '2023-09-15', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 17967, 15, N'YOUSSEF AIT BENASSER', '1996-07-07', N'FRA', N'Defensive Midfield', '2025-09-05', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf')
-IF (SELECT COUNT(*) FROM @RosterInput) <> 495
-    THROW 50009, 'Expected 495 curated roster registrations.', 1;
+IF (SELECT COUNT(*) FROM @RosterInput) <> 493
+    THROW 50009, 'Expected 493 curated roster registrations.', 1;
 
-IF (SELECT COUNT(DISTINCT tff_license_no) FROM @RosterInput) <> 495
-    THROW 50010, 'Expected 495 distinct TFF player licenses.', 1;
+IF (SELECT COUNT(DISTINCT tff_license_no) FROM @RosterInput) <> 493
+    THROW 50010, 'Expected 493 distinct TFF player licenses.', 1;
 
 IF (SELECT COUNT(DISTINCT club_name) FROM @RosterInput) <> 18
     THROW 50011, 'Expected roster records for 18 clubs.', 1;
