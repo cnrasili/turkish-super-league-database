@@ -136,7 +136,11 @@ VALUES
     (N'REŞAT ONUR COŞKUNSES', '1996-01-01', N'TC', N'Üst Klasman Hakemi', N'https://www.transfermarkt.com/resat-onur-coskunses/profil/schiedsrichter/37769'),
     (N'ÖMER FARUK TURTAY', '1996-01-02', N'TC', N'Üst Klasman Hakemi', N'https://www.transfermarkt.com/omer-faruk-turtay/profil/schiedsrichter/37817'),
     (N'ARDA KARDEŞLER', '1988-01-03', N'TC', N'Üst Klasman Hakemi', N'https://www.transfermarkt.com/arda-kardesler/profil/schiedsrichter/9930'),
-    (N'ABDULLAH BUĞRA TAŞKINSOY', '1992-05-29', N'TC', N'Üst Klasman Hakemi', N'https://www.transfermarkt.com/abdullah-bugra-taskinsoy/profil/schiedsrichter/26990');
+    (N'ABDULLAH BUĞRA TAŞKINSOY', '1992-05-29', N'TC', N'Üst Klasman Hakemi', N'https://www.transfermarkt.com/abdullah-bugra-taskinsoy/profil/schiedsrichter/26990'),
+    (N'ASEN ALBAYRAK', '1997-05-05', N'TC', N'Klasman Hakemi', N'https://www.transfermarkt.com.tr/asen-albayrak/profil/schiedsrichter/38934'),
+    (N'DİRENÇ TONUSLUOĞLU', '1990-09-14', N'TC', N'Üst Klasman Hakemi', N'https://www.transfermarkt.com/direnc-tonusluoglu/profil/schiedsrichter/27042'),
+    (N'FATİH TOKAİL', '1990-11-29', N'TC', N'Üst Klasman Hakemi', N'https://www.transfermarkt.com.tr/fatih-tokail/profil/schiedsrichter/32957'),
+    (N'MELEK DAKAN', '1995-08-06', N'TC', N'Klasman Hakemi', N'https://www.tff.org/Default.aspx?kisiId=1541469&pageId=526');
 
 IF (SELECT COUNT(*) FROM @CoachInput) <> 35
     THROW 50030, 'Expected 35 2025-2026 coach profiles.', 1;
@@ -144,8 +148,8 @@ IF (SELECT COUNT(*) FROM @CoachInput) <> 35
 IF (SELECT COUNT(*) FROM @CoachingInput) <> 42
     THROW 50031, 'Expected 42 2025-2026 coaching periods.', 1;
 
-IF (SELECT COUNT(*) FROM @RefereeInput) <> 22
-    THROW 50032, 'Expected 22 referee profiles with verified birth dates.', 1;
+IF (SELECT COUNT(*) FROM @RefereeInput) <> 26
+    THROW 50032, 'Expected 26 referee profiles with verified birth dates.', 1;
 
 IF EXISTS (
     SELECT 1
