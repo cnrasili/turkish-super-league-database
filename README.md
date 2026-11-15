@@ -24,6 +24,7 @@ A relational database project for clubs, players, matches, and match events in T
 - `sql/turkish-super-league-coach-referee-data.sql` contains 35 coach profiles, 42 coaching periods within the 2025-2026 season, and 29 referee profiles with TFF class values. UEFA A is recorded for Burak Yılmaz and Selçuk Şahin based on their participation in UEFA Pro courses and the TFF Pro-course prerequisite; this does not claim that either had completed a Pro diploma.
 - The match relation follows the approved model: season, home club, away club, referee, and week; it has no date, kickoff-time, or venue attributes.
 - `sql/turkish-super-league-match-data.sql` seeds all 306 2025-2026 fixtures.
+- `sql/turkish-super-league-match-event-sample.sql` seeds the first fixture's 31 appearances and 17 events: 5 goals, 3 cards, and 9 substitutions. The remaining 305 fixtures still need event seeds.
 - Match-event participants must have an appearance in that match. Run `dbo.assert_match_event_subtypes_complete` after data loading to verify every event has exactly one goal, card, or substitution subtype.
 - The scripts have not yet been executed against SQL Server.
 - The selected sample season is 2025-2026.
@@ -31,7 +32,7 @@ A relational database project for clubs, players, matches, and match events in T
 - All 306 TFF fixture results reconcile with the computed final records for the 18 clubs; all 306 linked match details now confirm the score and goal-event total.
 - The [TFF detail page for Alanyaspor 1-3 Eyüpspor](https://www.tff.org/Default.aspx?macId=283725&pageID=29), which timed out in an earlier review, is now accessible and exposes its lineups, goals, cards, and substitution minutes.
 - TFF goal type codes are `F` (foot), `H` (header), `K` (own goal), and `P` (penalty); card colours are yellow and red.
-- Include numbered first-team players. Exclude unnumbered academy entries, while retaining unnumbered players whose 2025-2026 loan is confirmed by TFF. All 599 selected player rows have birth date, nationality, position, and a professional contract period overlapping the season, matched to TFF records and the supplied squad screenshots. Coach profiles and season coaching periods are prepared. All 29 main referees have profiles. Source-backed match data is prepared for all 306 fixtures; lineups and events still need collection and TFF reconciliation. TFF match-sheet player links expose license numbers for matching participants to roster records. For `appearance`, use starters and substitutes who entered; do not count unused substitutes. Store stoppage notation as elapsed integer minutes (`45+12` as `57`, `90+4` as `94`) and retain the original notation in temporary staging. Use a supplementary match report to verify same-minute substitution pairings. Transfermarkt match reports label substitution reasons as injury or tactical; each event still needs an audit.
+- Include numbered first-team players. Exclude unnumbered academy entries, while retaining unnumbered players whose 2025-2026 loan is confirmed by TFF. All 599 selected player rows have birth date, nationality, position, and a professional contract period overlapping the season, matched to TFF records and the supplied squad screenshots. Coach profiles and season coaching periods are prepared. All 29 main referees have profiles. Source-backed match data is prepared for all 306 fixtures. The first fixture's lineups and events are prepared in the sample event script; the remaining 305 fixtures still need event seeds. TFF match-sheet player links expose license numbers for matching participants to roster records. For `appearance`, use starters and substitutes who entered; do not count unused substitutes. Store stoppage notation as elapsed integer minutes (`45+12` as `57`, `90+4` as `94`). Use a supplementary match report to verify same-minute substitution pairings and substitution causes.
 - Do not use a post-2025-2026 contract start date as the historical season contract. Omit players who had no professional contract during 2025-2026.
 - The league-table view applies TFF head-to-head tie-break rules while keeping the proposal and EER table set unchanged.
 
@@ -42,6 +43,7 @@ A relational database project for clubs, players, matches, and match events in T
 - `sql/turkish-super-league-player-data.sql`: load the 599 sourced player profiles and 599 professional contract periods for the 2025-2026 roster.
 - `sql/turkish-super-league-coach-referee-data.sql`: load sourced coach and referee profiles and season coaching periods.
 - `sql/turkish-super-league-match-data.sql`: load all 306 fixtures.
+- `sql/turkish-super-league-match-event-sample.sql`: load appearances and events for the first fixture.
 - `sql/turkish-super-league-integrity.sql`: apply subtype and goal-lineup integrity rules.
 - `sql/turkish-super-league-reports.sql`: create the league table, top scorers, cards by club, and player club history views.
 
@@ -55,8 +57,8 @@ A relational database project for clubs, players, matches, and match events in T
 6. Run `sql/turkish-super-league-player-data.sql` to load the player profiles and available professional contract periods before loading coach, referee, match, lineup, and event rows.
 7. Run `sql/turkish-super-league-coach-referee-data.sql` after player data and before match data.
 8. Run `sql/turkish-super-league-match-data.sql` after the coach and referee data.
-9. Load match appearances and event data after the match rows.
-10. Run the event-subtype assertion after loading:
+9. Run `sql/turkish-super-league-match-event-sample.sql` after match rows to load the first fixture's appearances and events.
+10. After all appearance and event scripts are loaded, run the event-subtype assertion:
 
 ```sql
 EXEC dbo.assert_match_event_subtypes_complete;
@@ -107,6 +109,7 @@ The project follows the supplied proposal and EER diagram. Their original PDF fi
 - [TFF match detail example](https://www.tff.org/Default.aspx?macId=283853&pageId=29)
 - [TFF Alanyaspor-Eyüpspor match detail](https://www.tff.org/Default.aspx?macId=283725&pageID=528) and linked [player profile with license number](https://www.tff.org/Default.aspx?kisiId=1506181&pageId=30)
 - [BBC Alanyaspor-Eyüpspor match report](https://www.bbc.co.uk/sport/football/live/cr4kp0eqxext) for cross-checking same-minute substitutions
+- [TFF Eyüpspor-Konyaspor match sheet](https://www.tff.org/Default.aspx?macId=283554&pageID=29), [MaçPeşinde event timeline](https://macpesinde.com/mac/super-lig/sezon-25-26/hafta-1/2025-08-10/eyupspor-vs-konyaspor/mac-gunu), and [Transfermarkt match report](https://www.transfermarkt.com.tr/eyupspor_konyaspor/index/spielbericht/4646338) for the first event sample
 - TFF [player](https://www.tff.org/default.aspx?pageID=130), [technical director](https://www.tff.org/default.aspx?pageID=163), [referee](https://www.tff.org/default.aspx?pageID=161), and [club](https://www.tff.org/default.aspx?pageID=119) records from the Football Knowledge Bank
 - TFF profiles for [Asen Albayrak](https://www.tff.org/Default.aspx?hakemId=1518003&pageId=531), [Direnç Tonusluoğlu](https://www.tff.org/Default.aspx?hakemId=876678&pageId=531), [Fatih Tokail](https://www.tff.org/Default.aspx?hakemId=1623229&pageId=72), and [Melek Dakan](https://www.tff.org/Default.aspx?hakemId=1541469&pageId=531); supplementary profile dates for [Asen](https://www.transfermarkt.com.tr/asen-albayrak/profil/schiedsrichter/38934), [Direnç](https://www.transfermarkt.com/direnc-tonusluoglu/profil/schiedsrichter/27042), and [Fatih](https://www.transfermarkt.com.tr/fatih-tokail/profil/schiedsrichter/32957)
 - TFF [upper-class referee list](https://www.tff.org/Resources/TFF/Auto/bbc6a25f4df049388d477f0a71433e8a.pdf) and [coach education regulations](https://www.tff.org/Resources/TFF/Documents/TALIMATLAR/Teknik-Adamlarin-E%C4%9Fitimi-ve-Siniflandirilmasi-Talimati.pdf)
