@@ -62,6 +62,31 @@ VALUES
         (N'Beşiktaş A.Ş.', 19556, 35, N'TIAGO EMANUEL EMBALO DJALO', '2000-04-09', N'POR', N'Centre-Back', '2025-08-27', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/768b84e41bc34610973e6cd949a06319.pdf', N'https://www.tff.org/Resources/TFF/Auto/a3ee5188b7bb441bbeff5185d63a4666.pdf'),
         (N'Beşiktaş A.Ş.', 19575, 18, N'VACLAV CERNY', '1997-10-17', N'CZE', N'Right Winger', '2025-09-02', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/768b84e41bc34610973e6cd949a06319.pdf', N'https://www.tff.org/Resources/TFF/Auto/a3ee5188b7bb441bbeff5185d63a4666.pdf'),
         (N'Beşiktaş A.Ş.', 1254261, 58, N'YASİN ÖZCAN', '2006-04-20', N'TC', N'Centre-Back', '2026-01-28', '2027-01-27', NULL, N'https://www.tff.org/Resources/TFF/Auto/a3ee5188b7bb441bbeff5185d63a4666.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820579&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/david-jurasek/profil/spieler/500054.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Beşiktaş A.Ş.', 19424, NULL, N'DAVID JURASEK', '2000-08-07', N'CZE', N'Left-Back', '2025-07-01', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1704879&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/demir-ege-tiknaz/profil/spieler/875337.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Beşiktaş A.Ş.', 2597255, NULL, N'DEMİR EGE TIKNAZ', '2004-08-17', N'TC', N'Defensive Midfield', '2023-06-01', '2026-05-31', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2685268&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/gabriel-paulista/profil/spieler/149498.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Beşiktaş A.Ş.', 18954, NULL, N'GABRIEL ARMANDO DE ABREU', '1990-11-26', N'BRA', N'Centre-Back', '2024-07-01', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2691244&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/joao-mario/profil/spieler/149729.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Beşiktaş A.Ş.', 19117, NULL, N'JOAO MARIO NAVAL DA COSTA EDUARDO', '1993-01-19', N'POR', N'Attacking Midfield', '2024-09-04', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2294041&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/441170%26136184/sort/vorlagen.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Beşiktaş A.Ş.', 17795, NULL, N'JONAS SVENSSON', '1993-03-06', N'NOR', N'Right-Back', '2024-01-11', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820578&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/tammy-abraham/profil/spieler/331726.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Beşiktaş A.Ş.', 19423, NULL, N'KEVIN OGHENETEGA TAMARAEBI BAKUMO ABRAHAM', '1997-10-02', N'GBR', N'Centre-Forward', '2025-07-03', '2029-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2685262&pageId=30; position: owner-provided 2025-2026 squad screenshot.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Beşiktaş A.Ş.', 18953, NULL, N'RAFAEL ALEXANDRE FERNANDES FERREIRA DA SILVA', '1993-05-17', N'POR', N'Right Winger', '2024-07-01', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1692764&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/emrecan-terzi/profil/spieler/873445.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Beşiktaş A.Ş.', 2592983, NULL, N'SERKAN EMRECAN TERZİ', '2004-01-05', N'TC', N'Left-Back', '2025-06-01', '2026-06-30', NULL, NULL),
 -- Corendon Alanyaspor post-winter 2025-2026 roster
         (N'Corendon Alanyaspor', 18890, 58, N'ANTONIO SIMAO MUANZA', '2003-08-04', N'ANG', N'Defensive Midfield', '2025-07-02', '2029-06-30', N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 19244, 18, N'BARAN MOĞULTAY', '2004-05-18', N'TC', N'Left-Back', '2025-07-02', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
@@ -91,6 +116,13 @@ VALUES
         (N'Corendon Alanyaspor', 2050527, 50, N'ÜMİT AKDAĞ', '2003-10-06', N'TC', N'Centre-Back', '2026-06-01', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 2044429, 38, N'YUSUF CAN KARADEMİR', '2008-01-04', N'TC', N'Attacking Midfield', '2025-02-10', '2027-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
         (N'Corendon Alanyaspor', 2576122, 88, N'YUSUF ÖZDEMİR', '2001-01-10', N'TC', N'Left Midfield', '2025-06-01', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/124bec23bb564c8ea9c8a6994948d345.pdf', N'https://www.tff.org/Resources/TFF/Auto/b1151d06dc904628a351242b2473bc21.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2771153&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/179860%26356099/sort/einsatzzeit.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Corendon Alanyaspor', 19357, NULL, N'ANDRAZ SPORAR', '1994-02-27', N'SLO', N'Centre-Forward', '2025-02-11', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2688447&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/uchenna-ogundu/profil/spieler/1309324.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Corendon Alanyaspor', 19066, NULL, N'UCHENNA OGUNDU', '2006-05-12', N'NGR', N'Centre-Forward', '2025-07-25', '2028-06-30', NULL, NULL),
 -- Çaykur Rizespor A.Ş. post-winter 2025-2026 roster
         (N'Çaykur Rizespor A.Ş.', 19795, 17, N'ADEDIRE EMMANUEL OLUWATOFUNMI AWOKOYA-MEBUDE', '2004-05-28', N'GBR', N'Left Winger', '2026-01-14', '2030-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/8239628807c34b8297421b73e07a4824.pdf'),
         (N'Çaykur Rizespor A.Ş.', 18165, 9, N'ALI SOWE', '1994-06-14', N'GAM', N'Centre-Forward', '2025-07-17', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/8239628807c34b8297421b73e07a4824.pdf'),
@@ -120,6 +152,13 @@ VALUES
         (N'Çaykur Rizespor A.Ş.', 1833146, 14, N'TAYLAN ANTALYALI', '1995-01-08', N'TC', N'Defensive Midfield', '2025-08-20', '2027-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/8239628807c34b8297421b73e07a4824.pdf'),
         (N'Çaykur Rizespor A.Ş.', 19573, 75, N'YAHIA FOFANA', '2000-08-21', N'FRA', N'Goalkeeper', '2025-09-02', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/8239628807c34b8297421b73e07a4824.pdf'),
         (N'Çaykur Rizespor A.Ş.', 1765575, 94, N'YAKUP AYAN', '2008-04-23', N'TC', N'Centre-Back', '2025-09-16', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/8239628807c34b8297421b73e07a4824.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2828311&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/jesurun-rak-sakyi/profil/spieler/586834.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Çaykur Rizespor A.Ş.', 19638, NULL, N'JESURUN RAK-SAKYI', '2002-10-05', N'ENG', N'Right Winger', '2025-09-12', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2697593&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/vaclav-jurecka/profil/spieler/248355/sort/matches.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Çaykur Rizespor A.Ş.', 19179, NULL, N'VACLAV JURECKA', '1994-06-26', N'CZE', N'Centre-Forward', '2024-09-13', '2026-06-30', NULL, NULL),
 -- Fenerbahçe A.Ş. post-winter 2025-2026 roster
         (N'Fenerbahçe A.Ş.', 1199084, 54, N'ALAETTİN EKİCİ', '2009-01-01', N'TC', N'Left Winger', '2025-11-20', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/2726d73512824ff9aef2f79bdd84a981.pdf'),
         (N'Fenerbahçe A.Ş.', 16546, 94, N'ANDERSON SOUZA CONCEIÇAO', '1994-02-01', N'BRA', N'Attacking Midfield', '2025-01-28', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/720a3e1ff14f42fd8863d2880d21f967.pdf', N'https://www.tff.org/Resources/TFF/Auto/2726d73512824ff9aef2f79bdd84a981.pdf'),
@@ -148,6 +187,28 @@ VALUES
         (N'Fenerbahçe A.Ş.', 19831, 26, N'SIDIKI CHERIF', '2006-12-15', N'GUI', N'Centre-Forward', '2026-02-01', '2030-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/2726d73512824ff9aef2f79bdd84a981.pdf'),
         (N'Fenerbahçe A.Ş.', 1139318, 13, N'TARIK ÇETİN', '1997-01-08', N'TC', N'Goalkeeper', '2025-07-14', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/720a3e1ff14f42fd8863d2880d21f967.pdf', N'https://www.tff.org/Resources/TFF/Auto/2726d73512824ff9aef2f79bdd84a981.pdf'),
         (N'Fenerbahçe A.Ş.', 2581224, 14, N'YİĞİT EFE DEMİR', '2004-08-02', N'TC', N'Centre-Back', '2025-07-01', '2029-06-30', N'https://www.tff.org/Resources/TFF/Auto/720a3e1ff14f42fd8863d2880d21f967.pdf', N'https://www.tff.org/Resources/TFF/Auto/2726d73512824ff9aef2f79bdd84a981.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2551989&pageId=30; position: owner-provided 2025-2026 squad screenshot.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Fenerbahçe A.Ş.', 18514, NULL, N'ALEXANDER KWABENA BAIDOOH DJIKU', '1994-08-09', N'FRA', N'Centre-Back', '2023-07-10', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2553761&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/dominik-livakovic/profil/spieler/205927.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Fenerbahçe A.Ş.', 18686, NULL, N'DOMINIK LIVAKOVIC', '1995-01-09', N'CRO', N'Goalkeeper', '2023-08-25', '2028-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820652&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/jhon-duran/profil/spieler/649317.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Fenerbahçe A.Ş.', 19430, NULL, N'JHON JADER DURAN PALACIOS', '2003-12-13', N'COL', N'Centre-Forward', '2025-07-04', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2552024&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/sebastian-szymanski/profil/spieler/320748.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Fenerbahçe A.Ş.', 18536, NULL, N'SEBASTIAN SZYMANSKI', '1999-05-10', N'POL', N'Attacking Midfield', '2023-07-12', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2689258&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/sofyan-amrabat/profil/spieler/287579.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Fenerbahçe A.Ş.', 19081, NULL, N'SOFYAN AMRABAT', '1996-08-21', N'NED', N'Defensive Midfield', '2024-08-31', '2028-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2685585&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/youssef-en-nesyri/profil/spieler/433049.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Fenerbahçe A.Ş.', 18975, NULL, N'YOUSSEF EN NESYRI', '1997-06-01', N'MOR', N'Centre-Forward', '2024-07-25', '2029-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1906557&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/yusuf-akcicek/profil/spieler/1100642.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Fenerbahçe A.Ş.', 2638236, NULL, N'YUSUF AKÇİÇEK', '2006-01-25', N'TC', N'Centre-Back', '2023-07-07', '2026-06-30', NULL, NULL),
 -- Source: TFF records and owner-provided 25/26 squad screenshots.
 -- Galatasaray A.Ş. post-winter 2025-2026 roster
         (N'Galatasaray A.Ş.', 3066313, 91, N'ARDA ÜNYAY', '2007-01-18', N'TC', N'Centre-Back', '2025-02-11', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
@@ -184,6 +245,13 @@ VALUES
         (N'Galatasaray A.Ş.', 19565, 90, N'WILFRIED STEPHANE SINGO', '2000-12-25', N'CIV', N'Right-Back', '2025-08-28', '2030-06-30', N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
         (N'Galatasaray A.Ş.', 19816, 22, N'YASER ESNEYDER ASPRILLA MARTINEZ', '2003-11-19', N'COL', N'Right Winger', '2026-01-25', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
         (N'Galatasaray A.Ş.', 2542908, 11, N'YUNUS AKGÜN', '2000-07-07', N'TC', N'Right Winger', '2026-06-01', '2029-06-30', N'https://www.tff.org/Resources/TFF/Auto/00eb8e951d9d42cfb5fa627826ca311e.pdf', N'https://www.tff.org/Resources/TFF/Auto/6fe2cb3e6b6f4a95a38512727c0e3d99.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2501727&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/nicolo-zaniolo/profil/spieler/392085.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Galatasaray A.Ş.', 18447, NULL, N'NICOLO ZANIOLO', '1999-07-02', N'ITA', N'Second Striker', '2023-02-08', '2027-05-31', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2426493&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/yusuf-demir/profil/spieler/548031.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Galatasaray A.Ş.', 18317, NULL, N'YUSUF DEMİR', '2003-06-02', N'AUT', N'Right Winger', '2022-09-08', '2026-05-31', NULL, NULL),
 -- Gaziantep Futbol Kulübü A.Ş. roster
         (N'Gaziantep Futbol Kulübü A.Ş.', 17427, 44, N'ALEXANDRU IULIAN MAXIM', '1990-07-08', N'ROM', N'Attacking Midfield', '2025-07-01', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/1ab9f534a1f1432dae6a723a0d99eeb7.pdf'),
         (N'Gaziantep Futbol Kulübü A.Ş.', 1494070, 16, N'ALİ MEVRAN ABLAK', '2003-07-27', N'TC', N'Right Winger', '2024-08-08', '2027-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/1ab9f534a1f1432dae6a723a0d99eeb7.pdf'),
@@ -212,6 +280,25 @@ VALUES
         (N'Gaziantep Futbol Kulübü A.Ş.', 19765, 8, N'VICTOR NTINO-EMO GIDADO', '2004-07-14', N'NGR', N'Attacking Midfield', '2026-01-08', '2029-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/1ab9f534a1f1432dae6a723a0d99eeb7.pdf'),
         (N'Gaziantep Futbol Kulübü A.Ş.', 17202, 32, N'YUSUF KARHAN KABADAYI', '2004-02-02', N'TC', N'Left Winger', '2025-09-12', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/1ab9f534a1f1432dae6a723a0d99eeb7.pdf'),
         (N'Gaziantep Futbol Kulübü A.Ş.', 3501109, 20, N'ZAFER GÖRGEN', '2000-06-21', N'TC', N'Goalkeeper', '2025-08-15', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/1ab9f534a1f1432dae6a723a0d99eeb7.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2758681&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/emmanuel-boateng/profil/spieler/332612.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Gaziantep Futbol Kulübü A.Ş.', 19268, NULL, N'EMMANUEL OKYERE BOATENG', '1996-05-23', N'GHA', N'Centre-Forward', '2025-01-13', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820813&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/enver-kulasin/profil/spieler/672052.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Gaziantep Futbol Kulübü A.Ş.', 19473, NULL, N'ENVER KULASIN', '2003-09-11', N'BIH', N'Right Winger', '2025-07-26', '2028-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820748&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/juninho-bacuna/profil/spieler/348863.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Gaziantep Futbol Kulübü A.Ş.', 19449, NULL, N'JUNINHO GRACIELO BACUNA', '1997-08-07', N'NED', N'Central Midfield', '2025-07-10', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1823074&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/badou-ndiaye/profil/spieler/211325.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Gaziantep Futbol Kulübü A.Ş.', 16240, NULL, N'PAPA ALIOUNE NDIAYE', '1990-10-27', N'SEN', N'Defensive Midfield', '2024-09-04', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2827671&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/rob-nizet/profil/spieler/496871.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Gaziantep Futbol Kulübü A.Ş.', 19615, NULL, N'ROB NIZET', '2002-04-14', N'BEL', N'Left-Back', '2025-09-12', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2685546&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/sokratis-dioudis/profil/spieler/187798.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Gaziantep Futbol Kulübü A.Ş.', 18967, NULL, N'SOKRATIS DIOUDIS', '1993-02-03', N'GRE', N'Goalkeeper', '2024-07-13', '2026-06-30', NULL, NULL),
 -- Gençlerbirliği roster
         (N'Gençlerbirliği', 235431, 77, N'ABDURRAHİM DURSUN', '1998-04-01', N'TC', N'Left-Back', '2025-08-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 19534, 20, N'ADAMA TRAORE', '1995-06-05', N'MLI', N'Right Winger', '2025-08-15', '2027-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
@@ -241,6 +328,32 @@ VALUES
         (N'Gençlerbirliği', 18998, 2, N'THALISSON KELVEN DA SILVA', '1998-05-07', N'BRA', N'Centre-Back', '2025-07-04', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 3057184, 93, N'YİĞİT HAMZA AYDAR', '2008-09-20', N'TC', N'Centre-Back', '2025-08-04', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
         (N'Gençlerbirliği', 19029, 4, N'ZAN ZUZEK', '1997-01-26', N'SLO', N'Centre-Back', '2024-08-08', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/64f221f3cdc443b683005c2081e7c8cb.pdf', N'https://www.tff.org/Resources/TFF/Auto/41bf688907f44e058baf55e172f87592.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820916&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/dilhan-demir/profil/spieler/714612.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Gençlerbirliği', 19505, NULL, N'DİLHAN DEMİR', '2003-06-28', N'TC', N'Right Winger', '2025-08-06', '2028-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=945473&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/gokhan-akkan/profil/spieler/223025.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Gençlerbirliği', 802684, NULL, N'GÖKHAN AKKAN', '1995-01-01', N'TC', N'Goalkeeper', '2025-07-01', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2770763&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/daniel-popa/profil/spieler/341364/sort/minuten_pro_tor.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Gençlerbirliği', 19346, NULL, N'ILIUTA DANIEL POPA', '1995-07-14', N'ROM', N'Centre-Forward', '2025-02-07', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2827714&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/kevin-csoboth/profil/spieler/445788.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Gençlerbirliği', 19620, NULL, N'KEVIN CSOBOTH', '2000-06-20', N'HUN', N'Left Winger', '2025-09-10', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2292630&pageId=30; position: owner-provided 2025-2026 squad screenshot.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Gençlerbirliği', 17572, NULL, N'MICHAL JAN NALEPA', '1995-03-24', N'POL', N'Attacking Midfield', '2024-08-09', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820765&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/moussa-kyabou/profil/spieler/872123.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Gençlerbirliği', 19463, NULL, N'MOUSSA KYABOU', '1998-04-18', N'MLI', N'Defensive Midfield', '2025-07-07', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2292589&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/peter-etebo/profil/spieler/409106/sort/matches.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Gençlerbirliği', 17544, NULL, N'OGHENEKARO PETER ETEBO', '1995-11-09', N'NGR', N'Defensive Midfield', '2024-07-01', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=718571&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/sinan-osmanoglu/profil/spieler/74040.
+-- First-half match-sheet participant, matched by TFF license.
+-- Contract source: https://genclerbirligi.org.tr/en/haberler/hos-geldin-sinan-osmanoglu.
+        (N'Gençlerbirliği', 909361, NULL, N'SİNAN OSMANOĞLU', '1990-01-09', N'TC', N'Centre-Back', '2024-07-05', '2026-06-30', NULL, NULL),
 -- Göztepe A.Ş. post-winter 2025-2026 roster
         (N'Göztepe A.Ş.', 19762, 8, N'ALEXIS ANTUNES GOMEZ', '2000-07-31', N'SUI', N'Attacking Midfield', '2026-01-05', '2029-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/5b904d42573743508be9f15320280ce4.pdf'),
         (N'Göztepe A.Ş.', 19461, 3, N'ALLAN GODOI SANTOS', '1993-04-04', N'BRA', N'Centre-Back', '2025-06-30', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/eabe7e0997e9466fa793dbe69023df49.pdf', N'https://www.tff.org/Resources/TFF/Auto/5b904d42573743508be9f15320280ce4.pdf'),
@@ -267,6 +380,28 @@ VALUES
         (N'Göztepe A.Ş.', 1656504, 77, N'OGÜN BAYRAK', '1998-10-10', N'TC', N'Right Midfield', '2023-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/eabe7e0997e9466fa793dbe69023df49.pdf', N'https://www.tff.org/Resources/TFF/Auto/5b904d42573743508be9f15320280ce4.pdf'),
         (N'Göztepe A.Ş.', 1688340, 4, N'TAHA ALTIKARDEŞ', '2003-08-22', N'TC', N'Centre-Back', '2023-07-03', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/eabe7e0997e9466fa793dbe69023df49.pdf', N'https://www.tff.org/Resources/TFF/Auto/5b904d42573743508be9f15320280ce4.pdf'),
         (N'Göztepe A.Ş.', 2563899, 22, N'UĞUR KAAN YILDIZ', '2002-08-06', N'TC', N'Right Winger', '2022-07-14', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/eabe7e0997e9466fa793dbe69023df49.pdf', N'https://www.tff.org/Resources/TFF/Auto/5b904d42573743508be9f15320280ce4.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1928323&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/ahmed-ildiz/profil/spieler/226169.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Göztepe A.Ş.', 16560, NULL, N'AHMED ILDIZ', '1996-11-28', N'TC', N'Central Midfield', '2023-08-16', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2761005&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/emersonn/profil/spieler/743599.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Göztepe A.Ş.', 19275, NULL, N'EMERSONN', '2004-07-16', N'BRA', N'Centre-Forward', '2025-01-16', '2029-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820755&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/ibrahim-sabra/profil/spieler/1142382.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Göztepe A.Ş.', 19453, NULL, N'IBRAHIM SABRA', '2006-02-01', N'JOR', N'Centre-Forward', '2025-06-30', '2029-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820764&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/rhaldney/profil/spieler/638269.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Göztepe A.Ş.', 19462, NULL, N'RHALDNEY', '1998-11-20', N'BRA', N'Central Midfield', '2025-07-12', '2028-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820877&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/ruan/profil/spieler/520491.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Göztepe A.Ş.', 19493, NULL, N'RUAN GREGORIO TEIXEIRA', '1995-05-29', N'BRA', N'Right-Back', '2025-07-31', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2826080&pageId=30; position: owner-provided 2025-2026 squad screenshot.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Göztepe A.Ş.', 19596, NULL, N'SALEM MOUNIR BOUAJILA', '2007-08-01', N'FIN', N'Right Winger', '2025-09-04', '2030-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1998045&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/tibet-durakcay/profil/spieler/1268578.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Göztepe A.Ş.', 3552463, NULL, N'TİBET DURAKÇAY', '2006-02-01', N'TC', N'Centre-Forward', '2025-04-14', '2027-06-30', NULL, NULL),
 -- Hesap.com Antalyaspor roster
         (N'Hesap.com Antalyaspor', 1517676, 21, N'ABDULLAH YİĞİTER', '2000-08-20', N'TC', N'Goalkeeper', '2024-07-25', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 1731006, 10, N'ABDÜLKADİR ÖMÜR', '1999-07-25', N'TC', N'Right Winger', '2025-07-29', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
@@ -293,6 +428,23 @@ VALUES
         (N'Hesap.com Antalyaspor', 802632, 6, N'SONER DİKMEN', '1993-09-01', N'TC', N'Central Midfield', '2024-07-06', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 873639, 89, N'VEYSEL SARI', '1988-07-25', N'TC', N'Centre-Back', '2025-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
         (N'Hesap.com Antalyaspor', 19602, 77, N'YOHAN ALEXANDRE MADY BOLI', '1993-11-17', N'CIV', N'Centre-Forward', '2025-09-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/cdc23a185b064354a6ec6eb7eef8adfb.pdf', N'https://www.tff.org/Resources/TFF/Auto/5adb398cd2c1440ba88cdf50a0d0481d.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2130825&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/ali-demirbilek/profil/spieler/1223332.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Hesap.com Antalyaspor', 2042424, NULL, N'ALİ DEMİRBİLEK', '2009-01-05', N'TC', N'Left Winger', '2026-02-04', '2028-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2038087&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/poyraz-yildirim/profil/spieler/993407.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Hesap.com Antalyaspor', 1756405, NULL, N'ENGİN POYRAZ EFE YILDIRIM', '2005-01-15', N'TC', N'Centre-Forward', '2025-07-14', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=431299&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/guray-vural/profil/spieler/52281.
+-- First-half match-sheet participant, matched by TFF license.
+-- Contract source: https://www.antalyaspor.com.tr/tr/futbol-haberleri/kaptanlarimiz-imzayi-atti.html.
+        (N'Hesap.com Antalyaspor', 546639, NULL, N'GÜRAY VURAL', '1988-06-11', N'TC', N'Left-Back', '2021-07-05', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2099123&pageId=30; position: owner-provided 2025-2026 squad screenshot.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Hesap.com Antalyaspor', 16939, NULL, N'MERT YILMAZ', '1999-03-08', N'TC', N'Right-Back', '2025-06-01', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820849&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/tomas-cvancara/profil/spieler/544148.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Hesap.com Antalyaspor', 19483, NULL, N'TOMAS CVANCARA', '2000-08-13', N'CZE', N'Centre-Forward', '2025-07-19', '2026-06-30', NULL, NULL),
 -- İstanbul Başakşehir FK post-winter 2025-2026 roster
         (N'İstanbul Başakşehir FK', 19492, 11, N'ABBOSBEK FAYZULLAYEV', '2003-10-03', N'UZB', N'Left Winger', '2025-07-30', '2030-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 19639, 25, N'AMINE HARIT', '1997-06-18', N'FRA', N'Right Winger', '2025-09-12', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
@@ -323,6 +475,13 @@ VALUES
         (N'İstanbul Başakşehir FK', 17309, 20, N'UMUT GÜNEŞ', '2000-03-16', N'TC', N'Central Midfield', '2025-02-11', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 182384, 1, N'VOLKAN BABACAN', '1988-08-11', N'TC', N'Goalkeeper', '2025-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
         (N'İstanbul Başakşehir FK', 16934, 7, N'YUSUF SARI', '1998-11-20', N'TC', N'Right Winger', '2025-01-13', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/cea5cb4f0cdd48a0b08c7d62b4602bbb.pdf', N'https://www.tff.org/Resources/TFF/Auto/4c0a80268be14ae28b60e08250d9e692.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1742470&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/deniz-dilmen/profil/spieler/842465.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'İstanbul Başakşehir FK', 2604392, NULL, N'DENİZ DİLMEN', '2005-06-05', N'TC', N'Goalkeeper', '2024-06-01', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1613064&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/omer-beyaz/profil/spieler/588020.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'İstanbul Başakşehir FK', 2577290, NULL, N'ÖMER FARUK BEYAZ', '2003-08-29', N'TC', N'Attacking Midfield', '2024-09-04', '2027-06-30', NULL, NULL),
 -- İkas Eyüpspor post-winter 2025-2026 roster
         (N'İkas Eyüpspor', 19832, 25, N'ABDOU KHADRE SY', '2007-12-15', N'SEN', N'Centre-Forward', '2026-02-02', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 19798, 10, N'ANGEL YESID TORRES QUINONES', '2000-04-09', N'COL', N'Right Winger', '2026-01-15', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
@@ -352,6 +511,35 @@ VALUES
         (N'İkas Eyüpspor', 16578, 28, N'TAŞKIN İLTER', '1994-07-05', N'TC', N'Defensive Midfield', '2025-06-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 15648, 19, N'UMUT DİLAN BOZOK', '1996-09-19', N'TC', N'Centre-Forward', '2025-02-03', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/b24fac3ff12a40c199e2abef0ebac53b.pdf', N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
         (N'İkas Eyüpspor', 3520603, 31, N'UMUT KESECİ', '2004-02-05', N'TC', N'Goalkeeper', '2026-02-06', '2029-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/08ba8432fffa4d03a1c73c26109dbaf3.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1458918&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/berke-ozer/profil/spieler/361256.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'İkas Eyüpspor', 1889375, NULL, N'BERKE ÖZER', '2000-05-25', N'TC', N'Goalkeeper', '2023-01-12', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2827987&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/christ-sadia/profil/spieler/1458907.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'İkas Eyüpspor', 19625, NULL, N'CHRIST OTINIEL SADIA', '2007-04-11', N'CIV', N'Right Winger', '2025-09-11', '2028-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=987571&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/halil-akbunar/profil/spieler/212229.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'İkas Eyüpspor', 1835653, NULL, N'HALİL AKBUNAR', '1993-11-09', N'TC', N'Right Winger', '2023-01-12', '2026-05-31', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1936972&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/mete-demir/profil/spieler/282615.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'İkas Eyüpspor', 16596, NULL, N'METE KAAN DEMİR', '1998-05-13', N'TC', N'Right Winger', '2025-07-01', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1822711&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/robin-yalcin/profil/spieler/124422.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'İkas Eyüpspor', 16226, NULL, N'ROBIN YALÇIN', '1994-01-25', N'TC', N'Centre-Back', '2025-07-01', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1516438&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/serdar-gurler/profil/spieler/98512.
+-- First-half match-sheet participant, matched by TFF license.
+-- Contract source: https://www.aa.com.tr/tr/futbol/serdar-gurler-eyupsporda/3619799.
+        (N'İkas Eyüpspor', 15603, NULL, N'SERDAR GÜRLER', '1991-09-14', N'TC', N'Left Winger', '2025-07-02', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2554499&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/svit-seslar/profil/spieler/603368.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'İkas Eyüpspor', 18699, NULL, N'SVIT SESLAR', '2002-01-09', N'SLO', N'Attacking Midfield', '2023-08-29', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2767974&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/taras-stepanenko/profil/spieler/59970.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'İkas Eyüpspor', 19327, NULL, N'TARAS STEPANENKO', '1989-08-08', N'UKR', N'Defensive Midfield', '2025-02-01', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2213372&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/mame-thiam/profil/spieler/163053.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'İkas Eyüpspor', 17268, NULL, N'THIAM MAME BABA', '1992-10-09', N'SEN', N'Centre-Forward', '2024-07-26', '2026-06-30', NULL, NULL),
 -- Kasımpaşa A.Ş. post-winter 2025-2026 roster
         (N'Kasımpaşa A.Ş.', 19579, 4, N'ADAM AROUS', '2004-07-17', N'TUN', N'Centre-Back', '2025-09-02', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 19840, 19, N'ADRIAN DAWID BENEDYCZAK', '2000-11-24', N'POL', N'Centre-Forward', '2026-02-03', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
@@ -382,6 +570,28 @@ VALUES
         (N'Kasımpaşa A.Ş.', 2672434, 98, N'ŞANT KAZANCI', '2008-12-18', N'TC', N'Goalkeeper', '2024-05-08', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 2633455, 29, N'TAYLAN UTKU AYDIN', '2006-02-10', N'TC', N'Centre-Back', '2024-07-03', '2029-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
         (N'Kasımpaşa A.Ş.', 17657, 9, N'YUSUF BARASI', '2003-03-31', N'TC', N'Centre-Forward', '2025-07-11', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/1acc707ba24642078ecf7ae101a1c4e3.pdf', N'https://www.tff.org/Resources/TFF/Auto/caa53d55f920428e8e02acb7a5e2cc45.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1587762&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/atakan-mujde/profil/spieler/815014.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Kasımpaşa A.Ş.', 2570359, NULL, N'ATAKAN MÜJDE', '2003-10-25', N'TC', N'Defensive Midfield', '2025-02-05', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2293316&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/attila-szalai/profil/spieler/263380.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Kasımpaşa A.Ş.', 17686, NULL, N'ATTILA ARPAD SZALAI', '1998-01-20', N'HUN', N'Centre-Back', '2025-07-11', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1736807&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/berk-can-yildizli/profil/spieler/1043641.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Kasımpaşa A.Ş.', 2602243, NULL, N'BERK CAN YILDIZLI', '2005-06-19', N'TC', N'Centre-Forward', '2025-08-28', '2028-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820489&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/cem-ustundag/profil/spieler/445623.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Kasımpaşa A.Ş.', 19416, NULL, N'CEM ÜSTÜNDAĞ', '2001-01-20', N'TC', N'Central Midfield', '2025-07-01', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2163261&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/haris-hajradinovic/profil/spieler/215592.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Kasımpaşa A.Ş.', 17117, NULL, N'HARIS HAJRADINOVIC', '1994-02-18', N'BIH', N'Attacking Midfield', '2022-06-20', '2026-05-31', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2689457&pageId=30; position: owner-provided 2025-2026 squad screenshot.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Kasımpaşa A.Ş.', 19083, NULL, N'JHON JAIRO', '1999-02-24', N'ECU', N'Right-Back', '2024-09-02', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2342573&pageId=30; position: owner-provided 2025-2026 squad screenshot.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Kasımpaşa A.Ş.', 18025, NULL, N'MAMADOU FALL', '1991-12-31', N'SEN', N'Right Winger', '2024-06-01', '2027-06-30', NULL, NULL),
 -- Kocaelispor roster
         (N'Kocaelispor', 791137, 22, N'AHMET OĞUZ', '1993-01-16', N'TC', N'Right-Back', '2024-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
         (N'Kocaelispor', 17852, 11, N'AHMET SAĞAT', '1996-05-27', N'TC', N'Centre-Forward', '2024-08-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
@@ -407,6 +617,29 @@ VALUES
         (N'Kocaelispor', 15422, 19, N'SERDAR DURSUN', '1991-10-19', N'TC', N'Centre-Forward', '2025-09-12', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
         (N'Kocaelispor', 3512079, 83, N'SERHAT ÖZTAŞDELEN', '2004-12-09', N'TC', N'Goalkeeper', '2025-08-01', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
         (N'Kocaelispor', 785192, 75, N'TAYFUR BİNGÖL', '1993-01-11', N'TC', N'Central Midfield', '2025-08-22', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/07df79610ed04073b5afd1de1720831a.pdf', N'https://www.tff.org/Resources/TFF/Auto/509115c9adfe4678ae02e5c2adb81fe2.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2019190&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/aaron-appindangoye/profil/spieler/254249.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Kocaelispor', 16822, NULL, N'AARON CHRISTOPHER BILLY ONDELE APPINDANGOYE', '1992-02-20', N'GAB', N'Centre-Back', '2024-07-08', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820833&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/mateusz-wieteska/profil/spieler/208172.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Kocaelispor', 19476, NULL, N'MATEUSZ WIETESKA', '1997-02-11', N'POL', N'Centre-Back', '2025-07-30', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1515020&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/mesut-can-tunali/profil/spieler/672852.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Kocaelispor', 1895682, NULL, N'MESUT CAN TUNALI', '2001-07-08', N'TC', N'Central Midfield', '2024-08-01', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=972984&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/ogulcan-caglayan/profil/spieler/248219.
+-- First-half match-sheet participant, matched by TFF license.
+-- Contract source: https://www.kocaelitv.com.tr/ogulcan-caglayan-ile-devam.
+        (N'Kocaelispor', 806007, NULL, N'OĞULCAN ÇAĞLAYAN', '1996-03-22', N'TC', N'Right Winger', '2024-07-02', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2821566&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/oleksandr-syrota/profil/spieler/505463.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Kocaelispor', 19548, NULL, N'OLEKSANDR SYROTA', '2000-06-11', N'UKR', N'Centre-Back', '2025-08-22', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1974677&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/ryan-mendes/profil/spieler/111627/sort/goals/detail/forum/664/.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Kocaelispor', 16670, NULL, N'RYAN ISAAC MENDES', '1990-01-08', N'FRA', N'Left Winger', '2024-07-20', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2111004&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/tarkan-serbest/profil/spieler/158118.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Kocaelispor', 16945, NULL, N'TARKAN SERBEST', '1994-05-02', N'TC', N'Centre-Back', '2024-08-01', '2026-06-30', NULL, NULL),
 -- Mısırlı.com.tr Fatih Karagümrük roster
         (N'Mısırlı.com.tr Fatih Karagümrük', 19768, 15, N'ABDUL KADER MOUSSA KONE', '2007-12-30', N'CIV', N'Centre-Forward', '2026-01-05', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 19753, 88, N'AHMED TRAORE', '2007-04-13', N'CIV', N'Right Winger', '2026-01-02', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
@@ -436,6 +669,37 @@ VALUES
         (N'Mısırlı.com.tr Fatih Karagümrük', 17205, 21, N'TİAGO SÜER BARBAROS ÇUKUR', '2002-11-30', N'TC', N'Centre-Forward', '2025-07-17', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 1687963, 16, N'TUĞBEY AKGÜN', '2003-04-09', N'TC', N'Central Midfield', '2025-01-24', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/57c8efd2fa934f2baf1a7af8cf934ebf.pdf', N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
         (N'Mısırlı.com.tr Fatih Karagümrük', 19854, 19, N'YAYA ONOGO', '2007-04-19', N'CIV', N'Defensive Midfield', '2026-02-05', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/bf0cb5e59d0f4d8ca1422cc2cdf9ab47.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2771255&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/alper-demirol/profil/spieler/571085.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Mısırlı.com.tr Fatih Karagümrük', 19360, NULL, N'ALPER EMRE DEMİROL', '2002-10-01', N'TC', N'Central Midfield', '2025-02-11', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2758338&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/andre-gray/profil/spieler/120565.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Mısırlı.com.tr Fatih Karagümrük', 19265, NULL, N'ANDRE ANTHONY GRAY', '1991-06-26', N'GBR', N'Centre-Forward', '2025-01-13', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1135277&pageId=30; position: owner-provided 2025-2026 squad screenshot.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Mısırlı.com.tr Fatih Karagümrük', 1853062, NULL, N'ATAKAN RIDVAN ÇANKAYA', '1998-06-25', N'TC', N'Centre-Back', '2024-09-13', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2698093&pageId=30; position: owner-provided 2025-2026 squad screenshot.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Mısırlı.com.tr Fatih Karagümrük', 19185, NULL, N'DATRO DAVID FOFANA', '2002-12-22', N'CIV', N'Centre-Forward', '2025-09-12', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2114987&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/enzo-roco/profil/spieler/186862.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Mısırlı.com.tr Fatih Karagümrük', 16972, NULL, N'ENZO PABLO ROCO ROCO', '1992-08-16', N'CHI', N'Centre-Back', '2025-07-17', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2685535&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/joao-camacho/profil/spieler/268732.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Mısırlı.com.tr Fatih Karagümrük', 18964, NULL, N'JOAO PEDRO GOMES CAMACHO', '1994-06-23', N'POR', N'Right Winger', '2024-07-16', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2292664&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/jure-balkovec/profil/spieler/181410.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Mısırlı.com.tr Fatih Karagümrük', 17587, NULL, N'JURE BALKOVEC', '1994-09-09', N'SLO', N'Left-Back', '2025-07-17', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2685616&pageId=30; position: owner-provided 2025-2026 squad screenshot.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Mısırlı.com.tr Fatih Karagümrük', 18993, NULL, N'MARUIS TRESOR DOH', '2003-12-17', N'CIV', N'Defensive Midfield', '2025-01-20', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820757&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/nikoloz-ugrekhelidze/profil/spieler/724968.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Mısırlı.com.tr Fatih Karagümrük', 19455, NULL, N'NIKOLOZ UGREKHELIDZE', '2003-08-15', N'GEO', N'Centre-Back', '2025-07-17', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1576820&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/omer-gumus/profil/spieler/880403.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Mısırlı.com.tr Fatih Karagümrük', 2568396, NULL, N'ÖMER FARUK GÜMÜŞ', '2003-07-07', N'TC', N'Central Midfield', '2022-09-08', '2026-05-31', NULL, NULL),
 -- Samsunspor A.Ş. post-winter 2025-2026 roster
         (N'Samsunspor A.Ş.', 19526, 77, N'AFONSO GAMELAS DE PINHO SOUSA', '2000-05-03', N'POR', N'Attacking Midfield', '2025-08-15', '2030-06-30', N'https://www.tff.org/Resources/TFF/Auto/6de0eaf827b74b46a8b7a95587b89eb6.pdf', N'https://www.tff.org/Resources/TFF/Auto/11a1d40e00804f77821b93bf9e124ee6.pdf'),
         (N'Samsunspor A.Ş.', 19752, 15, N'ALI BADRA DIABATE', '2006-12-05', N'CIV', N'Centre-Back', '2026-01-02', '2029-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/11a1d40e00804f77821b93bf9e124ee6.pdf'),
@@ -465,6 +729,23 @@ VALUES
         (N'Samsunspor A.Ş.', 1877063, 20, N'YALÇIN KAYAN', '1999-01-30', N'TC', N'Central Midfield', '2026-01-09', '2028-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/11a1d40e00804f77821b93bf9e124ee6.pdf'),
         (N'Samsunspor A.Ş.', 1041978, 55, N'YUNUS EMRE ÇİFT', '2003-09-01', N'TC', N'Centre-Back', '2022-06-01', '2027-05-31', N'https://www.tff.org/Resources/TFF/Auto/6de0eaf827b74b46a8b7a95587b89eb6.pdf', N'https://www.tff.org/Resources/TFF/Auto/11a1d40e00804f77821b93bf9e124ee6.pdf'),
         (N'Samsunspor A.Ş.', 1701095, 18, N'ZEKİ YAVRU', '1991-09-05', N'TC', N'Right-Back', '2025-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/6de0eaf827b74b46a8b7a95587b89eb6.pdf', N'https://www.tff.org/Resources/TFF/Auto/11a1d40e00804f77821b93bf9e124ee6.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2630765&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/arbnor-muja/profil/spieler/606967.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Samsunspor A.Ş.', 18914, NULL, N'ARBNOR MUJA', '1998-11-29', N'ALB', N'Right Winger', '2024-02-09', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820667&pageId=30; position: owner-provided 2025-2026 squad screenshot.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Samsunspor A.Ş.', 19431, NULL, N'EBRIMA CEESAY', '2006-06-01', N'GAM', N'Centre-Forward', '2025-07-03', '2028-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2555891&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/landry-dimata/profil/spieler/311489.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Samsunspor A.Ş.', 18704, NULL, N'NANY DIMATA', '1997-09-01', N'BEL', N'Centre-Forward', '2023-09-04', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1615916&pageId=30; position: owner-provided 2025-2026 squad screenshot.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Samsunspor A.Ş.', 3016588, NULL, N'POLAT YALDIR', '2003-05-17', N'TC', N'Right Winger', '2023-06-01', '2026-05-31', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=654587&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/soner-aydogdu/profil/spieler/85291.
+-- First-half match-sheet participant, matched by TFF license.
+-- Contract source: https://www.samsunsonhaber.com/haber/5532980/zeki-ve-sonerle-yeni-sozlesme.
+        (N'Samsunspor A.Ş.', 790731, NULL, N'SONER AYDOĞDU', '1991-01-05', N'TC', N'Central Midfield', '2023-01-26', '2026-06-30', NULL, NULL),
 -- Trabzonspor A.Ş. post-winter 2025-2026 roster
         (N'Trabzonspor A.Ş.', 1189984, 88, N'AHMET DOĞAN YILDIRIM', '2006-11-01', N'TC', N'Goalkeeper', '2024-08-07', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/67fce590900e4850a5ab3ca4c2c43f49.pdf', N'https://www.tff.org/Resources/TFF/Auto/1bba3674b9694f60a54231f2888e3cc9.pdf'),
         (N'Trabzonspor A.Ş.', 19604, 24, N'ANDRE ONANA ONANA', '1996-04-02', N'CMR', N'Goalkeeper', '2025-09-08', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/67fce590900e4850a5ab3ca4c2c43f49.pdf', N'https://www.tff.org/Resources/TFF/Auto/1bba3674b9694f60a54231f2888e3cc9.pdf'),
@@ -493,6 +774,19 @@ VALUES
         (N'Trabzonspor A.Ş.', 1755930, 92, N'TAHA EMRE İNCE', '2007-07-26', N'TC', N'Centre-Back', '2025-04-17', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/67fce590900e4850a5ab3ca4c2c43f49.pdf', N'https://www.tff.org/Resources/TFF/Auto/1bba3674b9694f60a54231f2888e3cc9.pdf'),
         (N'Trabzonspor A.Ş.', 19361, 26, N'TIM LUCA PACO JABOL - FOLCARELLI', '1999-12-06', N'FRA', N'Central Midfield', '2025-02-11', '2029-06-30', N'https://www.tff.org/Resources/TFF/Auto/67fce590900e4850a5ab3ca4c2c43f49.pdf', N'https://www.tff.org/Resources/TFF/Auto/1bba3674b9694f60a54231f2888e3cc9.pdf'),
         (N'Trabzonspor A.Ş.', 19402, 20, N'WAGNER FABRICIO CARDOSO DE PINA', '2002-11-03', N'POR', N'Right-Back', '2025-07-01', '2029-06-30', N'https://www.tff.org/Resources/TFF/Auto/67fce590900e4850a5ab3ca4c2c43f49.pdf', N'https://www.tff.org/Resources/TFF/Auto/1bba3674b9694f60a54231f2888e3cc9.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2559353&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/batista-mendy/profil/spieler/395234.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Trabzonspor A.Ş.', 18720, NULL, N'BATISTA ADELINO MENDY', '2000-01-12', N'FRA', N'Defensive Midfield', '2023-09-07', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2763029&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/danylo-sikan/profil/spieler/417228.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Trabzonspor A.Ş.', 19291, NULL, N'DANYLO SIKAN', '2001-04-16', N'UKR', N'Centre-Forward', '2025-01-22', '2029-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1429942&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/edin-visca/profil/spieler/109217.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Trabzonspor A.Ş.', 15356, NULL, N'EDIN VISCA', '1990-02-17', N'BIH', N'Right Winger', '2025-06-01', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1612907&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/serdar-saatci/profil/spieler/655899.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Trabzonspor A.Ş.', 2577231, NULL, N'SERDAR SAATÇI', '2003-02-14', N'TC', N'Centre-Back', '2024-09-05', '2028-06-30', NULL, NULL),
 -- Tümosan Konyaspor post-winter 2025-2026 roster
         (N'Tümosan Konyaspor', 19826, 39, N'ADAMO NAGALO', '2002-09-22', N'CIV', N'Centre-Back', '2026-01-30', '2026-06-30', NULL, N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 1905970, 4, N'ADİL DEMİRBAĞ', '1997-12-10', N'TC', N'Centre-Back', '2025-06-01', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
@@ -523,6 +817,31 @@ VALUES
         (N'Tümosan Konyaspor', 16582, 19, N'UFUK AKYOL', '1997-08-27', N'TC', N'Defensive Midfield', '2024-07-01', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 1508782, 5, N'UĞURCAN YAZĞILI', '1999-04-09', N'TC', N'Centre-Back', '2022-01-28', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
         (N'Tümosan Konyaspor', 19438, 23, N'YHOAN MANY ANDZOUANA', '1996-12-13', N'FRA', N'Right-Back', '2025-07-09', '2028-06-30', N'https://www.tff.org/Resources/TFF/Auto/9072e10b33234c0da0457860342bccca.pdf', N'https://www.tff.org/Resources/TFF/Auto/bd9f2eb579864b8baa7b620a27105420.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2268876&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/alassane-ndao/profil/spieler/569777.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Tümosan Konyaspor', 17390, NULL, N'ALASSANE NDAO', '1996-12-20', N'SEN', N'Right Winger', '2024-01-26', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2114880&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/danijel-aleksic/profil/spieler/48119.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Tümosan Konyaspor', 16954, NULL, N'DANIJEL ALEKSIC', '1991-04-30', N'SRB', N'Attacking Midfield', '2024-08-09', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2685586&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/josip-calusic/profil/spieler/170851.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Tümosan Konyaspor', 18976, NULL, N'JOSIP CALUSIC', '1993-10-11', N'CRO', N'Centre-Back', '2024-07-24', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1724233&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/kaan-akyazi/profil/spieler/1047598.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Tümosan Konyaspor', 1699865, NULL, N'KAAN AKYAZI', '2005-08-27', N'TC', N'Left Winger', '2025-02-03', '2028-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1665108&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/melih-bostan/profil/spieler/697917.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Tümosan Konyaspor', 1171927, NULL, N'MELİH BOSTAN', '2004-04-08', N'TC', N'Centre-Forward', '2024-08-03', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820677&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/mucahit-ibrahimoglu/profil/spieler/724050.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Tümosan Konyaspor', 19441, NULL, N'MÜCAHİT İBRAHİMOĞLU', '2005-03-09', N'TC', N'Defensive Midfield', '2025-07-01', '2028-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1839351&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/utku-eris/profil/spieler/1185812.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Tümosan Konyaspor', 1254469, NULL, N'MUZAFFER UTKU ERİŞ', '2006-07-19', N'TC', N'Centre-Back', '2025-01-01', '2028-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2685587&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/pedrinho/profil/spieler/742063.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Tümosan Konyaspor', 18977, NULL, N'PEDRO HENRIQUE OLIVEIRA DOS SANTOS', '1996-12-19', N'BRA', N'Left Winger', '2024-07-24', '2027-06-30', NULL, NULL),
 -- Zecorner Kayserispor roster
         (N'Zecorner Kayserispor', 17848, 25, N'BİLAL BAYAZIT', '1999-04-08', N'TC', N'Goalkeeper', '2024-06-01', '2026-05-31', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 1674857, 17, N'BURAK KAPACAK', '1999-12-08', N'TC', N'Right Winger', '2025-07-12', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
@@ -551,12 +870,34 @@ VALUES
         (N'Zecorner Kayserispor', 17899, 4, N'STEFANO WILFRED DENSWIL', '1993-05-07', N'NED', N'Centre-Back', '2025-08-08', '2026-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 1248888, 99, N'TALHA SARIARSLAN', '2004-01-18', N'TC', N'Centre-Forward', '2024-06-01', '2026-05-31', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
         (N'Zecorner Kayserispor', 3508914, 21, N'YİĞİT EMRE ÇELTİK', '2003-04-07', N'TC', N'Central Midfield', '2023-09-15', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
-        (N'Zecorner Kayserispor', 17967, 15, N'YOUSSEF AIT BENASSER', '1996-07-07', N'FRA', N'Defensive Midfield', '2025-09-05', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf')
-IF (SELECT COUNT(*) FROM @RosterInput) <> 493
-    THROW 50009, 'Expected 493 curated roster registrations.', 1;
+        (N'Zecorner Kayserispor', 17967, 15, N'YOUSSEF AIT BENASSER', '1996-07-07', N'FRA', N'Defensive Midfield', '2025-09-05', '2027-06-30', N'https://www.tff.org/Resources/TFF/Auto/2e0aa61ccb124d5ba58674efb93953e1.pdf', N'https://www.tff.org/Resources/TFF/Auto/8a56c9944d4245008963937f80345d3c.pdf'),
+-- First-half match-sheet participants missing from the post-winter roster
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820881&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/aaron-opoku/profil/spieler/344063.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Zecorner Kayserispor', 19496, NULL, N'AARON OPOKU TIAWIAH', '1999-03-28', N'GER', N'Left Winger', '2025-08-08', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1938681&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/abdulsamet-burak/profil/spieler/349608.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Zecorner Kayserispor', 2033922, NULL, N'ABDULSAMET BURAK', '1996-05-13', N'TC', N'Centre-Back', '2025-08-08', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2294107&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/ali-karimi/profil/spieler/269393.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Zecorner Kayserispor', 17851, NULL, N'ALI KARIMI', '1994-02-11', N'IRI', N'Central Midfield', '2024-06-01', '2027-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=1617820&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/arif-kocaman/profil/spieler/889613.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Zecorner Kayserispor', 1688286, NULL, N'ARİF KOCAMAN', '2003-09-14', N'TC', N'Centre-Back', '2022-01-14', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2820882&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/gideon-jung/profil/spieler/247661.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Zecorner Kayserispor', 19497, NULL, N'GIDEON AMANKWAH JUNG', '1994-09-12', N'GER', N'Centre-Back', '2025-08-08', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2115677&pageId=30; position: owner-provided 2025-2026 squad screenshot.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Zecorner Kayserispor', 17007, NULL, N'SEYEDMAJID HOSSEINI', '1996-06-20', N'IRI', N'Centre-Back', '2025-07-01', '2026-06-30', NULL, NULL),
+-- Source: TFF player profile https://www.tff.org/Default.aspx?kisiId=2292579&pageId=30; position: Transfermarkt profile https://www.transfermarkt.com/yaw-ackah/profil/spieler/672933.
+-- First-half match-sheet participant, matched by TFF license.
+        (N'Zecorner Kayserispor', 17535, NULL, N'YAW ACKAH', '1999-06-01', N'GHA', N'Defensive Midfield', '2023-06-01', '2026-05-31', NULL, NULL)
+IF (SELECT COUNT(*) FROM @RosterInput) <> 599
+    THROW 50009, 'Expected 599 curated roster registrations.', 1;
 
-IF (SELECT COUNT(DISTINCT tff_license_no) FROM @RosterInput) <> 493
-    THROW 50010, 'Expected 493 distinct TFF player licenses.', 1;
+IF (SELECT COUNT(DISTINCT tff_license_no) FROM @RosterInput) <> 599
+    THROW 50010, 'Expected 599 distinct TFF player licenses.', 1;
 
 IF (SELECT COUNT(DISTINCT club_name) FROM @RosterInput) <> 18
     THROW 50011, 'Expected roster records for 18 clubs.', 1;
