@@ -139,8 +139,10 @@ VALUES
     (N'ABDULLAH BUĞRA TAŞKINSOY', '1992-05-29', N'TC', N'Üst Klasman Hakemi', N'https://www.transfermarkt.com/abdullah-bugra-taskinsoy/profil/schiedsrichter/26990'),
     (N'ASEN ALBAYRAK', '1997-05-05', N'TC', N'Klasman Hakemi', N'https://www.transfermarkt.com.tr/asen-albayrak/profil/schiedsrichter/38934'),
     (N'DİRENÇ TONUSLUOĞLU', '1990-09-14', N'TC', N'Üst Klasman Hakemi', N'https://www.transfermarkt.com/direnc-tonusluoglu/profil/schiedsrichter/27042'),
+    (N'ERDEM MERTOĞLU', '1986-01-03', N'TC', N'Üst Klasman Hakemi', N'https://24saatgazetesicom.teimg.com/24saatgazetesi-com/uploads/2026/01/31-ocak-2026-24-saat.pdf'),
     (N'FATİH TOKAİL', '1990-11-29', N'TC', N'Üst Klasman Hakemi', N'https://www.transfermarkt.com.tr/fatih-tokail/profil/schiedsrichter/32957'),
-    (N'MELEK DAKAN', '1995-08-06', N'TC', N'Klasman Hakemi', N'https://www.tff.org/Default.aspx?kisiId=1541469&pageId=526');
+    (N'MELEK DAKAN', '1995-08-06', N'TC', N'Klasman Hakemi', N'https://www.tff.org/Default.aspx?kisiId=1541469&pageId=526'),
+    (N'OĞUZHAN AKSU', '1994-03-17', N'TC', N'Üst Klasman Hakemi', N'https://cukurovagazetesi.com/mersinli-oguzhan-aksu-turk-hakemliginin-gururu-oldu');
 
 IF (SELECT COUNT(*) FROM @CoachInput) <> 35
     THROW 50030, 'Expected 35 2025-2026 coach profiles.', 1;
@@ -148,8 +150,8 @@ IF (SELECT COUNT(*) FROM @CoachInput) <> 35
 IF (SELECT COUNT(*) FROM @CoachingInput) <> 42
     THROW 50031, 'Expected 42 2025-2026 coaching periods.', 1;
 
-IF (SELECT COUNT(*) FROM @RefereeInput) <> 26
-    THROW 50032, 'Expected 26 referee profiles with verified birth dates.', 1;
+IF (SELECT COUNT(*) FROM @RefereeInput) <> 28
+    THROW 50032, 'Expected 28 referee profiles with verified birth dates.', 1;
 
 IF EXISTS (
     SELECT 1
@@ -169,8 +171,8 @@ IF EXISTS (
 )
     THROW 50034, 'Load the 2025-2026 club reference data before official data.', 1;
 
-IF (SELECT COUNT(*) FROM dbo.player) <> 493
-    THROW 50035, 'Load the 493-player season roster before official data.', 1;
+IF (SELECT COUNT(*) FROM dbo.player) <> 599
+    THROW 50035, 'Load the 599-player season roster before official data.', 1;
 
 IF EXISTS (SELECT 1 FROM dbo.coach)
     OR EXISTS (SELECT 1 FROM dbo.referee)

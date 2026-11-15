@@ -1,5 +1,5 @@
 -- Load source-backed 2025-2026 matches whose referee profiles are complete.
--- Thirty fixtures await verified birth dates for OĞUZHAN AKSU, OZAN ERGÜN, and ERDEM MERTOĞLU.
+-- Thirty fixture rows remain outside this seed; Ozan Ergün's exact birth date is unverified.
 SET NOCOUNT ON;
 SET XACT_ABORT ON;
 
