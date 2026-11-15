@@ -142,7 +142,9 @@ VALUES
     (N'ERDEM MERTOĞLU', '1986-01-03', N'TC', N'Üst Klasman Hakemi', N'https://24saatgazetesicom.teimg.com/24saatgazetesi-com/uploads/2026/01/31-ocak-2026-24-saat.pdf'),
     (N'FATİH TOKAİL', '1990-11-29', N'TC', N'Üst Klasman Hakemi', N'https://www.transfermarkt.com.tr/fatih-tokail/profil/schiedsrichter/32957'),
     (N'MELEK DAKAN', '1995-08-06', N'TC', N'Klasman Hakemi', N'https://www.tff.org/Default.aspx?kisiId=1541469&pageId=526'),
-    (N'OĞUZHAN AKSU', '1994-03-17', N'TC', N'Üst Klasman Hakemi', N'https://cukurovagazetesi.com/mersinli-oguzhan-aksu-turk-hakemliginin-gururu-oldu');
+    (N'OĞUZHAN AKSU', '1994-03-17', N'TC', N'Üst Klasman Hakemi', N'https://cukurovagazetesi.com/mersinli-oguzhan-aksu-turk-hakemliginin-gururu-oldu'),
+    -- Estimate the month and day because only the birth year is sourced.
+    (N'OZAN ERGÜN', '1992-01-01', N'TC', N'Üst Klasman Hakemi', N'https://www.transfermarkt.com.tr/ozan-ergun/profil/schiedsrichter/15045');
 
 IF (SELECT COUNT(*) FROM @CoachInput) <> 35
     THROW 50030, 'Expected 35 2025-2026 coach profiles.', 1;
@@ -150,8 +152,8 @@ IF (SELECT COUNT(*) FROM @CoachInput) <> 35
 IF (SELECT COUNT(*) FROM @CoachingInput) <> 42
     THROW 50031, 'Expected 42 2025-2026 coaching periods.', 1;
 
-IF (SELECT COUNT(*) FROM @RefereeInput) <> 28
-    THROW 50032, 'Expected 28 referee profiles with verified birth dates.', 1;
+IF (SELECT COUNT(*) FROM @RefereeInput) <> 29
+    THROW 50032, 'Expected 29 referee profiles, including one estimated birth date.', 1;
 
 IF EXISTS (
     SELECT 1

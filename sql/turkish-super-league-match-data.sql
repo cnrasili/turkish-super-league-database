@@ -1,5 +1,4 @@
--- Load source-backed 2025-2026 matches whose referee profiles are complete.
--- Fifteen fixture rows remain outside this seed; Ozan Ergün's exact birth date is unverified.
+-- Load 2025-2026 match fixtures with sourced referee profiles.
 SET NOCOUNT ON;
 SET XACT_ABORT ON;
 
@@ -29,9 +28,11 @@ VALUES
     (283566, 2, N'Corendon Alanyaspor', N'Çaykur Rizespor A.Ş.', N'ATİLLA KARAOĞLAN'),
     (283567, 2, N'İstanbul Başakşehir FK', N'Zecorner Kayserispor', N'KADİR SAĞLAM'),
     (283568, 2, N'Göztepe A.Ş.', N'Fenerbahçe A.Ş.', N'YASİN KOL'),
+    (283569, 2, N'Galatasaray A.Ş.', N'Mısırlı.com.tr Fatih Karagümrük', N'OZAN ERGÜN'),
     (283570, 2, N'Gençlerbirliği', N'Hesap.com Antalyaspor', N'OĞUZHAN AKSU'),
     (283571, 2, N'Kocaelispor', N'Samsunspor A.Ş.', N'ZORBAY KÜÇÜK'),
     (283572, 3, N'İkas Eyüpspor', N'Corendon Alanyaspor', N'ARDA KARDEŞLER'),
+    (283573, 3, N'Tümosan Konyaspor', N'Beşiktaş A.Ş.', N'OZAN ERGÜN'),
     (283574, 3, N'Trabzonspor A.Ş.', N'Hesap.com Antalyaspor', N'ALİ YILMAZ'),
     (283575, 3, N'Samsunspor A.Ş.', N'Kasımpaşa A.Ş.', N'ALİ ŞANSALAN'),
     (283576, 3, N'Mısırlı.com.tr Fatih Karagümrük', N'Göztepe A.Ş.', N'BATUHAN KOLAK'),
@@ -39,6 +40,7 @@ VALUES
     (283578, 3, N'Fenerbahçe A.Ş.', N'Kocaelispor', N'MEHMET TÜRKMEN'),
     (283579, 3, N'Çaykur Rizespor A.Ş.', N'İstanbul Başakşehir FK', N'ALİ YILMAZ'),
     (283580, 3, N'Zecorner Kayserispor', N'Galatasaray A.Ş.', N'ALPER AKARSU'),
+    (283581, 4, N'Kasımpaşa A.Ş.', N'Gaziantep Futbol Kulübü A.Ş.', N'OZAN ERGÜN'),
     (283582, 4, N'Hesap.com Antalyaspor', N'Mısırlı.com.tr Fatih Karagümrük', N'CİHAN AYDIN'),
     (283583, 4, N'Trabzonspor A.Ş.', N'Samsunspor A.Ş.', N'ADNAN DENİZ KAYATEPE'),
     (283584, 4, N'Corendon Alanyaspor', N'Beşiktaş A.Ş.', N'KADİR SAĞLAM'),
@@ -53,6 +55,7 @@ VALUES
     (283593, 5, N'Samsunspor A.Ş.', N'Hesap.com Antalyaspor', N'ARDA KARDEŞLER'),
     (283594, 5, N'Mısırlı.com.tr Fatih Karagümrük', N'Kasımpaşa A.Ş.', N'OĞUZHAN AKSU'),
     (283595, 5, N'Gaziantep Futbol Kulübü A.Ş.', N'Kocaelispor', N'YİĞİT ARSLAN'),
+    (283596, 5, N'Fenerbahçe A.Ş.', N'Trabzonspor A.Ş.', N'OZAN ERGÜN'),
     (283597, 5, N'Çaykur Rizespor A.Ş.', N'Gençlerbirliği', N'ZORBAY KÜÇÜK'),
     (283598, 5, N'Zecorner Kayserispor', N'Göztepe A.Ş.', N'ATİLLA KARAOĞLAN'),
     (283599, 6, N'Kasımpaşa A.Ş.', N'Fenerbahçe A.Ş.', N'OĞUZHAN ÇAKIR'),
@@ -74,6 +77,7 @@ VALUES
     (283615, 7, N'Çaykur Rizespor A.Ş.', N'Kasımpaşa A.Ş.', N'ÇAĞDAŞ ALTAY'),
     (283616, 7, N'Zecorner Kayserispor', N'Gençlerbirliği', N'YİĞİT ARSLAN'),
     (283617, 8, N'Kasımpaşa A.Ş.', N'Tümosan Konyaspor', N'ALPER AKARSU'),
+    (283618, 8, N'Hesap.com Antalyaspor', N'Çaykur Rizespor A.Ş.', N'OZAN ERGÜN'),
     (283619, 8, N'Trabzonspor A.Ş.', N'Zecorner Kayserispor', N'ALİ ŞANSALAN'),
     (283620, 8, N'Samsunspor A.Ş.', N'Fenerbahçe A.Ş.', N'HALİL UMUT MELER'),
     (283621, 8, N'Mısırlı.com.tr Fatih Karagümrük', N'Gaziantep Futbol Kulübü A.Ş.', N'OĞUZHAN ÇAKIR'),
@@ -114,6 +118,7 @@ VALUES
     (283656, 12, N'Samsunspor A.Ş.', N'İkas Eyüpspor', N'YASİN KOL'),
     (283657, 12, N'Mısırlı.com.tr Fatih Karagümrük', N'Tümosan Konyaspor', N'ADNAN DENİZ KAYATEPE'),
     (283658, 12, N'Gaziantep Futbol Kulübü A.Ş.', N'Çaykur Rizespor A.Ş.', N'OĞUZHAN ÇAKIR'),
+    (283659, 12, N'Fenerbahçe A.Ş.', N'Zecorner Kayserispor', N'OZAN ERGÜN'),
     (283660, 12, N'Gençlerbirliği', N'İstanbul Başakşehir FK', N'DİRENÇ TONUSLUOĞLU'),
     (283661, 12, N'Kocaelispor', N'Galatasaray A.Ş.', N'ÇAĞDAŞ ALTAY'),
     (283662, 13, N'İkas Eyüpspor', N'Mısırlı.com.tr Fatih Karagümrük', N'CİHAN AYDIN'),
@@ -122,6 +127,7 @@ VALUES
     (283665, 13, N'Corendon Alanyaspor', N'Kasımpaşa A.Ş.', N'YİĞİT ARSLAN'),
     (283666, 13, N'İstanbul Başakşehir FK', N'Trabzonspor A.Ş.', N'HALİL UMUT MELER'),
     (283667, 13, N'Göztepe A.Ş.', N'Kocaelispor', N'ALİ YILMAZ'),
+    (283668, 13, N'Galatasaray A.Ş.', N'Gençlerbirliği', N'OZAN ERGÜN'),
     (283669, 13, N'Çaykur Rizespor A.Ş.', N'Fenerbahçe A.Ş.', N'ÇAĞDAŞ ALTAY'),
     (283670, 13, N'Zecorner Kayserispor', N'Gaziantep Futbol Kulübü A.Ş.', N'MEHMET TÜRKMEN'),
     (283671, 14, N'Kasımpaşa A.Ş.', N'İstanbul Başakşehir FK', N'ATİLLA KARAOĞLAN'),
@@ -148,6 +154,7 @@ VALUES
     (283692, 16, N'Samsunspor A.Ş.', N'İstanbul Başakşehir FK', N'OĞUZHAN AKSU'),
     (283693, 16, N'Mısırlı.com.tr Fatih Karagümrük', N'Kocaelispor', N'ÇAĞDAŞ ALTAY'),
     (283694, 16, N'Gaziantep Futbol Kulübü A.Ş.', N'Göztepe A.Ş.', N'CİHAN AYDIN'),
+    (283695, 16, N'Fenerbahçe A.Ş.', N'Tümosan Konyaspor', N'OZAN ERGÜN'),
     (283696, 16, N'Çaykur Rizespor A.Ş.', N'İkas Eyüpspor', N'YİĞİT ARSLAN'),
     (283697, 16, N'Zecorner Kayserispor', N'Corendon Alanyaspor', N'ERDEM MERTOĞLU'),
     (283698, 17, N'İkas Eyüpspor', N'Fenerbahçe A.Ş.', N'ALİ YILMAZ'),
@@ -167,6 +174,7 @@ VALUES
     (283712, 18, N'Galatasaray A.Ş.', N'Gaziantep Futbol Kulübü A.Ş.', N'OĞUZHAN ÇAKIR'),
     (283713, 18, N'Corendon Alanyaspor', N'Fenerbahçe A.Ş.', N'MEHMET TÜRKMEN'),
     (283714, 18, N'Göztepe A.Ş.', N'Çaykur Rizespor A.Ş.', N'ALİ ŞANSALAN'),
+    (283715, 18, N'Beşiktaş A.Ş.', N'Zecorner Kayserispor', N'OZAN ERGÜN'),
     (283716, 19, N'Trabzonspor A.Ş.', N'Kasımpaşa A.Ş.', N'ALİ YILMAZ'),
     (283717, 19, N'Gaziantep Futbol Kulübü A.Ş.', N'Tümosan Konyaspor', N'KADİR SAĞLAM'),
     (283718, 19, N'İkas Eyüpspor', N'Beşiktaş A.Ş.', N'YASİN KOL'),
@@ -191,6 +199,7 @@ VALUES
     (283737, 21, N'Beşiktaş A.Ş.', N'Corendon Alanyaspor', N'OĞUZHAN ÇAKIR'),
     (283738, 21, N'İkas Eyüpspor', N'İstanbul Başakşehir FK', N'HALİL UMUT MELER'),
     (283739, 21, N'Tümosan Konyaspor', N'Göztepe A.Ş.', N'YASİN KOL'),
+    (283740, 21, N'Çaykur Rizespor A.Ş.', N'Galatasaray A.Ş.', N'OZAN ERGÜN'),
     (283741, 21, N'Fenerbahçe A.Ş.', N'Gençlerbirliği', N'ALİ ŞANSALAN'),
     (283742, 21, N'Zecorner Kayserispor', N'Kocaelispor', N'KADİR SAĞLAM'),
     (283743, 22, N'Galatasaray A.Ş.', N'İkas Eyüpspor', N'ÇAĞDAŞ ALTAY'),
@@ -207,6 +216,7 @@ VALUES
     (283754, 23, N'Gaziantep Futbol Kulübü A.Ş.', N'Trabzonspor A.Ş.', N'ÇAĞDAŞ ALTAY'),
     (283755, 23, N'Mısırlı.com.tr Fatih Karagümrük', N'Samsunspor A.Ş.', N'OĞUZHAN ÇAKIR'),
     (283756, 23, N'Corendon Alanyaspor', N'İstanbul Başakşehir FK', N'KADİR SAĞLAM'),
+    (283757, 23, N'Beşiktaş A.Ş.', N'Göztepe A.Ş.', N'OZAN ERGÜN'),
     (283758, 23, N'Tümosan Konyaspor', N'Galatasaray A.Ş.', N'ATİLLA KARAOĞLAN'),
     (283759, 23, N'İkas Eyüpspor', N'Gençlerbirliği', N'ÖMER FARUK TURTAY'),
     (283760, 23, N'Çaykur Rizespor A.Ş.', N'Kocaelispor', N'MEHMET TÜRKMEN'),
@@ -225,6 +235,7 @@ VALUES
     (283773, 25, N'Fenerbahçe A.Ş.', N'Samsunspor A.Ş.', N'OĞUZHAN ÇAKIR'),
     (283774, 25, N'Gaziantep Futbol Kulübü A.Ş.', N'Mısırlı.com.tr Fatih Karagümrük', N'ÖMER TOLGA GÜLDİBİ'),
     (283775, 25, N'İstanbul Başakşehir FK', N'Göztepe A.Ş.', N'YASİN KOL'),
+    (283776, 25, N'Beşiktaş A.Ş.', N'Galatasaray A.Ş.', N'OZAN ERGÜN'),
     (283777, 25, N'Corendon Alanyaspor', N'Gençlerbirliği', N'REŞAT ONUR COŞKUNSES'),
     (283778, 25, N'İkas Eyüpspor', N'Kocaelispor', N'GÜRCAN HASOVA'),
     (283779, 26, N'Kasımpaşa A.Ş.', N'İkas Eyüpspor', N'ALİ YILMAZ'),
@@ -259,6 +270,7 @@ VALUES
     (283808, 29, N'Corendon Alanyaspor', N'Trabzonspor A.Ş.', N'MEHMET TÜRKMEN'),
     (283809, 29, N'İkas Eyüpspor', N'Samsunspor A.Ş.', N'YASİN KOL'),
     (283810, 29, N'Tümosan Konyaspor', N'Mısırlı.com.tr Fatih Karagümrük', N'OĞUZHAN AKSU'),
+    (283811, 29, N'Çaykur Rizespor A.Ş.', N'Gaziantep Futbol Kulübü A.Ş.', N'OZAN ERGÜN'),
     (283812, 29, N'Zecorner Kayserispor', N'Fenerbahçe A.Ş.', N'ALİ YILMAZ'),
     (283813, 29, N'İstanbul Başakşehir FK', N'Gençlerbirliği', N'ALİ ŞANSALAN'),
     (283814, 29, N'Galatasaray A.Ş.', N'Kocaelispor', N'OĞUZHAN ÇAKIR'),
@@ -274,6 +286,7 @@ VALUES
     (283824, 31, N'İstanbul Başakşehir FK', N'Kasımpaşa A.Ş.', N'YİĞİT ARSLAN'),
     (283825, 31, N'Göztepe A.Ş.', N'Hesap.com Antalyaspor', N'OĞUZHAN ÇAKIR'),
     (283826, 31, N'Tümosan Konyaspor', N'Trabzonspor A.Ş.', N'HALİL UMUT MELER'),
+    (283827, 31, N'Corendon Alanyaspor', N'Samsunspor A.Ş.', N'OZAN ERGÜN'),
     (283828, 31, N'Beşiktaş A.Ş.', N'Mısırlı.com.tr Fatih Karagümrük', N'BATUHAN KOLAK'),
     (283829, 31, N'İkas Eyüpspor', N'Gaziantep Futbol Kulübü A.Ş.', N'REŞAT ONUR COŞKUNSES'),
     (283830, 31, N'Galatasaray A.Ş.', N'Fenerbahçe A.Ş.', N'YASİN KOL'),
@@ -284,6 +297,7 @@ VALUES
     (283835, 32, N'Gaziantep Futbol Kulübü A.Ş.', N'Beşiktaş A.Ş.', N'ABDULLAH BUĞRA TAŞKINSOY'),
     (283836, 32, N'Hesap.com Antalyaspor', N'Corendon Alanyaspor', N'ATİLLA KARAOĞLAN'),
     (283837, 32, N'Fenerbahçe A.Ş.', N'İstanbul Başakşehir FK', N'OĞUZHAN AKSU'),
+    (283838, 32, N'Trabzonspor A.Ş.', N'Göztepe A.Ş.', N'OZAN ERGÜN'),
     (283839, 32, N'Samsunspor A.Ş.', N'Galatasaray A.Ş.', N'REŞAT ONUR COŞKUNSES'),
     (283840, 32, N'Mısırlı.com.tr Fatih Karagümrük', N'Gençlerbirliği', N'OĞUZHAN ÇAKIR'),
     (283841, 32, N'Kasımpaşa A.Ş.', N'Kocaelispor', N'YASİN KOL'),
@@ -306,8 +320,8 @@ VALUES
     (283858, 34, N'Trabzonspor A.Ş.', N'Gençlerbirliği', N'ATİLLA KARAOĞLAN'),
     (283859, 34, N'Hesap.com Antalyaspor', N'Kocaelispor', N'HALİL UMUT MELER');
 
-IF (SELECT COUNT(*) FROM @MatchInput) <> 291
-    THROW 50040, 'Expected 291 source-backed 2025-2026 matches.', 1;
+IF (SELECT COUNT(*) FROM @MatchInput) <> 306
+    THROW 50040, 'Expected all 306 source-backed 2025-2026 matches.', 1;
 
 IF EXISTS (
     SELECT week, home_club_name, away_club_name
