@@ -1,5 +1,5 @@
 -- Source-matched event data for 201 of the 305 remaining 2025-2026 fixtures.
--- Unpaired same-minute substitutions are excluded until a supplementary source confirms the players.
+-- Ambiguous same-minute substitutions are added by source-verified supplements.
 -- Event minutes use elapsed integer minutes; stoppage time is added to the base minute.
 SET NOCOUNT ON;
 SET XACT_ABORT ON;

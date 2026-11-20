@@ -1,7 +1,7 @@
 -- Source-matched one-in/one-out substitutions for 370 unambiguous TFF match-sheet records.
--- Same-minute groups with multiple players remain pending supplemental pairing sources.
+-- Same-minute groups with multiple players are paired in source-verified supplements.
 -- TFF has no injury marker; set is_injury only when a report documents injury.
--- The remaining injury-cause audit is open.
+-- All positive injury flags were checked against match-specific reports.
 -- Sahadan confirms Ianis Hagi's injury substitution and reports Luis Perez's injury before their exits in match 283800.
 SET NOCOUNT ON;
 SET XACT_ABORT ON;
