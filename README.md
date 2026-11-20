@@ -46,6 +46,8 @@ A relational database project for clubs, players, matches, and match events in T
 - `sql/turkish-super-league-match-event-substitutions-supplement-14.sql` adds four pairings confirmed by match reports for Trabzonspor-Kocaelispor (TFF match 283556).
 - `sql/turkish-super-league-match-event-substitutions-supplement-15.sql` adds four pairings confirmed by match reports for Çaykur Rizespor-Göztepe (TFF match 283561).
 - `sql/turkish-super-league-match-event-substitutions-supplement-16.sql` adds two pairings confirmed by match reports for Kasımpaşa-Trabzonspor (TFF match 283563).
+- `sql/turkish-super-league-match-event-substitutions-supplement-17.sql` adds two pairings confirmed by match reports for Konyaspor-Gaziantep (TFF match 283564).
+- `sql/turkish-super-league-match-event-substitutions-supplement-18.sql` adds four pairings confirmed by match reports for Alanyaspor-Rizespor (TFF match 283566).
 - Match-event participants must have an appearance in that match. Run `dbo.assert_match_event_subtypes_complete` after data loading to verify every event has exactly one goal, card, or substitution subtype.
 - The scripts have not yet been executed against SQL Server.
 - The selected sample season is 2025-2026.
@@ -53,7 +55,7 @@ A relational database project for clubs, players, matches, and match events in T
 - All 306 TFF fixture results reconcile with the computed final records for the 18 clubs; all 306 linked match details now confirm the score and goal-event total.
 - The [TFF detail page for Alanyaspor 1-3 Eyüpspor](https://www.tff.org/Default.aspx?macId=283725&pageID=29), which timed out in an earlier review, is now accessible and exposes its lineups, goals, cards, and substitution minutes.
 - TFF goal type codes are `F` (foot), `H` (header), `K` (own goal), and `P` (penalty); card colours are yellow and red.
-- Include numbered first-team players. Exclude unnumbered academy entries, while retaining unnumbered players whose 2025-2026 loan is confirmed by TFF. All 599 selected roster rows have birth date, nationality, position, and a professional contract period overlapping the season, matched to TFF records and the supplied squad screenshots. The additional 18 participant profiles are sourced from TFF match sheets; no professional contract row is added where no season-overlapping contract is recorded. Coach profiles and season coaching periods are prepared. All 29 main referees have profiles. Source-backed match data is prepared for all 306 fixtures. Match-event data has appearance, goal, and card records for all fixtures, plus 499 substitutions. For the 104 fixtures covered by substitution progress, 445 substitutions in 203 same-minute multi-player groups remain unresolved. TFF match-sheet player links expose license numbers for matching participants to roster records. For `appearance`, use starters and substitutes who entered; do not count unused substitutes. Store stoppage notation as elapsed integer minutes (`45+12` as `57`, `90+4` as `94`). Use a supplementary match report to verify same-minute substitution pairings and substitution causes.
+- Include numbered first-team players. Exclude unnumbered academy entries, while retaining unnumbered players whose 2025-2026 loan is confirmed by TFF. All 599 selected roster rows have birth date, nationality, position, and a professional contract period overlapping the season, matched to TFF records and the supplied squad screenshots. The additional 18 participant profiles are sourced from TFF match sheets; no professional contract row is added where no season-overlapping contract is recorded. Coach profiles and season coaching periods are prepared. All 29 main referees have profiles. Source-backed match data is prepared for all 306 fixtures. Match-event data has appearance, goal, and card records for all fixtures. The first 202 fixtures have 1,758 sourced substitution records; the remaining 104-fixture pool has 505 sourced and 439 unresolved substitution records (200 same-minute groups), for 2,263 sourced substitutions total so far. TFF match-sheet player links expose license numbers for matching participants to roster records. For `appearance`, use starters and substitutes who entered; do not count unused substitutes. Store stoppage notation as elapsed integer minutes (`45+12` as `57`, `90+4` as `94`). Use a supplementary match report to verify same-minute substitution pairings and substitution causes.
 - Do not use a post-2025-2026 contract start date as the historical season contract. Omit players without a season-overlapping professional contract from the contracted roster and do not create contract rows for them; retain profiles required by official match-sheet appearances.
 - The league-table view applies TFF head-to-head tie-break rules while keeping the proposal and EER table set unchanged.
 
@@ -86,6 +88,8 @@ A relational database project for clubs, players, matches, and match events in T
 - `sql/turkish-super-league-match-event-substitutions-supplement-14.sql`: load four report-confirmed pairings for Trabzonspor-Kocaelispor.
 - `sql/turkish-super-league-match-event-substitutions-supplement-15.sql`: load four report-confirmed pairings for Çaykur Rizespor-Göztepe.
 - `sql/turkish-super-league-match-event-substitutions-supplement-16.sql`: load two report-confirmed pairings for Kasımpaşa-Trabzonspor.
+- `sql/turkish-super-league-match-event-substitutions-supplement-17.sql`: load two report-confirmed pairings for Konyaspor-Gaziantep.
+- `sql/turkish-super-league-match-event-substitutions-supplement-18.sql`: load four report-confirmed pairings for Alanyaspor-Rizespor.
 - `sql/turkish-super-league-integrity.sql`: apply subtype and goal-lineup integrity rules.
 - `sql/turkish-super-league-reports.sql`: create the league table, top scorers, cards by club, and player club history views.
 
@@ -119,7 +123,9 @@ A relational database project for clubs, players, matches, and match events in T
 26. Run `sql/turkish-super-league-match-event-substitutions-supplement-14.sql` after supplement 13.
 27. Run `sql/turkish-super-league-match-event-substitutions-supplement-15.sql` after supplement 14.
 28. Run `sql/turkish-super-league-match-event-substitutions-supplement-16.sql` after supplement 15.
-29. After all appearance and event scripts are loaded, run the event-subtype assertion:
+29. Run `sql/turkish-super-league-match-event-substitutions-supplement-17.sql` after supplement 16.
+30. Run `sql/turkish-super-league-match-event-substitutions-supplement-18.sql` after supplement 17.
+31. After all appearance and event scripts are loaded, run the event-subtype assertion:
 
 ```sql
 EXEC dbo.assert_match_event_subtypes_complete;
@@ -167,6 +173,8 @@ The project follows the supplied proposal and EER diagram. Their original PDF fi
 - [TFF season fixtures and standings](https://www.tff.org/default.aspx?pageID=1768)
 - [TFF Çaykur Rizespor-Göztepe match detail](https://www.tff.org/Default.aspx?macId=283561&pageId=29)
 - [TFF Kasımpaşa-Trabzonspor match detail](https://www.tff.org/Default.aspx?macId=283563&pageID=29) and [beIN SPORTS match report](https://beinsports.com.tr/haber/kasimpasa-trabzonspor-13) for same-minute substitution pairings
+- TFF [Konyaspor-Gaziantep](https://www.tff.org/Default.aspx?macId=283564&pageID=29) and [Konyaspor's match report](https://www.konyaspor.org.tr/haber/evimizde-gaziantep-futbol-kulubunu-maglup-ettik-2) for same-minute substitution pairings
+- TFF [Alanyaspor-Rizespor](https://www.tff.org/Default.aspx?macId=283566&pageID=29), [Fotomaç's event log](https://www.fotomac.com.tr/canli-skor/alanyaspor-caykur_rizespor-maci-canli-anlatim-61720426), and [Alanya Postası's match report](https://alanyapostasicomtr.teimg.com/alanyapostasi-com-tr/uploads/2025/08/18-08-25-50dpi-50.pdf) for same-minute substitution pairings
 - Official [first-window](https://www.tff.org/Default.aspx?ftxtId=48473&pageId=200) and [second-window](https://www.tff.org/default.aspx?ftxtID=49698&pageID=204) A-team player lists
 - [TFF match detail example](https://www.tff.org/Default.aspx?macId=283853&pageId=29)
 - [TFF Alanyaspor-Eyüpspor match detail](https://www.tff.org/Default.aspx?macId=283725&pageID=528) and linked [player profile with license number](https://www.tff.org/Default.aspx?kisiId=1506181&pageId=30)
