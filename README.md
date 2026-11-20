@@ -29,7 +29,7 @@ A relational database project for clubs, players, matches, and match events in T
 - `sql/turkish-super-league-match-event-progress.sql` seeds 201 additional fixtures with source-matched appearances and event records; unpaired same-minute substitutions remain excluded.
 - `sql/turkish-super-league-match-event-progress-batch-2.sql` adds 84 fixtures with 2,610 appearances, 196 goals, and 377 cards. It does not seed substitution events pending source verification.
 - `sql/turkish-super-league-match-event-progress-batch-3.sql` adds the remaining 20 fixtures with 622 appearances, 58 goals, and 95 cards. All 306 fixtures now have sourced appearance, goal, and card data; substitution research remains open.
-- `sql/turkish-super-league-match-event-substitutions-progress.sql` adds 370 substitutions that have one incoming and one outgoing player at that minute in the TFF sheet. Across the event seeds and supplements through supplement 50, 2,569 of 2,702 nonstarter appearances have a unique substitution pairing (95.08%); 133 pairings remain across 37 fixtures. This is a static audit of the SQL inputs; the scripts have not been executed against SQL Server.
+- `sql/turkish-super-league-match-event-substitutions-progress.sql` adds 370 substitutions that have one incoming and one outgoing player at that minute in the TFF sheet. Across the event seeds and supplements through supplement 51, 2,581 of 2,702 nonstarter appearances have a unique substitution pairing (95.52%); 121 pairings remain across 35 fixtures. This is a static audit of the SQL inputs; the scripts have not been executed against SQL Server.
 - `sql/turkish-super-league-match-event-substitutions-supplement-1.sql` adds eight pairings confirmed by the DHA report for Antalyaspor-Fatih Karagümrük (TFF match 283582).
 - `sql/turkish-super-league-match-event-substitutions-supplement-2.sql` adds ten pairings confirmed by eScored and Live-Result for Alanyaspor-Samsunspor (TFF match 283827).
 - `sql/turkish-super-league-match-event-substitutions-supplement-3.sql` adds eight pairings confirmed by club and match reports for Galatasaray-Fatih Karagümrük (TFF match 283569).
@@ -70,6 +70,7 @@ A relational database project for clubs, players, matches, and match events in T
 - `sql/turkish-super-league-match-event-substitutions-supplement-48.sql` adds 28 TFF and match-report-confirmed pairings for four fixtures (TFF matches 283822, 283834, 283836, and 283854).
 - `sql/turkish-super-league-match-event-substitutions-supplement-49.sql` adds 18 TFF and match-report-confirmed pairings for Gaziantep-Alanyaspor, Fatih Karagümrük-Rizespor, and Eyüpspor-Samsunspor (TFF matches 283800, 283804, and 283809).
 - `sql/turkish-super-league-match-event-substitutions-supplement-50.sql` adds 18 TFF and match-report-confirmed pairings for Rizespor-Kocaelispor, Kasımpaşa-Alanyaspor, and Kocaelispor-Göztepe (TFF matches 283760, 283818, and 283820).
+- `sql/turkish-super-league-match-event-substitutions-supplement-51.sql` adds twelve TFF and match-report-confirmed pairings for Trabzonspor-Göztepe and Fatih Karagümrük-Gençlerbirliği (TFF matches 283838 and 283840).
 - Match-event participants must have an appearance in that match. Run `dbo.assert_match_event_subtypes_complete` after data loading to verify every event has exactly one goal, card, or substitution subtype.
 - The scripts have not yet been executed against SQL Server.
 - The selected sample season is 2025-2026.
@@ -143,6 +144,7 @@ A relational database project for clubs, players, matches, and match events in T
 - `sql/turkish-super-league-match-event-substitutions-supplement-48.sql`: load 28 TFF and match-report-confirmed pairings for four fixtures.
 - `sql/turkish-super-league-match-event-substitutions-supplement-49.sql`: load 18 TFF and match-report-confirmed pairings for three fixtures.
 - `sql/turkish-super-league-match-event-substitutions-supplement-50.sql`: load 18 TFF and match-report-confirmed pairings for three fixtures.
+- `sql/turkish-super-league-match-event-substitutions-supplement-51.sql`: load twelve TFF and match-report-confirmed pairings for two fixtures.
 - `sql/turkish-super-league-integrity.sql`: apply subtype and goal-lineup integrity rules.
 - `sql/turkish-super-league-reports.sql`: create the league table, top scorers, cards by club, and player club history views.
 
@@ -209,7 +211,8 @@ A relational database project for clubs, players, matches, and match events in T
 59. Run `sql/turkish-super-league-match-event-substitutions-supplement-48.sql` after supplement 47.
 60. Run `sql/turkish-super-league-match-event-substitutions-supplement-49.sql` after supplement 48.
 61. Run `sql/turkish-super-league-match-event-substitutions-supplement-50.sql` after supplement 49.
-62. After all appearance and event scripts are loaded, run the event-subtype assertion:
+62. Run `sql/turkish-super-league-match-event-substitutions-supplement-51.sql` after supplement 50.
+63. After all appearance and event scripts are loaded, run the event-subtype assertion:
 
 ```sql
 EXEC dbo.assert_match_event_subtypes_complete;
@@ -259,6 +262,7 @@ The project follows the supplied proposal and EER diagram. Their original PDF fi
 - TFF [Rizespor-Antalyaspor match sheet](https://www.tff.org/Default.aspx?macId=283771&pageID=528), [Mynet event log](https://www.mynet.com/spor/canli-mac-anlatimi-ve-sonuclari/1924482-caykur-rizespor-hesapcom-antalyaspor), and [Sahadan report](https://www.sahadan.com/mac/c-rizespor-vs-antalyaspor/9kc0bud2nnl3u38n3i0zewdg4/anlatim) for the 25th-week substitutions and Højer's forced exit
 - TFF [Fenerbahçe-Göztepe match sheet](https://www.tff.org/Default.aspx?macId=283721&pageID=528) and [Sahadan event log](https://www.sahadan.com/mac/fenerbahce-vs-goztepe/8zrj2jnpldzvzu1fhjqb9q978/anlatim) for the same-minute substitutions and İsmail Yüksek's injury-related substitution
 - TFF match sheets for [Fenerbahçe-Rizespor](https://www.tff.org/Default.aspx?macId=283822&pageID=29), [Rizespor-Konyaspor](https://www.tff.org/Default.aspx?macId=283834&pageID=29), [Antalyaspor-Alanyaspor](https://www.tff.org/Default.aspx?macId=283836&pageID=29), and [Fatih Karagümrük-Alanyaspor](https://www.tff.org/Default.aspx?macId=283854&pageID=29), with Mynet, DHA, and İHA reports for same-minute substitution pairings
+- TFF [Trabzonspor-Göztepe match sheet](https://www.tff.org/Default.aspx?macId=283838&pageID=528), the [Habertürk/AA lineup report](https://yerel-haberler.haberturk.com/trabzon-haberleri/futbol-trendyol-super-lig-41273416), TFF [Fatih Karagümrük-Gençlerbirliği match sheet](https://www.tff.org/Default.aspx?macId=283840&pageID=528), and the [Sahadan event log](https://www.sahadan.com/mac/f-karagumruk-vs-genclerbirligi/abqmvvgltyq5wy4iokdaa8sus/anlatim) for same-minute pairings and official minutes
 - TFF [Başakşehir-Fenerbahçe match sheet](https://www.tff.org/Default.aspx?macId=283684&pageID=29), [Transfermarkt match report](https://www.transfermarkt.com/spielbericht/index/spielbericht/4647862), and [Mackolik match page](https://www.mackolik.com/mac/ba%C5%9Fak%C5%9Fehir-vs-fenerbah%C3%A7e/8kzh5yckv04jn5pgencep280k) for the 78th-minute Fred–İsmail Yüksek substitution
 - TFF [Gaziantep-Fatih Karagümrük](https://www.tff.org/Default.aspx?macId=283774&pageID=528) and [Başakşehir-Göztepe](https://www.tff.org/Default.aspx?macId=283775&pageID=528) match sheets, with the [Gaziantep FK match report](https://www.gaziantepfk.org/haberler/mac-sonucu-gaziantep-1-1-fatih-karagumruk) and [Sahadan event log](https://www.sahadan.com/mac/basaksehir-vs-goztepe/9lwijsfyxlm81k44ybwiriz9w/anlatim) for same-minute pairings and injury causes
 - TFF [Antalyaspor-Gaziantep](https://www.tff.org/Default.aspx?macId=283784&pageID=528) and [Fatih Karagümrük-Fenerbahçe](https://www.tff.org/Default.aspx?macId=283785&pageID=29) match sheets, the [DHA Antalyaspor-Gaziantep report](https://www.dha.com.tr/spor/hesap-com-antalyaspor-gaziantep-fk-1-4-2836198), and [Sport.pl event timeline](https://wyniki.sport.pl/pilka-nozna/Super-Lig-71/Fatih-Karagumruk-Fenerbahce-4842544) for same-minute substitution pairings
