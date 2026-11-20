@@ -208,7 +208,7 @@ VALUES
     (283606, 71, N'KEVIN CSOBOTH', N'substituted_in_home', N'GÖKTAN GÜRPÜZ', N'substituted_out_home', 0),
     (283606, 88, N'NIHAD MUJAKIC', N'substituted_in_away', N'CENGİZ UMUT MERAŞ', N'substituted_out_away', 0),
     (283614, 90, N'OĞUZ AYDIN', N'substituted_in_home', N'DORGELES NENE', N'substituted_out_home', 0),
-    (283614, 25, N'SAMUEL LEO BEAT BALLET', N'substituted_in_away', N'ABDÜLKADİR ÖMÜR', N'substituted_out_away', 0),
+    (283614, 25, N'SAMUEL LEO BEAT BALLET', N'substituted_in_away', N'ABDÜLKADİR ÖMÜR', N'substituted_out_away', 1),
     (283618, 27, N'JESPER ISMAILA CEESAY', N'substituted_in_home', N'HASAN YAKUB İLÇİN', N'substituted_out_home', 0),
     (283618, 80, N'DOĞUKAN SİNİK', N'substituted_in_home', N'SONER DİKMEN', N'substituted_out_home', 0),
     (283618, 65, N'MIHAI-VALENTIN MIHAILA', N'substituted_in_away', N'EMRECAN BULUT', N'substituted_out_away', 0),
