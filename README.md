@@ -49,6 +49,7 @@ A relational database project for clubs, players, matches, and match events in T
 - `sql/turkish-super-league-match-event-substitutions-supplement-17.sql` adds two pairings confirmed by match reports for Konyaspor-Gaziantep (TFF match 283564).
 - `sql/turkish-super-league-match-event-substitutions-supplement-18.sql` adds four pairings confirmed by match reports for Alanyaspor-Rizespor (TFF match 283566).
 - `sql/turkish-super-league-match-event-substitutions-supplement-19.sql` adds four pairings confirmed by match reports for Fenerbahçe-Kocaelispor (TFF match 283578).
+- `sql/turkish-super-league-match-event-substitutions-supplement-20.sql` adds four pairings confirmed by match reports for Kocaelispor-Kayserispor (TFF match 283589).
 - Match-event participants must have an appearance in that match. Run `dbo.assert_match_event_subtypes_complete` after data loading to verify every event has exactly one goal, card, or substitution subtype.
 - The scripts have not yet been executed against SQL Server.
 - The selected sample season is 2025-2026.
@@ -56,7 +57,7 @@ A relational database project for clubs, players, matches, and match events in T
 - All 306 TFF fixture results reconcile with the computed final records for the 18 clubs; all 306 linked match details now confirm the score and goal-event total.
 - The [TFF detail page for Alanyaspor 1-3 Eyüpspor](https://www.tff.org/Default.aspx?macId=283725&pageID=29), which timed out in an earlier review, is now accessible and exposes its lineups, goals, cards, and substitution minutes.
 - TFF goal type codes are `F` (foot), `H` (header), `K` (own goal), and `P` (penalty); card colours are yellow and red.
-- Include numbered first-team players. Exclude unnumbered academy entries, while retaining unnumbered players whose 2025-2026 loan is confirmed by TFF. All 599 selected roster rows have birth date, nationality, position, and a professional contract period overlapping the season, matched to TFF records and the supplied squad screenshots. The additional 18 participant profiles are sourced from TFF match sheets; no professional contract row is added where no season-overlapping contract is recorded. Coach profiles and season coaching periods are prepared. All 29 main referees have profiles. Source-backed match data is prepared for all 306 fixtures. Match-event data has appearance, goal, and card records for all fixtures. The first 202 fixtures have 1,758 sourced substitution records; the remaining 104-fixture pool has 509 sourced and 435 unresolved substitution records (198 same-minute groups), for 2,267 sourced substitutions total so far. TFF match-sheet player links expose license numbers for matching participants to roster records. For `appearance`, use starters and substitutes who entered; do not count unused substitutes. Store stoppage notation as elapsed integer minutes (`45+12` as `57`, `90+4` as `94`). Use a supplementary match report to verify same-minute substitution pairings and substitution causes.
+- Include numbered first-team players. Exclude unnumbered academy entries, while retaining unnumbered players whose 2025-2026 loan is confirmed by TFF. All 599 selected roster rows have birth date, nationality, position, and a professional contract period overlapping the season, matched to TFF records and the supplied squad screenshots. The additional 18 participant profiles are sourced from TFF match sheets; no professional contract row is added where no season-overlapping contract is recorded. Coach profiles and season coaching periods are prepared. All 29 main referees have profiles. Source-backed match data is prepared for all 306 fixtures. Match-event data has appearance, goal, and card records for all fixtures. The first 202 fixtures have 1,758 sourced substitution records; the remaining 104-fixture pool has 513 sourced and 431 unresolved substitution records (196 same-minute groups), for 2,271 sourced substitutions total so far. TFF match-sheet player links expose license numbers for matching participants to roster records. For `appearance`, use starters and substitutes who entered; do not count unused substitutes. Store stoppage notation as elapsed integer minutes (`45+12` as `57`, `90+4` as `94`). Use a supplementary match report to verify same-minute substitution pairings and substitution causes.
 - Do not use a post-2025-2026 contract start date as the historical season contract. Omit players without a season-overlapping professional contract from the contracted roster and do not create contract rows for them; retain profiles required by official match-sheet appearances.
 - The league-table view applies TFF head-to-head tie-break rules while keeping the proposal and EER table set unchanged.
 
@@ -92,6 +93,7 @@ A relational database project for clubs, players, matches, and match events in T
 - `sql/turkish-super-league-match-event-substitutions-supplement-17.sql`: load two report-confirmed pairings for Konyaspor-Gaziantep.
 - `sql/turkish-super-league-match-event-substitutions-supplement-18.sql`: load four report-confirmed pairings for Alanyaspor-Rizespor.
 - `sql/turkish-super-league-match-event-substitutions-supplement-19.sql`: load four report-confirmed pairings for Fenerbahçe-Kocaelispor.
+- `sql/turkish-super-league-match-event-substitutions-supplement-20.sql`: load four report-confirmed pairings for Kocaelispor-Kayserispor.
 - `sql/turkish-super-league-integrity.sql`: apply subtype and goal-lineup integrity rules.
 - `sql/turkish-super-league-reports.sql`: create the league table, top scorers, cards by club, and player club history views.
 
@@ -128,7 +130,8 @@ A relational database project for clubs, players, matches, and match events in T
 29. Run `sql/turkish-super-league-match-event-substitutions-supplement-17.sql` after supplement 16.
 30. Run `sql/turkish-super-league-match-event-substitutions-supplement-18.sql` after supplement 17.
 31. Run `sql/turkish-super-league-match-event-substitutions-supplement-19.sql` after supplement 18.
-32. After all appearance and event scripts are loaded, run the event-subtype assertion:
+32. Run `sql/turkish-super-league-match-event-substitutions-supplement-20.sql` after supplement 19.
+33. After all appearance and event scripts are loaded, run the event-subtype assertion:
 
 ```sql
 EXEC dbo.assert_match_event_subtypes_complete;
