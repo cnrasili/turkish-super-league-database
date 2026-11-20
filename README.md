@@ -42,17 +42,29 @@ Four views answer the questions in the proposal:
 
 ## Setup
 
-1. Create an empty database and run `sql/turkish-super-league-schema.sql`, then `sql/turkish-super-league-integrity.sql`.
-2. Load the reference, player, participant-profile, coach/referee and match data, in that order.
-3. Load the match events: the sample fixture, the three progress batches, the substitution script and its 60 supplements, then the card supplement.
-4. Run `sql/turkish-super-league-reports.sql` and verify the load:
+Create an empty database and run the scripts in `sql/` in file-name order:
+
+| File | Loads |
+|---|---|
+| `01-schema.sql` | Tables, keys and check constraints |
+| `02-integrity.sql` | Triggers and the subtype assertion |
+| `03-reference-data.sql` | Season, clubs, colours and stadiums |
+| `04-players.sql` | 617 player profiles and 608 contracts |
+| `05-staff.sql` | Coaches, coaching periods and referees |
+| `06-matches.sql` | The 306 fixtures |
+| `07-appearances.sql` | The 9,434 lineup entries |
+| `08-goals-cards.sql` | 812 goals and 1,428 cards |
+| `09-substitutions.sql` | 2,702 substitutions |
+| `10-reports.sql` | The four report views |
+
+Then verify the load:
 
 ```sql
 EXEC dbo.assert_match_event_subtypes_complete;
 SELECT * FROM dbo.vw_league_table ORDER BY league_position;
 ```
 
-The scripts must run in the order above, and the event supplements in their file-name order. Every data script guards its prerequisites and fails rather than loading out of sequence. Base tables have no guaranteed row order, so use `ORDER BY` in queries.
+Every data script guards its prerequisites and fails rather than loading out of sequence, so a mistaken order stops instead of producing partial data. Base tables have no guaranteed row order, so use `ORDER BY` in queries.
 
 ## Validation
 
@@ -75,7 +87,7 @@ Each script header carries the source links for the fixtures it covers. The per-
 
 ## Repository Layout
 
-- `sql/`: schema, integrity, report and data scripts
+- `sql/`: ten numbered scripts, from schema to report views
 - `DATA_NOTES.md`: local provenance and audit notes, excluded from version control
 - `documents/`: proposal and EER PDFs, excluded from version control
 - `review-assets/`: local page renders, excluded from version control
