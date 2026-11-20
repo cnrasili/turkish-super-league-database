@@ -41,7 +41,7 @@ INSERT INTO @SubstitutionInput (
 VALUES
     (283838, 69, N'MATHIAS JOHAN FJORTOFT LOVIK', N'substituted_in_home', N'SALİH MALKOÇOĞLU', N'substituted_out_home', 0),
     (283838, 69, N'OLEKSANDR ZUBKOV', N'substituted_in_home', N'BENJAMIN BOUCHOUARI', N'substituted_out_home', 0),
-    (283838, 76, N'MUSAH MOHAMMED', N'substituted_in_away', N'ANTHONY JUNIOR DENNIS', N'substituted_out_away', 0),
+    (283838, 76, N'MUSAH MOHAMMED', N'substituted_in_away', N'ANTHONY JUNIOR DENNIS', N'substituted_out_away', 1),
     (283838, 76, N'FILIP YAVOROV KRASTEV', N'substituted_in_away', N'ALEXIS ANTUNES GOMEZ', N'substituted_out_away', 0),
     (283838, 88, N'GUILERME LUIZ OLIVEIRA DA SILVA', N'substituted_in_away', N'JUAN SANTOS DA SILVA', N'substituted_out_away', 0),
     (283838, 88, N'JEFERSON MARINHO DOS SANTOS', N'substituted_in_away', N'JANDERSON DE CARVALHO COSTA', N'substituted_out_away', 0),

@@ -29,13 +29,13 @@ INSERT INTO @SubstitutionInput (
     is_injury
 )
 VALUES
-    (283582, 4, N'Hesap.com Antalyaspor', N'Mısırlı.com.tr Fatih Karagümrük', 63, N'DARIO SARIC', N'substituted_in_home', N'ABDÜLKADİR ÖMÜR', N'substituted_out_home', 0),
-    (283582, 4, N'Hesap.com Antalyaspor', N'Mısırlı.com.tr Fatih Karagümrük', 63, N'JAKUB KALUZINSKI', N'substituted_in_home', N'BÜNYAMİN BALCI', N'substituted_out_home', 0),
+    (283582, 4, N'Hesap.com Antalyaspor', N'Mısırlı.com.tr Fatih Karagümrük', 63, N'DARIO SARIC', N'substituted_in_home', N'ABDÜLKADİR ÖMÜR', N'substituted_out_home', 1),
+    (283582, 4, N'Hesap.com Antalyaspor', N'Mısırlı.com.tr Fatih Karagümrük', 63, N'JAKUB KALUZINSKI', N'substituted_in_home', N'BÜNYAMİN BALCI', N'substituted_out_home', 1),
     (283582, 4, N'Hesap.com Antalyaspor', N'Mısırlı.com.tr Fatih Karagümrük', 85, N'MERT YILMAZ', N'substituted_in_home', N'GÜRAY VURAL', N'substituted_out_home', 0),
     (283582, 4, N'Hesap.com Antalyaspor', N'Mısırlı.com.tr Fatih Karagümrük', 85, N'ENGİN POYRAZ EFE YILDIRIM', N'substituted_in_home', N'TOMAS CVANCARA', N'substituted_out_home', 0),
     (283582, 4, N'Hesap.com Antalyaspor', N'Mısırlı.com.tr Fatih Karagümrük', 71, N'ÇAĞTAY KURUKALIP', N'substituted_in_away', N'TARIK BUĞRA KALPAKLI', N'substituted_out_away', 0),
     (283582, 4, N'Hesap.com Antalyaspor', N'Mısırlı.com.tr Fatih Karagümrük', 71, N'BERKAY ÖZCAN', N'substituted_in_away', N'SERGIO ANTONIO DA LUZ JUNIOR', N'substituted_out_away', 0),
-    (283582, 4, N'Hesap.com Antalyaspor', N'Mısırlı.com.tr Fatih Karagümrük', 92, N'FATİH KURUCUK', N'substituted_in_away', N'ANIL YİĞİT ÇINAR', N'substituted_out_away', 0),
+    (283582, 4, N'Hesap.com Antalyaspor', N'Mısırlı.com.tr Fatih Karagümrük', 92, N'FATİH KURUCUK', N'substituted_in_away', N'ANIL YİĞİT ÇINAR', N'substituted_out_away', 1),
     (283582, 4, N'Hesap.com Antalyaspor', N'Mısırlı.com.tr Fatih Karagümrük', 92, N'NIKOLOZ UGREKHELIDZE', N'substituted_in_away', N'BARIŞ JAKOB KALAYCI', N'substituted_out_away', 0);
 
 IF (SELECT COUNT(*) FROM @SubstitutionInput) <> 8

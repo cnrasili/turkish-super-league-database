@@ -56,7 +56,7 @@ VALUES
     (283802, 91, N'MUSAH MOHAMMED', N'substituted_in_away', N'ANTHONY JUNIOR DENNIS', N'substituted_out_away', 0),
     (283802, 91, N'EFKAN BEKİROĞLU', N'substituted_in_away', N'FILIP YAVOROV KRASTEV', N'substituted_out_away', 0),
     (283811, 78, N'ARDA KIZILDAĞ', N'substituted_in_away', N'LUIS JESUS PEREZ MAQUEDA', N'substituted_out_away', 0),
-    (283811, 78, N'NIHAD MUJAKIC', N'substituted_in_away', N'CHRISTOPHER LUNGOYI', N'substituted_out_away', 0),
+    (283811, 78, N'NIHAD MUJAKIC', N'substituted_in_away', N'CHRISTOPHER LUNGOYI', N'substituted_out_away', 1),
     (283811, 90, N'IOANNIS PAPANIKOLAOU', N'substituted_in_home', N'TAYLAN ANTALYALI', N'substituted_out_home', 0),
     (283811, 90, N'FRANTZDY PIERROT', N'substituted_in_home', N'ALI SOWE', N'substituted_out_home', 0),
     (283811, 90, N'MUHAMMET TAHA ŞAHİN', N'substituted_in_home', N'MIHAI-VALENTIN MIHAILA', N'substituted_out_home', 0),

@@ -49,7 +49,7 @@ VALUES
     (283589, 74, N'KAYRA CİHAN', N'substituted_in_away', N'ABDULSAMET BURAK', N'substituted_out_away', 0),
     (283644, 68, N'EMRE AKBABA', N'substituted_in_home', N'YALÇIN KAYAN', N'substituted_out_home', 0),
     (283644, 68, N'TAŞKIN İLTER', N'substituted_in_home', N'MATEUSZ JACEK LEGOWSKI', N'substituted_out_home', 0),
-    (283665, 75, N'NICOLAS JEAN PAUL NOEL JANVIER', N'substituted_in_home', N'ANTONIO SIMAO MUANZA', N'substituted_out_home', 0),
+    (283665, 75, N'NICOLAS JEAN PAUL NOEL JANVIER', N'substituted_in_home', N'ANTONIO SIMAO MUANZA', N'substituted_out_home', 1),
     (283665, 75, N'İBRAHİM KAYA', N'substituted_in_home', N'FLORENT HADERGJONAJ', N'substituted_out_home', 0),
     (283665, 75, N'STEVE MICHEL KEVİN MOUNIE', N'substituted_in_home', N'MESCHACK ELIA LINA', N'substituted_out_home', 0),
     (283681, 89, N'VACLAV JURECKA', N'substituted_in_away', N'ALI SOWE', N'substituted_out_away', 0),

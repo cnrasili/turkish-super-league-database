@@ -41,7 +41,7 @@ VALUES
     (283722, 64, N'BARTUĞ ELMAZ', N'substituted_in_home', N'MARUIS TRESOR DOH', N'substituted_out_home', 0),
     (283722, 64, N'KAZIMCAN KARATAŞ', N'substituted_in_away', N'ISMAIL JOSHUA JAKOBS', N'substituted_out_away', 0),
     (283722, 64, N'EVREN EREN ELMALI', N'substituted_in_away', N'YUNUS AKGÜN', N'substituted_out_away', 0),
-    (283729, 56, N'OGÜN BAYRAK', N'substituted_in_home', N'ARDA OKAN KURTULAN', N'substituted_out_home', 0),
+    (283729, 56, N'OGÜN BAYRAK', N'substituted_in_home', N'ARDA OKAN KURTULAN', N'substituted_out_home', 1),
     (283729, 56, N'NOVATUS DISMAS MIROSHI', N'substituted_in_home', N'EFKAN BEKİROĞLU', N'substituted_out_home', 0),
     (283733, 65, N'KAAN AYHAN', N'substituted_in_home', N'ABDÜLKERİM BARDAKCI', N'substituted_out_home', 0),
     (283733, 65, N'MAURO EMANUEL ICARDI', N'substituted_in_home', N'MARIO RENE JUNIOR LEMINA', N'substituted_out_home', 0),

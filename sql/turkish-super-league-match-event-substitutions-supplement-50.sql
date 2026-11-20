@@ -57,7 +57,7 @@ VALUES
     (283818, 81, N'STEVE MICHEL KEVİN MOUNIE', N'substituted_in_away', N'İBRAHİM KAYA', N'substituted_out_away', 0),
     (283818, 81, N'ENES KESKİN', N'substituted_in_away', N'RUAN PEREIRA DUARTE', N'substituted_out_away', 0),
     (283820, 89, N'KAROL LINETTY', N'substituted_in_home', N'HABIB ALI KEITA', N'substituted_out_home', 0),
-    (283820, 89, N'MAHAMADOU SUSOHO SISSOHO', N'substituted_in_home', N'AHMET OĞUZ', N'substituted_out_home', 0),
+    (283820, 89, N'MAHAMADOU SUSOHO SISSOHO', N'substituted_in_home', N'AHMET OĞUZ', N'substituted_out_home', 1),
     (283820, 71, N'ALEXIS ANTUNES GOMEZ', N'substituted_in_away', N'EFKAN BEKİROĞLU', N'substituted_out_away', 0),
     (283820, 71, N'MUSAH MOHAMMED', N'substituted_in_away', N'ANTHONY JUNIOR DENNIS', N'substituted_out_away', 0),
     (283820, 77, N'GUILERME LUIZ OLIVEIRA DA SILVA', N'substituted_in_away', N'JUAN SANTOS DA SILVA', N'substituted_out_away', 0),

@@ -48,10 +48,10 @@ VALUES
     (283740, 80, N'MAURO EMANUEL ICARDI', N'substituted_in_away', N'LUCAS SEBASTIAN TORREIRA DI PASCUA', N'substituted_out_away', 0),
     (283747, 75, N'PAPE HABIB GUEYE', N'substituted_in_home', N'İRFAN CAN KAHVECİ', N'substituted_out_home', 0),
     (283747, 75, N'FOUSSENI DIABATE', N'substituted_in_home', N'CENK TOSUN', N'substituted_out_home', 0),
-    (283747, 75, N'RIBEIRO DIAS CARLOS MIGUEL', N'substituted_in_home', N'KEREM DEMİRBAY', N'substituted_out_home', 0),
+    (283747, 75, N'RIBEIRO DIAS CARLOS MIGUEL', N'substituted_in_home', N'KEREM DEMİRBAY', N'substituted_out_home', 1),
     (283751, 75, N'MUSAH MOHAMMED', N'substituted_in_home', N'ANTHONY JUNIOR DENNIS', N'substituted_out_home', 0),
     (283751, 75, N'UĞUR KAAN YILDIZ', N'substituted_in_home', N'OGÜN BAYRAK', N'substituted_out_home', 0),
-    (283751, 66, N'MEHMET ERAY ÖZBEK', N'substituted_in_away', N'RAMAZAN CİVELEK', N'substituted_out_away', 0),
+    (283751, 66, N'MEHMET ERAY ÖZBEK', N'substituted_in_away', N'RAMAZAN CİVELEK', N'substituted_out_away', 1),
     (283751, 66, N'FEDOR CHALOV', N'substituted_in_away', N'MIGUEL FILIPE NUNES CARDOSO', N'substituted_out_away', 0);
 
 IF (SELECT COUNT(*) FROM @SubstitutionInput) <> 16

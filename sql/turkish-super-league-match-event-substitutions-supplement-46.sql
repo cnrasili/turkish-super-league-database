@@ -42,8 +42,8 @@ INSERT INTO @SubstitutionInput (
 VALUES
     (61, N'JUAN SANTOS DA SILVA', N'GUILERME LUIZ OLIVEIRA DA SILVA', 0),
     (61, N'JEFERSON MARINHO DOS SANTOS', N'JANDERSON DE CARVALHO COSTA', 0),
-    (81, N'UĞUR KAAN YILDIZ', N'ARDA OKAN KURTULAN', 0),
-    (81, N'İSMAİL KÖYBAŞI', N'EFKAN BEKİROĞLU', 0);
+    (81, N'UĞUR KAAN YILDIZ', N'ARDA OKAN KURTULAN', 1),
+    (81, N'İSMAİL KÖYBAŞI', N'EFKAN BEKİROĞLU', 1);
 
 IF (SELECT COUNT(*) FROM @SubstitutionInput) <> 4
     THROW 514602, 'Expected four report-confirmed substitutions.', 1;

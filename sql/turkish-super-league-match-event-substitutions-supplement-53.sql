@@ -39,7 +39,7 @@ INSERT INTO @SubstitutionInput (
     is_injury
 )
 VALUES
-    (283828, 56, N'CLAUDIO MATIAS KRANEVITTER', N'substituted_in_away', N'SAM ANDREAS LARSSON', N'substituted_out_away', 0),
+    (283828, 56, N'CLAUDIO MATIAS KRANEVITTER', N'substituted_in_away', N'SAM ANDREAS LARSSON', N'substituted_out_away', 1),
     (283828, 56, N'SHAVY WARREN BABICKA', N'substituted_in_away', N'AHMED TRAORE', N'substituted_out_away', 0),
     (283828, 77, N'ANIL YİĞİT ÇINAR', N'substituted_in_away', N'SERGIO ANTONIO DA LUZ JUNIOR', N'substituted_out_away', 0),
     (283828, 77, N'ÇAĞTAY KURUKALIP', N'substituted_in_away', N'BARIŞ JAKOB KALAYCI', N'substituted_out_away', 0),

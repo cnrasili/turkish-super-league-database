@@ -21,7 +21,7 @@ INSERT INTO @SubstitutionInput (
     is_injury
 )
 VALUES
-    (85, N'MERT YILMAZ', N'substituted_in_home', N'SONER DİKMEN', N'substituted_out_home', 0),
+    (85, N'MERT YILMAZ', N'substituted_in_home', N'SONER DİKMEN', N'substituted_out_home', 1),
     (85, N'HASAN YAKUB İLÇİN', N'substituted_in_home', N'ALEXANDER GERARD VAN DE STREEK', N'substituted_out_home', 0),
     (85, N'ENGİN POYRAZ EFE YILDIRIM', N'substituted_in_home', N'TOMAS CVANCARA', N'substituted_out_home', 0),
     (85, N'CEM ÜSTÜNDAĞ', N'substituted_in_away', N'RIBEIRO DIAS CARLOS MIGUEL', N'substituted_out_away', 0),
