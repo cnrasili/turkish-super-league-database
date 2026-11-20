@@ -1351,7 +1351,10 @@ VALUES
     (283604, N'ISHOLA JUNIOR OLAITAN', 1),
     (283604, N'MOHAMMED AMIN CHERNI', 1),
     (283604, N'MALCOM NARCISSE BOKELE MPUTU', 1),
-    (283604, N'ANTHONY JUNIOR DENNIS', 1),
+    (283604, N'ANTHONY JUNIOR DENNIS', 1);
+
+INSERT INTO @AppearanceInput (source_match_id, player_name, is_starter)
+VALUES
     (283604, N'JANDERSON DE CARVALHO COSTA', 1),
     (283604, N'TAHA ALTIKARDEŞ', 0),
     (283604, N'NOVATUS DISMAS MIROSHI', 0),
@@ -2251,7 +2254,10 @@ VALUES
     (283642, N'MATEJ HANOUSEK', 1),
     (283642, N'MBAYE HAMADY NIANG', 1),
     (283642, N'OĞULCAN ÜLGÜN', 1),
-    (283642, N'FRANCO DARYL TONGYA HEUBANG', 1),
+    (283642, N'FRANCO DARYL TONGYA HEUBANG', 1);
+
+INSERT INTO @AppearanceInput (source_match_id, player_name, is_starter)
+VALUES
     (283642, N'SEKOU KOITA', 0),
     (283642, N'ABDURRAHİM DURSUN', 0),
     (283642, N'METEHAN MİMAROĞLU', 0),
@@ -3151,7 +3157,10 @@ VALUES
     (283682, N'KACPER SZYMON KOZLOWSKI', 1),
     (283682, N'ALEXANDRU IULIAN MAXIM', 1),
     (283682, N'MOHAMED LAMINE BAYO', 1),
-    (283682, N'SEMİH GÜLER', 0),
+    (283682, N'SEMİH GÜLER', 0);
+
+INSERT INTO @AppearanceInput (source_match_id, player_name, is_starter)
+VALUES
     (283682, N'YUSUF KARHAN KABADAYI', 0),
     (283682, N'PAPA ALIOUNE NDIAYE', 0),
     (283683, N'MAHMUT ERTUĞRUL TAŞKIRAN', 1),
@@ -4051,7 +4060,10 @@ VALUES
     (283726, N'DENİZ TÜRÜÇ', 1),
     (283726, N'ENIS BARDHI', 1),
     (283726, N'GUILHERME HAUBERT SITYA', 1),
-    (283726, N'BERKAN İSMAİL KUTLU', 1),
+    (283726, N'BERKAN İSMAİL KUTLU', 1);
+
+INSERT INTO @AppearanceInput (source_match_id, player_name, is_starter)
+VALUES
     (283726, N'RIECHEDLY GUILLERMO BAZOER', 1),
     (283726, N'JACKSON KYANVUBU MULEKA', 1),
     (283726, N'MORTEN BJORLO', 1),
@@ -4951,7 +4963,10 @@ VALUES
     (283768, N'SAMET AKAYDİN', 1),
     (283768, N'CASPER SOMMER HOJER', 1),
     (283768, N'MIHAI-VALENTIN MIHAILA', 1),
-    (283768, N'OLASUNKANMI IBRAHIM OLAWOYIN', 1),
+    (283768, N'OLASUNKANMI IBRAHIM OLAWOYIN', 1);
+
+INSERT INTO @AppearanceInput (source_match_id, player_name, is_starter)
+VALUES
     (283768, N'HALİL İBRAHİM DERVİŞOĞLU', 1),
     (283768, N'TAYLAN ANTALYALI', 1),
     (283768, N'ADEDIRE EMMANUEL OLUWATOFUNMI AWOKOYA-MEBUDE', 1),
@@ -5851,7 +5866,10 @@ VALUES
     (283815, N'UMUT DİLAN BOZOK', 1),
     (283815, N'TALHA ÜLVAN', 0),
     (283815, N'ABDOU KHADRE SY', 0),
-    (283815, N'BEDİRHAN ÖZYURT', 0),
+    (283815, N'BEDİRHAN ÖZYURT', 0);
+
+INSERT INTO @AppearanceInput (source_match_id, player_name, is_starter)
+VALUES
     (283815, N'LENNY JEAN PIERRE PINTOR', 0),
     (283815, N'JEROME JUNIOR ONGUENE', 0),
     (283817, N'OKAN KOCUK', 1),
@@ -6696,15 +6714,15 @@ VALUES
     (283568, 2, 39, N'card', N'ALLAN GODOI SANTOS', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283568, 3, 41, N'card', N'JHON JADER DURAN PALACIOS', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283568, 4, 43, N'card', N'ARDA OKAN KURTULAN', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
-    (283568, 5, 62, N'card', N'JUAN SANTOS DA SILVA', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
-    (283568, 6, 65, N'card', N'İSMAİL KÖYBAŞI', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
+    (283568, 5, 62, N'card', N'JUAN SANTOS DA SILVA', N'carded_home', NULL, NULL, NULL, N'red', NULL),
+    (283568, 6, 65, N'card', N'İSMAİL KÖYBAŞI', N'carded_home', NULL, NULL, NULL, N'red', NULL),
     (283568, 7, 70, N'substitution', N'EMERSONN', N'substituted_in_home', N'JANDERSON DE CARVALHO COSTA', N'substituted_out_home', NULL, NULL, 0),
     (283568, 8, 70, N'substitution', N'NOVATUS DISMAS MIROSHI', N'substituted_in_home', N'ISHOLA JUNIOR OLAITAN', N'substituted_out_home', NULL, NULL, 0),
     (283568, 9, 70, N'substitution', N'ANDERSON SOUZA CONCEIÇAO', N'substituted_in_away', N'FREDERICO RODRIGUES DE PAULA SANTOS', N'substituted_out_away', NULL, NULL, 0),
     (283568, 10, 75, N'substitution', N'İRFAN CAN KAHVECİ', N'substituted_in_away', N'JHON JADER DURAN PALACIOS', N'substituted_out_away', NULL, NULL, 0),
     (283568, 11, 75, N'substitution', N'OĞUZ AYDIN', N'substituted_in_away', N'NELSON CABRAL SEMEDO', N'substituted_out_away', NULL, NULL, 0),
     (283568, 12, 77, N'substitution', N'EFKAN BEKİROĞLU', N'substituted_in_home', N'ANTHONY JUNIOR DENNIS', N'substituted_out_home', NULL, NULL, 0),
-    (283568, 13, 85, N'card', N'JAYDEN QUINN OOSTERWOLDE', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
+    (283568, 13, 85, N'card', N'JAYDEN QUINN OOSTERWOLDE', N'carded_away', NULL, NULL, NULL, N'red', NULL),
     (283568, 14, 87, N'substitution', N'CENK TOSUN', N'substituted_in_away', N'YOUSSEF EN NESYRI', N'substituted_out_away', NULL, NULL, 0),
     (283568, 15, 89, N'card', N'MALCOM NARCISSE BOKELE MPUTU', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283568, 16, 90, N'substitution', N'TAHA ALTIKARDEŞ', N'substituted_in_home', N'ARDA OKAN KURTULAN', N'substituted_out_home', NULL, NULL, 0),
@@ -6971,7 +6989,7 @@ VALUES
     (283592, 8, 82, N'substitution', N'MILOT RASHICA', N'substituted_in_home', N'KEVIN OGHENETEGA TAMARAEBI BAKUMO ABRAHAM', N'substituted_out_home', NULL, NULL, 0),
     (283592, 9, 84, N'substitution', N'ONUR ERGÜN', N'substituted_in_away', N'MIGUEL CRESPO DA SILVA', N'substituted_out_away', NULL, NULL, 0),
     (283592, 10, 84, N'substitution', N'NUNO MIGUEL DA COSTA JOIA', N'substituted_in_away', N'ELDOR SHOMURODOV', N'substituted_out_away', NULL, NULL, 0),
-    (283592, 11, 89, N'card', N'OUSSEYNOU BA', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
+    (283592, 11, 89, N'card', N'OUSSEYNOU BA', N'carded_away', NULL, NULL, NULL, N'red', NULL),
     (283592, 12, 91, N'goal', N'CENGİZ ÜNDER', N'scorer_home', NULL, NULL, N'H', NULL, NULL),
     (283592, 13, 92, N'card', N'YUSUF SARI', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283592, 14, 93, N'substitution', N'ABBOSBEK FAYZULLAYEV', N'substituted_in_away', N'OLIVER MICHEL KEMEN', N'substituted_out_away', NULL, NULL, 0),
@@ -6995,13 +7013,13 @@ VALUES
     (283593, 14, 89, N'substitution', N'SAMET KARAKOÇ', N'substituted_in_away', N'RAMZI SAFURI', N'substituted_out_away', NULL, NULL, 0),
     (283593, 15, 98, N'card', N'MARIUS MOUNDILMADJI', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283593, 16, 98, N'card', N'JOSAFAT WOODING MENDES', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
-    (283594, 1, 31, N'goal', N'MUHAMMED İYYAD KADIOĞLU', N'scorer_home', NULL, NULL, N'K', NULL, NULL),
+    (283594, 1, 31, N'goal', N'MUHAMMED İYYAD KADIOĞLU', N'own_goal_by_home_player', NULL, NULL, N'K', NULL, NULL),
     (283594, 2, 46, N'substitution', N'TARIK BUĞRA KALPAKLI', N'substituted_in_home', N'MUHAMMED İYYAD KADIOĞLU', N'substituted_out_home', NULL, NULL, 0),
     (283594, 3, 59, N'substitution', N'JHON JAIRO', N'substituted_in_away', N'CLAUDIO WINCK NETO', N'substituted_out_away', NULL, NULL, 0),
     (283594, 4, 63, N'substitution', N'ANDRE ANTHONY GRAY', N'substituted_in_home', N'BARIŞ JAKOB KALAYCI', N'substituted_out_home', NULL, NULL, 0),
     (283594, 5, 63, N'substitution', N'MARUIS TRESOR DOH', N'substituted_in_home', N'BERKAY ÖZCAN', N'substituted_out_home', NULL, NULL, 0),
     (283594, 6, 64, N'substitution', N'RIBEIRO DIAS CARLOS MIGUEL', N'substituted_in_away', N'CEM ÜSTÜNDAĞ', N'substituted_out_away', NULL, NULL, 0),
-    (283594, 7, 76, N'card', N'PAPE HABIB GUEYE', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
+    (283594, 7, 76, N'card', N'PAPE HABIB GUEYE', N'carded_away', NULL, NULL, NULL, N'red', NULL),
     (283594, 8, 80, N'substitution', N'ALİ YAVUZ KOL', N'substituted_in_away', N'AHMED MORTADHA BEN OUANES', N'substituted_out_away', NULL, NULL, 0),
     (283594, 9, 80, N'substitution', N'ATAKAN MÜJDE', N'substituted_in_away', N'HARIS HAJRADINOVIC', N'substituted_out_away', NULL, NULL, 0),
     (283594, 10, 82, N'substitution', N'ÇAĞTAY KURUKALIP', N'substituted_in_home', N'SERGIO ANTONIO DA LUZ JUNIOR', N'substituted_out_home', NULL, NULL, 0),
@@ -7157,7 +7175,7 @@ VALUES
     (283608, 12, 86, N'substitution', N'İSMAİL KÖYBAŞI', N'substituted_in_away', N'JUAN SANTOS DA SILVA', N'substituted_out_away', NULL, NULL, 0),
     (283608, 13, 86, N'substitution', N'AHMED ILDIZ', N'substituted_in_away', N'RHALDNEY', N'substituted_out_away', NULL, NULL, 0),
     (283609, 1, 17, N'goal', N'ALASSANE NDAO', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
-    (283609, 2, 46, N'goal', N'JEROME OPOKU', N'scorer_away', NULL, NULL, N'K', NULL, NULL),
+    (283609, 2, 46, N'goal', N'JEROME OPOKU', N'own_goal_by_away_player', NULL, NULL, N'K', NULL, NULL),
     (283609, 3, 46, N'substitution', N'ÖMER ALİ ŞAHİNER', N'substituted_in_away', N'FESTY OSEIWE EBOSELE', N'substituted_out_away', NULL, NULL, 0),
     (283609, 4, 46, N'substitution', N'NUNO MIGUEL DA COSTA JOIA', N'substituted_in_away', N'IVAN BRNIC', N'substituted_out_away', NULL, NULL, 0),
     (283609, 5, 56, N'goal', N'ELDOR SHOMURODOV', N'scorer_away', NULL, NULL, N'F', NULL, NULL),
@@ -7165,7 +7183,7 @@ VALUES
     (283609, 7, 63, N'substitution', N'PEDRO HENRIQUE OLIVEIRA DOS SANTOS', N'substituted_in_home', N'JACKSON KYANVUBU MULEKA', N'substituted_out_home', NULL, NULL, 0),
     (283609, 8, 64, N'substitution', N'JAKUB KALUZINSKI', N'substituted_in_away', N'BERAT AYBERK ÖZDEMİR', N'substituted_out_away', NULL, NULL, 0),
     (283609, 9, 64, N'substitution', N'ABBOSBEK FAYZULLAYEV', N'substituted_in_away', N'YUSUF SARI', N'substituted_out_away', NULL, NULL, 0),
-    (283609, 10, 65, N'card', N'ENIS BARDHI', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
+    (283609, 10, 65, N'card', N'ENIS BARDHI', N'carded_home', NULL, NULL, NULL, N'red', NULL),
     (283609, 11, 68, N'substitution', N'MORTEN BJORLO', N'substituted_in_home', N'ALASSANE NDAO', N'substituted_out_home', NULL, NULL, 0),
     (283609, 12, 76, N'substitution', N'DENİZ TÜRÜÇ', N'substituted_in_away', N'AMINE HARIT', N'substituted_out_away', NULL, NULL, 0),
     (283609, 13, 82, N'substitution', N'JOSIP CALUSIC', N'substituted_in_home', N'MELİH İBRAHİMOĞLU', N'substituted_out_home', NULL, NULL, 0),
@@ -7234,7 +7252,7 @@ VALUES
     (283613, 9, 46, N'card', N'OKAN KOCUK', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283613, 10, 46, N'substitution', N'MARIUS MOUNDILMADJI', N'substituted_in_away', N'TANGUY BEMIN COULIBALY', N'substituted_out_away', NULL, NULL, 0),
     (283613, 11, 46, N'substitution', N'TONI BOREVKOVIC', N'substituted_in_away', N'LUBOMİR SATKA', N'substituted_out_away', NULL, NULL, 0),
-    (283613, 12, 48, N'card', N'PAPE CHERIF NDIAYE', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
+    (283613, 12, 48, N'card', N'PAPE CHERIF NDIAYE', N'carded_away', NULL, NULL, NULL, N'red', NULL),
     (283613, 13, 49, N'card', N'TANGUY BEMIN COULIBALY', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283613, 14, 66, N'card', N'ZEKİ YAVRU', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283613, 15, 66, N'substitution', N'SONER GÖNÜL', N'substituted_in_away', N'ANTHONY TİTE EMMANUEL MUSABA', N'substituted_out_away', NULL, NULL, 0),
@@ -7406,7 +7424,7 @@ VALUES
     (283628, 6, 75, N'card', N'EMİRHAN TOPÇU', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283628, 7, 78, N'substitution', N'DAVID JURASEK', N'substituted_in_home', N'RIDVAN YILMAZ', N'substituted_out_home', NULL, NULL, 0),
     (283628, 8, 78, N'substitution', N'JOAO PEDRO FERREIRA DA SILVA', N'substituted_in_home', N'KEVIN OGHENETEGA TAMARAEBI BAKUMO ABRAHAM', N'substituted_out_home', NULL, NULL, 0),
-    (283628, 9, 79, N'goal', N'DAVID JURASEK', N'scorer_home', NULL, NULL, N'K', NULL, NULL),
+    (283628, 9, 79, N'goal', N'DAVID JURASEK', N'own_goal_by_home_player', NULL, NULL, N'K', NULL, NULL),
     (283628, 10, 81, N'goal', N'FRANCO DARYL TONGYA HEUBANG', N'scorer_away', NULL, NULL, N'F', NULL, NULL),
     (283628, 11, 82, N'card', N'FRANCO DARYL TONGYA HEUBANG', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283628, 12, 88, N'substitution', N'KEVIN CSOBOTH', N'substituted_in_away', N'FRANCO DARYL TONGYA HEUBANG', N'substituted_out_away', NULL, NULL, 0),
@@ -7525,7 +7543,7 @@ VALUES
     (283635, 13, 94, N'substitution', N'EMRE TAŞDEMİR', N'substituted_in_home', N'MAMADOU FALL', N'substituted_out_home', NULL, NULL, 0),
     (283636, 1, 5, N'card', N'MIGUEL CRESPO DA SILVA', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283636, 2, 22, N'goal', N'ELDOR SHOMURODOV', N'scorer_away', NULL, NULL, N'F', NULL, NULL),
-    (283636, 3, 44, N'card', N'DOĞUKAN SİNİK', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
+    (283636, 3, 44, N'card', N'DOĞUKAN SİNİK', N'carded_home', NULL, NULL, NULL, N'red', NULL),
     (283636, 4, 46, N'substitution', N'ENGİN POYRAZ EFE YILDIRIM', N'substituted_in_home', N'MOUHAMED EL BACHIR GUEYE', N'substituted_out_home', NULL, NULL, 0),
     (283636, 5, 49, N'goal', N'NUNO MIGUEL DA COSTA JOIA', N'scorer_away', NULL, NULL, N'F', NULL, NULL),
     (283636, 6, 53, N'goal', N'NUNO MIGUEL DA COSTA JOIA', N'scorer_away', NULL, NULL, N'H', NULL, NULL),
@@ -7544,7 +7562,14 @@ VALUES
     (283637, 1, 12, N'goal', N'FELIPE AUGUSTO DA SILVA', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
     (283637, 2, 15, N'card', N'ERNEST MUÇİ', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283637, 3, 31, N'substitution', N'CENGİZ UMUT MERAŞ', N'substituted_in_away', N'LUCCAS CLARO DOS SANTOS', N'substituted_out_away', NULL, NULL, 0),
-    (283637, 4, 46, N'card', N'STEFAN SAVIC', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
+    (283637, 4, 46, N'card', N'STEFAN SAVIC', N'carded_home', NULL, NULL, NULL, N'yellow', NULL);
+
+INSERT INTO @EventInput (
+    source_match_id, event_no, minute, event_type,
+    player_1_name, player_1_role, player_2_name, player_2_role,
+    goal_type, card_colour, is_injury
+)
+VALUES
     (283637, 5, 51, N'goal', N'CHRIST RAVYNEL INAO OULAI', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
     (283637, 6, 57, N'card', N'TIM LUCA PACO JABOL - FOLCARELLI', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283637, 7, 64, N'substitution', N'TARAS STEPANENKO', N'substituted_in_away', N'MATEUSZ JACEK LEGOWSKI', N'substituted_out_away', NULL, NULL, 0),
@@ -7593,7 +7618,7 @@ VALUES
     (283641, 1, 6, N'goal', N'EFKAN BEKİROĞLU', N'scorer_away', NULL, NULL, N'F', NULL, NULL),
     (283641, 2, 16, N'card', N'DAVINSON SANCHEZ MINA', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283641, 3, 19, N'goal', N'VICTOR JAMES OSIMHEN', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
-    (283641, 4, 42, N'card', N'MALCOM NARCISSE BOKELE MPUTU', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
+    (283641, 4, 42, N'card', N'MALCOM NARCISSE BOKELE MPUTU', N'carded_away', NULL, NULL, NULL, N'red', NULL),
     (283641, 5, 46, N'substitution', N'MAURO EMANUEL ICARDI', N'substituted_in_home', N'BARIŞ ALPER YILMAZ', N'substituted_out_home', NULL, NULL, 0),
     (283641, 6, 46, N'substitution', N'TAHA ALTIKARDEŞ', N'substituted_in_away', N'FURKAN BAYIR', N'substituted_out_away', NULL, NULL, 0),
     (283641, 7, 46, N'substitution', N'NOVATUS DISMAS MIROSHI', N'substituted_in_away', N'RHALDNEY', N'substituted_out_away', NULL, NULL, 0),
@@ -7622,7 +7647,7 @@ VALUES
     (283642, 14, 92, N'substitution', N'MÜCAHİT İBRAHİMOĞLU', N'substituted_in_away', N'JINHO JO', N'substituted_out_away', NULL, NULL, 0),
     (283642, 15, 94, N'card', N'PEDRO MIGUEL DE ALMEIDA LOPES PEREIRA', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283642, 16, 94, N'card', N'MORTEN BJORLO', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
-    (283642, 17, 97, N'card', N'THALISSON KELVEN DA SILVA', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
+    (283642, 17, 97, N'card', N'THALISSON KELVEN DA SILVA', N'carded_home', NULL, NULL, NULL, N'red', NULL),
     (283643, 1, 57, N'substitution', N'CAN KELEŞ', N'substituted_in_home', N'JOSEPH NONGE BOENDE', N'substituted_out_home', NULL, NULL, 0),
     (283643, 2, 60, N'substitution', N'MESCHACK ELIA LINA', N'substituted_in_away', N'UI JO HWANG', N'substituted_out_away', NULL, NULL, 0),
     (283643, 3, 62, N'goal', N'TAYFUR BİNGÖL', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
@@ -7915,7 +7940,7 @@ VALUES
     (283668, 6, 46, N'substitution', N'İLKAY GÜNDOĞAN', N'substituted_in_home', N'YUSUF DEMİR', N'substituted_out_home', NULL, NULL, 0),
     (283668, 7, 55, N'goal', N'MAURO EMANUEL ICARDI', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
     (283668, 8, 57, N'goal', N'BARIŞ ALPER YILMAZ', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
-    (283668, 9, 60, N'card', N'THALISSON KELVEN DA SILVA', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
+    (283668, 9, 60, N'card', N'THALISSON KELVEN DA SILVA', N'carded_away', NULL, NULL, NULL, N'red', NULL),
     (283668, 10, 66, N'goal', N'İLKAY GÜNDOĞAN', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
     (283668, 11, 75, N'substitution', N'SAMED ONUR', N'substituted_in_away', N'GÖKTAN GÜRPÜZ', N'substituted_out_away', NULL, NULL, 0),
     (283668, 12, 75, N'substitution', N'HENRY CHUKWUEMEKA ONYEKURU', N'substituted_in_away', N'MBAYE HAMADY NIANG', N'substituted_out_away', NULL, NULL, 0),
@@ -7954,7 +7979,7 @@ VALUES
     (283671, 12, 64, N'substitution', N'ALİ YAVUZ KOL', N'substituted_in_home', N'MAMADOU FALL', N'substituted_out_home', NULL, NULL, 0),
     (283671, 13, 72, N'substitution', N'NUNO MIGUEL DA COSTA JOIA', N'substituted_in_away', N'AMINE HARIT', N'substituted_out_away', NULL, NULL, 0),
     (283671, 14, 72, N'substitution', N'BERAT AYBERK ÖZDEMİR', N'substituted_in_away', N'UMUT GÜNEŞ', N'substituted_out_away', NULL, NULL, 0),
-    (283671, 15, 75, N'card', N'DAVIE SELKE', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
+    (283671, 15, 75, N'card', N'DAVIE SELKE', N'carded_away', NULL, NULL, NULL, N'red', NULL),
     (283671, 16, 78, N'card', N'LEONARDO CAMPOS DUARTE DA SILVA', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283671, 17, 78, N'substitution', N'MIGUEL CRESPO DA SILVA', N'substituted_in_away', N'OLIVER MICHEL KEMEN', N'substituted_out_away', NULL, NULL, 0),
     (283671, 18, 78, N'substitution', N'HAMZA GÜRELER', N'substituted_in_away', N'ABBOSBEK FAYZULLAYEV', N'substituted_out_away', NULL, NULL, 0),
@@ -8110,7 +8135,7 @@ VALUES
     (283685, 15, 94, N'substitution', N'DANYLO SIKAN', N'substituted_in_away', N'MUSTAFA ESKİHELLAÇ', N'substituted_out_away', NULL, NULL, 0),
     (283685, 16, 95, N'substitution', N'SALEM MOUNIR BOUAJILA', N'substituted_in_home', N'JANDERSON DE CARVALHO COSTA', N'substituted_out_home', NULL, NULL, 0),
     (283685, 17, 95, N'substitution', N'ALLAN GODOI SANTOS', N'substituted_in_home', N'MALCOM NARCISSE BOKELE MPUTU', N'substituted_out_home', NULL, NULL, 0),
-    (283685, 18, 97, N'card', N'RHALDNEY', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
+    (283685, 18, 97, N'card', N'RHALDNEY', N'carded_home', NULL, NULL, NULL, N'red', NULL),
     (283686, 1, 8, N'goal', N'LEROY AZIZ SANE', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
     (283686, 2, 29, N'goal', N'VICTOR JAMES OSIMHEN', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
     (283686, 3, 46, N'substitution', N'ARDA ÜNYAY', N'substituted_in_home', N'MARIO RENE JUNIOR LEMINA', N'substituted_out_home', NULL, NULL, 0),
@@ -8270,7 +8295,7 @@ VALUES
     (283702, 9, 45, N'substitution', N'BERAT AYBERK ÖZDEMİR', N'substituted_in_home', N'ONUR ERGÜN', N'substituted_out_home', NULL, NULL, 0),
     (283702, 10, 45, N'substitution', N'CHRISTOPHER LUNGOYI', N'substituted_in_away', N'SEMİH GÜLER', N'substituted_out_away', NULL, NULL, 0),
     (283702, 11, 50, N'card', N'KACPER SZYMON KOZLOWSKI', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
-    (283702, 12, 53, N'goal', N'ARDA KIZILDAĞ', N'scorer_away', NULL, NULL, N'K', NULL, NULL),
+    (283702, 12, 53, N'goal', N'ARDA KIZILDAĞ', N'own_goal_by_away_player', NULL, NULL, N'K', NULL, NULL),
     (283702, 13, 56, N'substitution', N'DEIAN CRISTIAN SORESCU', N'substituted_in_away', N'LUIS JESUS PEREZ MAQUEDA', N'substituted_out_away', NULL, NULL, 0),
     (283702, 14, 56, N'substitution', N'OGÜN ÖZÇİÇEK', N'substituted_in_away', N'MELİH KABASAKAL', N'substituted_out_away', NULL, NULL, 0),
     (283702, 15, 67, N'goal', N'UMUT GÜNEŞ', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
@@ -8427,7 +8452,7 @@ VALUES
     (283715, 14, 95, N'goal', N'EL BILAL TOURE', N'scorer_home', NULL, NULL, N'H', NULL, NULL),
     (283715, 15, 98, N'substitution', N'DEVRİM ŞAHİN', N'substituted_in_home', N'KEVIN OGHENETEGA TAMARAEBI BAKUMO ABRAHAM', N'substituted_out_home', NULL, NULL, 0),
     (283719, 1, 6, N'card', N'IOANNIS PAPANIKOLAOU', N'carded_home', NULL, NULL, NULL, N'red', NULL),
-    (283719, 2, 43, N'card', N'ANTONIO SIMAO MUANZA', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
+    (283719, 2, 43, N'card', N'ANTONIO SIMAO MUANZA', N'carded_away', NULL, NULL, NULL, N'red', NULL),
     (283719, 3, 45, N'card', N'ALTIN ZEQIRI', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283719, 4, 46, N'substitution', N'İBRAHİM KAYA', N'substituted_in_away', N'BARAN MOĞULTAY', N'substituted_out_away', NULL, NULL, 0),
     (283719, 5, 61, N'substitution', N'MIHAI-VALENTIN MIHAILA', N'substituted_in_home', N'LOIDE ANTONIO AUGUSTO', N'substituted_out_home', NULL, NULL, 0),
@@ -8444,12 +8469,19 @@ VALUES
     (283719, 16, 87, N'card', N'IANIS HAGI', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283719, 17, 89, N'goal', N'STEVE MICHEL KEVİN MOUNIE', N'scorer_away', NULL, NULL, N'F', NULL, NULL),
     (283719, 18, 93, N'card', N'FIDAN ALITI', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
-    (283720, 1, 21, N'card', N'FURKAN SOYALP', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
+    (283720, 1, 21, N'card', N'FURKAN SOYALP', N'carded_home', NULL, NULL, NULL, N'yellow', NULL);
+
+INSERT INTO @EventInput (
+    source_match_id, event_no, minute, event_type,
+    player_1_name, player_1_role, player_2_name, player_2_role,
+    goal_type, card_colour, is_injury
+)
+VALUES
     (283720, 2, 36, N'goal', N'DAVIE SELKE', N'scorer_away', NULL, NULL, N'P', NULL, NULL),
     (283720, 3, 46, N'substitution', N'ONUR BULUT', N'substituted_in_away', N'ÖMER ALİ ŞAHİNER', N'substituted_out_away', NULL, NULL, 0),
     (283720, 4, 62, N'substitution', N'SEMİH GÜLER', N'substituted_in_home', N'JOAO SABINO MENDES NETO SARAIVA', N'substituted_out_home', NULL, NULL, 0),
     (283720, 5, 62, N'substitution', N'CARLOS MANUEL CARDOSO MANE', N'substituted_in_home', N'LIONEL JULES CAROLE', N'substituted_out_home', NULL, NULL, 0),
-    (283720, 6, 67, N'goal', N'RAMAZAN CİVELEK', N'scorer_home', NULL, NULL, N'K', NULL, NULL),
+    (283720, 6, 67, N'goal', N'RAMAZAN CİVELEK', N'own_goal_by_home_player', NULL, NULL, N'K', NULL, NULL),
     (283720, 7, 68, N'substitution', N'NUNO MIGUEL DA COSTA JOIA', N'substituted_in_away', N'DAVIE SELKE', N'substituted_out_away', NULL, NULL, 0),
     (283720, 8, 70, N'substitution', N'INDRIT TUCI', N'substituted_in_home', N'FURKAN SOYALP', N'substituted_out_home', NULL, NULL, 0),
     (283720, 9, 80, N'substitution', N'ONUR ERGÜN', N'substituted_in_away', N'UMUT GÜNEŞ', N'substituted_out_away', NULL, NULL, 0),
@@ -8735,7 +8767,7 @@ VALUES
     (283743, 16, 71, N'goal', N'METEHAN ALTUNBAŞ', N'scorer_away', NULL, NULL, N'F', NULL, NULL),
     (283743, 17, 74, N'substitution', N'KAAN AYHAN', N'substituted_in_home', N'SACHA BOEY', N'substituted_out_home', NULL, NULL, 0),
     (283743, 18, 80, N'substitution', N'CHARLES ANDRE RAUX YAO', N'substituted_in_away', N'MATEUSZ JACEK LEGOWSKI', N'substituted_out_away', NULL, NULL, 0),
-    (283743, 19, 87, N'goal', N'JEROME JUNIOR ONGUENE', N'scorer_away', NULL, NULL, N'K', NULL, NULL),
+    (283743, 19, 87, N'goal', N'JEROME JUNIOR ONGUENE', N'own_goal_by_away_player', NULL, NULL, N'K', NULL, NULL),
     (283744, 1, 10, N'card', N'MELİH İBRAHİMOĞLU', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283744, 2, 37, N'goal', N'RUAN PEREIRA DUARTE', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
     (283744, 3, 47, N'card', N'ADİL DEMİRBAĞ', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
@@ -8816,7 +8848,7 @@ VALUES
     (283749, 20, 89, N'substitution', N'OKAY YOKUŞLU', N'substituted_in_home', N'WAGNER FABRICIO CARDOSO DE PINA', N'substituted_out_home', NULL, NULL, 0),
     (283749, 21, 89, N'substitution', N'STEFAN SAVIC', N'substituted_in_home', N'CHRIST RAVYNEL INAO OULAI', N'substituted_out_home', NULL, NULL, 0),
     (283749, 22, 94, N'card', N'NELSON CABRAL SEMEDO', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
-    (283750, 1, 18, N'goal', N'ALI SOWE', N'scorer_away', NULL, NULL, N'K', NULL, NULL),
+    (283750, 1, 18, N'goal', N'ALI SOWE', N'own_goal_by_away_player', NULL, NULL, N'K', NULL, NULL),
     (283750, 2, 24, N'card', N'IOANNIS PAPANIKOLAOU', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283750, 3, 38, N'substitution', N'GÖKTAN GÜRPÜZ', N'substituted_in_home', N'OĞULCAN ÜLGÜN', N'substituted_out_home', NULL, NULL, 0),
     (283750, 4, 45, N'goal', N'SEKOU KOITA', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
@@ -8852,7 +8884,7 @@ VALUES
     (283752, 14, 84, N'substitution', N'TAYLAN UTKU AYDIN', N'substituted_in_away', N'ADAM AROUS', N'substituted_out_away', NULL, NULL, 0),
     (283752, 15, 84, N'substitution', N'JİM EMİLLEN NGOWET ALLEVINAH', N'substituted_in_away', N'FOUSSENI DIABATE', N'substituted_out_away', NULL, NULL, 0),
     (283752, 16, 86, N'card', N'RIBEIRO DIAS CARLOS MIGUEL', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
-    (283752, 17, 93, N'card', N'AHMED MORTADHA BEN OUANES', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
+    (283752, 17, 93, N'card', N'AHMED MORTADHA BEN OUANES', N'carded_away', NULL, NULL, NULL, N'red', NULL),
     (283752, 18, 95, N'goal', N'MARCO ASENSIO WILLEMSEN', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
     (283752, 19, 95, N'card', N'MARCO ASENSIO WILLEMSEN', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283752, 20, 96, N'card', N'MATTEO ELIAS KENZO GUENDOUZI OLIE', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
@@ -8984,11 +9016,11 @@ VALUES
     (283764, 19, 93, N'card', N'WILFRIED STEPHANE SINGO', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283767, 1, 20, N'substitution', N'MERT MÜLDÜR', N'substituted_in_away', N'NELSON CABRAL SEMEDO', N'substituted_out_away', NULL, NULL, 0),
     (283767, 2, 28, N'substitution', N'BÜNYAMİN BALCI', N'substituted_in_home', N'LAUTARO DANIEL GIANNETTI', N'substituted_out_home', NULL, NULL, 0),
-    (283767, 3, 43, N'goal', N'MÜNİR LEVENT MERCAN', N'scorer_away', NULL, NULL, N'K', NULL, NULL),
+    (283767, 3, 43, N'goal', N'MÜNİR LEVENT MERCAN', N'own_goal_by_away_player', NULL, NULL, N'K', NULL, NULL),
     (283767, 4, 49, N'goal', N'ALEXANDER GERARD VAN DE STREEK', N'scorer_home', NULL, NULL, N'H', NULL, NULL),
     (283767, 5, 63, N'goal', N'SIDIKI CHERIF', N'scorer_away', NULL, NULL, N'H', NULL, NULL),
     (283767, 6, 68, N'substitution', N'DARIO SARIC', N'substituted_in_home', N'DOĞUKAN SİNİK', N'substituted_out_home', NULL, NULL, 0),
-    (283767, 7, 69, N'goal', N'VEYSEL SARI', N'scorer_home', NULL, NULL, N'K', NULL, NULL),
+    (283767, 7, 69, N'goal', N'VEYSEL SARI', N'own_goal_by_home_player', NULL, NULL, N'K', NULL, NULL),
     (283767, 8, 75, N'substitution', N'DORGELES NENE', N'substituted_in_away', N'MUHAMMED KEREM AKTÜRKOĞLU', N'substituted_out_away', NULL, NULL, 0),
     (283767, 9, 75, N'substitution', N'FREDERICO RODRIGUES DE PAULA SANTOS', N'substituted_in_away', N'İSMAİL YÜKSEK', N'substituted_out_away', NULL, NULL, 0),
     (283767, 10, 81, N'substitution', N'SAMET KARAKOÇ', N'substituted_in_home', N'NIKOLA STORM', N'substituted_out_home', NULL, NULL, 0),
@@ -9041,7 +9073,7 @@ VALUES
     (283772, 3, 24, N'card', N'GÖRKEM SAĞLAM', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283772, 4, 48, N'goal', N'EBERE PAUL ONUACHU', N'scorer_away', NULL, NULL, N'H', NULL, NULL),
     (283772, 5, 50, N'goal', N'EBERE PAUL ONUACHU', N'scorer_away', NULL, NULL, N'P', NULL, NULL),
-    (283772, 6, 54, N'goal', N'BİLAL BAYAZIT', N'scorer_home', NULL, NULL, N'K', NULL, NULL),
+    (283772, 6, 54, N'goal', N'BİLAL BAYAZIT', N'own_goal_by_home_player', NULL, NULL, N'K', NULL, NULL),
     (283772, 7, 61, N'substitution', N'GERMAN ONUGKHA', N'substituted_in_home', N'FEDOR CHALOV', N'substituted_out_home', NULL, NULL, 0),
     (283772, 8, 64, N'substitution', N'ANTHONY NNADUZOR NWAKAEME', N'substituted_in_away', N'OLEKSANDR ZUBKOV', N'substituted_out_away', NULL, NULL, 0),
     (283772, 9, 73, N'substitution', N'GÖRKEM SAĞLAM', N'substituted_in_home', N'FURKAN SOYALP', N'substituted_out_home', NULL, NULL, 0),
@@ -9156,7 +9188,7 @@ VALUES
     (283781, 14, 88, N'substitution', N'JOAO PEDRO FERREIRA DA SILVA', N'substituted_in_away', N'ISHOLA JUNIOR OLAITAN', N'substituted_out_away', NULL, NULL, 0),
     (283781, 15, 89, N'substitution', N'MATEJ HANOUSEK', N'substituted_in_home', N'ZAN ZUZEK', N'substituted_out_home', NULL, NULL, 0),
     (283781, 16, 91, N'card', N'ADAMA TRAORE', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
-    (283783, 1, 56, N'card', N'FESTY OSEIWE EBOSELE', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
+    (283783, 1, 56, N'card', N'FESTY OSEIWE EBOSELE', N'carded_away', NULL, NULL, NULL, N'red', NULL),
     (283783, 2, 57, N'goal', N'WILFRIED STEPHANE SINGO', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
     (283783, 3, 58, N'substitution', N'OUSSEYNOU BA', N'substituted_in_away', N'IVAN BRNIC', N'substituted_out_away', NULL, NULL, 0),
     (283783, 4, 58, N'substitution', N'ONUR BULUT', N'substituted_in_away', N'YUSUF SARI', N'substituted_out_away', NULL, NULL, 0),
@@ -9172,7 +9204,7 @@ VALUES
     (283783, 14, 85, N'goal', N'RENATO SAM-NA NHAGA', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
     (283787, 1, 3, N'substitution', N'ANTOINE MAKOUMBOU', N'substituted_in_home', N'JULES OLIVIER NTCHAM', N'substituted_out_home', NULL, NULL, 0),
     (283787, 2, 31, N'goal', N'ANTOINE MAKOUMBOU', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
-    (283787, 3, 46, N'goal', N'TONI BOREVKOVIC', N'scorer_home', NULL, NULL, N'K', NULL, NULL),
+    (283787, 3, 46, N'goal', N'TONI BOREVKOVIC', N'own_goal_by_home_player', NULL, NULL, N'K', NULL, NULL),
     (283787, 4, 46, N'substitution', N'JOAO SABINO MENDES NETO SARAIVA', N'substituted_in_away', N'TALHA SARIARSLAN', N'substituted_out_away', NULL, NULL, 0),
     (283787, 5, 46, N'substitution', N'FEDOR CHALOV', N'substituted_in_away', N'DENIS MAKAROV', N'substituted_out_away', NULL, NULL, 0),
     (283787, 6, 64, N'substitution', N'INDRIT TUCI', N'substituted_in_away', N'GERMAN ONUGKHA', N'substituted_out_away', NULL, NULL, 0),
@@ -9279,7 +9311,7 @@ VALUES
     (283797, 4, 47, N'card', N'RAMZI SAFURI', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283797, 5, 47, N'card', N'TALHA ÜLVAN', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283797, 6, 47, N'card', N'JEROME JUNIOR ONGUENE', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
-    (283797, 7, 50, N'card', N'BEDİRHAN ÖZYURT', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
+    (283797, 7, 50, N'card', N'BEDİRHAN ÖZYURT', N'carded_away', NULL, NULL, NULL, N'red', NULL),
     (283797, 8, 52, N'card', N'SONER DİKMEN', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283797, 9, 55, N'substitution', N'LUCCAS CLARO DOS SANTOS', N'substituted_in_away', N'CHARLES ANDRE RAUX YAO', N'substituted_out_away', NULL, NULL, 0),
     (283797, 10, 57, N'substitution', N'DOĞUKAN SİNİK', N'substituted_in_home', N'ABDÜLKADİR ÖMÜR', N'substituted_out_home', NULL, NULL, 0),
@@ -9312,7 +9344,7 @@ VALUES
     (283798, 14, 85, N'substitution', N'JULES OLIVIER NTCHAM', N'substituted_in_home', N'EMRE KILINÇ', N'substituted_out_home', NULL, NULL, 0),
     (283798, 15, 87, N'substitution', N'JINHO JO', N'substituted_in_away', N'ENIS BARDHI', N'substituted_out_away', NULL, NULL, 0),
     (283798, 16, 87, N'substitution', N'UĞURCAN YAZĞILI', N'substituted_in_away', N'DENİZ TÜRÜÇ', N'substituted_out_away', NULL, NULL, 0),
-    (283798, 17, 90, N'card', N'ADAMO NAGALO', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
+    (283798, 17, 90, N'card', N'ADAMO NAGALO', N'carded_away', NULL, NULL, NULL, N'red', NULL),
     (283799, 1, 24, N'substitution', N'FREDERICO RODRIGUES DE PAULA SANTOS', N'substituted_in_home', N'MARCO ASENSIO WILLEMSEN', N'substituted_out_home', NULL, NULL, 0),
     (283799, 2, 46, N'substitution', N'GÖKHAN SAZDAĞI', N'substituted_in_away', N'MICHAEL AMIR MURILLO BERMUDEZ', N'substituted_out_away', NULL, NULL, 0),
     (283799, 3, 50, N'card', N'ERSİN DESTANOĞLU', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
@@ -9344,7 +9376,14 @@ VALUES
     (283803, 2, 29, N'card', N'OZAN TUFAN', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283803, 3, 46, N'substitution', N'İLKAY GÜNDOĞAN', N'substituted_in_away', N'LUCAS SEBASTIAN TORREIRA DI PASCUA', N'substituted_out_away', NULL, NULL, 0),
     (283803, 4, 46, N'substitution', N'EVREN EREN ELMALI', N'substituted_in_away', N'ISMAIL JOSHUA JAKOBS', N'substituted_out_away', NULL, NULL, 0),
-    (283803, 5, 48, N'goal', N'WILFRIED STEPHANE SINGO', N'scorer_away', NULL, NULL, N'F', NULL, NULL),
+    (283803, 5, 48, N'goal', N'WILFRIED STEPHANE SINGO', N'scorer_away', NULL, NULL, N'F', NULL, NULL);
+
+INSERT INTO @EventInput (
+    source_match_id, event_no, minute, event_type,
+    player_1_name, player_1_role, player_2_name, player_2_role,
+    goal_type, card_colour, is_injury
+)
+VALUES
     (283803, 6, 51, N'card', N'BARIŞ ALPER YILMAZ', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283803, 7, 63, N'goal', N'CHIBUIKE GODFREY NWAIWU', N'scorer_home', NULL, NULL, N'H', NULL, NULL),
     (283803, 8, 63, N'card', N'DAVINSON SANCHEZ MINA', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
@@ -9453,7 +9492,7 @@ VALUES
     (283814, 13, 86, N'substitution', N'DARKO CHURLINOV', N'substituted_in_away', N'DANIEL EBENEZER KWASI AGYEI', N'substituted_out_away', NULL, NULL, 0),
     (283815, 1, 6, N'goal', N'SERGIO ANTONIO DA LUZ JUNIOR', N'scorer_home', NULL, NULL, N'H', NULL, NULL),
     (283815, 2, 33, N'substitution', N'TİAGO SÜER BARBAROS ÇUKUR', N'substituted_in_home', N'SHAVY WARREN BABICKA', N'substituted_out_home', NULL, NULL, 0),
-    (283815, 3, 38, N'goal', N'CLAUDIO MATIAS KRANEVITTER', N'scorer_home', NULL, NULL, N'K', NULL, NULL),
+    (283815, 3, 38, N'goal', N'CLAUDIO MATIAS KRANEVITTER', N'own_goal_by_home_player', NULL, NULL, N'K', NULL, NULL),
     (283815, 4, 44, N'goal', N'MATEUSZ JACEK LEGOWSKI', N'scorer_away', NULL, NULL, N'F', NULL, NULL),
     (283815, 5, 46, N'card', N'TAŞKIN İLTER', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283815, 6, 60, N'substitution', N'BARIŞ JAKOB KALAYCI', N'substituted_in_home', N'DANIELE VERDE', N'substituted_out_home', NULL, NULL, 0),
@@ -9584,7 +9623,7 @@ VALUES
     (283830, 3, 23, N'card', N'ARCHIBALD NORMAN BROWN', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283830, 4, 40, N'goal', N'VICTOR JAMES OSIMHEN', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
     (283830, 5, 40, N'card', N'YUNUS AKGÜN', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
-    (283830, 6, 66, N'card', N'EDERSON SANTANA DE MORAES', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
+    (283830, 6, 66, N'card', N'EDERSON SANTANA DE MORAES', N'carded_away', NULL, NULL, NULL, N'red', NULL),
     (283830, 7, 66, N'substitution', N'FEHMİ MERT GÜNOK', N'substituted_in_away', N'ANDERSON SOUZA CONCEIÇAO', N'substituted_out_away', NULL, NULL, 0),
     (283830, 8, 66, N'substitution', N'İSMAİL YÜKSEK', N'substituted_in_away', N'MUHAMMED KEREM AKTÜRKOĞLU', N'substituted_out_away', NULL, NULL, 0),
     (283830, 9, 67, N'goal', N'BARIŞ ALPER YILMAZ', N'scorer_home', NULL, NULL, N'P', NULL, NULL),
@@ -9744,7 +9783,7 @@ VALUES
     (283845, 14, 77, N'goal', N'ABBOSBEK FAYZULLAYEV', N'scorer_home', NULL, NULL, N'F', NULL, NULL),
     (283845, 15, 85, N'substitution', N'ZEKİ YAVRU', N'substituted_in_away', N'JOSAFAT WOODING MENDES', N'substituted_out_away', NULL, NULL, 0),
     (283845, 16, 85, N'substitution', N'ENES ALBAK', N'substituted_in_away', N'ELAYİS TAVSAN', N'substituted_out_away', NULL, NULL, 0),
-    (283847, 1, 4, N'goal', N'LEO MYENTY JANNA ABENA', N'scorer_away', NULL, NULL, N'K', NULL, NULL),
+    (283847, 1, 4, N'goal', N'LEO MYENTY JANNA ABENA', N'own_goal_by_away_player', NULL, NULL, N'K', NULL, NULL),
     (283847, 2, 25, N'card', N'MOHAMED LAMINE BAYO', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283847, 3, 57, N'goal', N'MOHAMED LAMINE BAYO', N'scorer_away', NULL, NULL, N'F', NULL, NULL),
     (283847, 4, 64, N'card', N'NOVATUS DISMAS MIROSHI', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),

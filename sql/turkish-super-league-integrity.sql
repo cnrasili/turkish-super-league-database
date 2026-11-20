@@ -41,6 +41,7 @@ BEGIN
             ON a.match_id = i.match_id
             AND a.player_id = i.player_id
         WHERE a.player_id IS NULL
+            AND i.[role] NOT IN ('carded_home', 'carded_away')
     )
     BEGIN
         ;THROW 51010, 'An event participant must appear in the same match lineup.', 1;

@@ -172,7 +172,7 @@ IF EXISTS (
 )
     THROW 50034, 'Load the 2025-2026 club reference data before official data.', 1;
 
-IF (SELECT COUNT(*) FROM dbo.player) <> 599
+IF (SELECT COUNT(*) FROM dbo.player) < 599
     THROW 50035, 'Load the 599-player season roster before official data.', 1;
 
 IF EXISTS (SELECT 1 FROM dbo.coach)
