@@ -52,7 +52,7 @@ EXEC dbo.assert_match_event_subtypes_complete;
 SELECT * FROM dbo.vw_league_table ORDER BY league_position;
 ```
 
-The scripts must run in dependency order; [DATA_NOTES.md](DATA_NOTES.md) lists every file in sequence. Base tables have no guaranteed row order, so use `ORDER BY` in queries.
+The scripts must run in the order above, and the event supplements in their file-name order. Every data script guards its prerequisites and fails rather than loading out of sequence. Base tables have no guaranteed row order, so use `ORDER BY` in queries.
 
 ## Validation
 
@@ -71,11 +71,11 @@ Against the proposal's Table 1, all 18 relations, their primary keys and their f
 
 TFF is the primary source for seasons, clubs, fixtures, results, match sheets and competition rules. Transfermarkt and match reports from club sites and sports media supply what TFF does not publish, above all the cause of a substitution. The owner's squad screenshots were used for roster selection and positions.
 
-Each script header carries the source links for the fixtures it covers. [DATA_NOTES.md](DATA_NOTES.md) collects the per-script provenance, the injury-cause audit table and the full source list.
+Each script header carries the source links for the fixtures it covers. The per-script provenance notes and the injury-cause audit table are kept locally and excluded from version control.
 
 ## Repository Layout
 
 - `sql/`: schema, integrity, report and data scripts
-- `DATA_NOTES.md`: provenance, audit tables and the full load order
+- `DATA_NOTES.md`: local provenance and audit notes, excluded from version control
 - `documents/`: proposal and EER PDFs, excluded from version control
 - `review-assets/`: local page renders, excluded from version control
