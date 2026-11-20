@@ -75,7 +75,7 @@ INNER JOIN dbo.club AS away_club
     ON away_club.club_id = match_row.away_club_id
     AND away_club.name = input.away_club_name;
 
-IF (SELECT COUNT(*) FROM @MatchMap) <> 1
+IF (SELECT COUNT(*) FROM @MatchMap) <> 2
     THROW 518002, 'Each TFF source fixture must resolve to one database match.', 1;
 
 IF EXISTS (
