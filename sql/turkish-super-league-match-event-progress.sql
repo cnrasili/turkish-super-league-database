@@ -8256,7 +8256,7 @@ VALUES
     (283695, 6, 42, N'card', N'MUHAMMED KEREM AKTÜRKOĞLU', N'carded_home', NULL, NULL, NULL, N'yellow', NULL),
     (283695, 7, 46, N'substitution', N'PEDRO HENRIQUE OLIVEIRA DOS SANTOS', N'substituted_in_away', N'JINHO JO', N'substituted_out_away', NULL, NULL, 0),
     (283695, 8, 48, N'card', N'UĞURCAN YAZĞILI', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
-    (283695, 9, 54, N'substitution', N'MÜNİR LEVENT MERCAN', N'substituted_in_home', N'ARCHIBALD NORMAN BROWN', N'substituted_out_home', NULL, NULL, 0),
+    (283695, 9, 54, N'substitution', N'MÜNİR LEVENT MERCAN', N'substituted_in_home', N'ARCHIBALD NORMAN BROWN', N'substituted_out_home', NULL, NULL, 1),
     (283695, 10, 67, N'substitution', N'SEBASTIAN SZYMANSKI', N'substituted_in_home', N'JHON JADER DURAN PALACIOS', N'substituted_out_home', NULL, NULL, 1),
     (283695, 11, 67, N'substitution', N'İSMAİL YÜKSEK', N'substituted_in_home', N'FREDERICO RODRIGUES DE PAULA SANTOS', N'substituted_out_home', NULL, NULL, 0),
     (283695, 12, 77, N'substitution', N'OĞUZ AYDIN', N'substituted_in_home', N'MUHAMMED KEREM AKTÜRKOĞLU', N'substituted_out_home', NULL, NULL, 0),
