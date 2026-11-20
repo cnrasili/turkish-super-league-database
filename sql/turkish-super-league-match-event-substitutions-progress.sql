@@ -318,7 +318,7 @@ VALUES
     (283718, 72, N'PRINCE OBENG AMPEM', N'substituted_in_home', N'LENNY JEAN PIERRE PINTOR', N'substituted_out_home', 0),
     (283718, 82, N'DENIS RAZVAN RADU', N'substituted_in_home', N'METEHAN ALTUNBAŞ', N'substituted_out_home', 0),
     (283718, 79, N'GÖKHAN SAZDAĞI', N'substituted_in_away', N'TAYLAN BULUT', N'substituted_out_away', 0),
-    (283721, 38, N'FREDERICO RODRIGUES DE PAULA SANTOS', N'substituted_in_home', N'İSMAİL YÜKSEK', N'substituted_out_home', 0),
+    (283721, 38, N'FREDERICO RODRIGUES DE PAULA SANTOS', N'substituted_in_home', N'İSMAİL YÜKSEK', N'substituted_out_home', 1),
     (283721, 46, N'MERT MÜLDÜR', N'substituted_in_home', N'YİĞİT EFE DEMİR', N'substituted_out_home', 0),
     (283721, 56, N'JHON JADER DURAN PALACIOS', N'substituted_in_home', N'DORGELES NENE', N'substituted_out_home', 0),
     (283721, 81, N'MUHAMMED KEREM AKTÜRKOĞLU', N'substituted_in_home', N'ANTHONY TİTE EMMANUEL MUSABA', N'substituted_out_home', 0),
@@ -568,6 +568,7 @@ IF (SELECT COUNT(*) FROM @SubstitutionInput) <> 370
 -- 283717: https://www.tff.org/Default.aspx?macId=283717&pageID=29
 -- 283718: https://www.tff.org/Default.aspx?macId=283718&pageID=29
 -- 283721: https://www.tff.org/Default.aspx?macId=283721&pageID=29
+-- Sahadan confirms İsmail Yüksek's injury interruption before his 38th-minute substitution: https://www.sahadan.com/mac/fenerbahce-vs-goztepe/8zrj2jnpldzvzu1fhjqb9q978/anlatim
 -- 283722: https://www.tff.org/Default.aspx?macId=283722&pageID=29
 -- 283729: https://www.tff.org/Default.aspx?macId=283729&pageID=29
 -- 283733: https://www.tff.org/Default.aspx?macId=283733&pageID=29
