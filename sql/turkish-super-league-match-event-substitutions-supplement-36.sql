@@ -39,7 +39,7 @@ INSERT INTO @SubstitutionInput (
 VALUES
     (283700, 78, N'TAYLAN ANTALYALI', N'substituted_in_away', N'IOANNIS PAPANIKOLAOU', N'substituted_out_away', 0),
     (283700, 78, N'HALİL İBRAHİM DERVİŞOĞLU', N'substituted_in_away', N'OLASUNKANMI IBRAHIM OLAWOYIN', N'substituted_out_away', 0),
-    (283700, 78, N'TAHA ŞAHİN', N'substituted_in_away', N'MİTHAT PALA', N'substituted_out_away', 0),
+    (283700, 78, N'MUHAMMET TAHA ŞAHİN', N'substituted_in_away', N'MİTHAT PALA', N'substituted_out_away', 0),
     (283700, 85, N'SALİH UÇAN', N'substituted_in_home', N'KARTAL KAYRA YILMAZ', N'substituted_out_home', 0),
     (283700, 85, N'EMİRHAN TOPÇU', N'substituted_in_home', N'GABRIEL ARMANDO DE ABREU', N'substituted_out_home', 0),
     (283701, 68, N'IANIS HAGI', N'substituted_in_home', N'GÜVEN YALÇIN', N'substituted_out_home', 0),

@@ -21,7 +21,7 @@ INSERT INTO @SubstitutionInput (
     is_injury
 )
 VALUES
-    (66, N'İSMAİL JOSHUA JAKOBS', N'substituted_in_away', N'YUNUS AKGÜN', N'substituted_out_away', 0),
+    (66, N'ISMAIL JOSHUA JAKOBS', N'substituted_in_away', N'YUNUS AKGÜN', N'substituted_out_away', 0),
     (66, N'BERKAN İSMAİL KUTLU', N'substituted_in_away', N'LUCAS SEBASTIAN TORREIRA DI PASCUA', N'substituted_out_away', 0),
     (66, N'KAAN AYHAN', N'substituted_in_away', N'MARIO RENE JUNIOR LEMINA', N'substituted_out_away', 0),
     (66, N'ARDA ÜNYAY', N'substituted_in_away', N'DAVINSON SANCHEZ MINA', N'substituted_out_away', 0),

@@ -1,4 +1,13 @@
--- TFF provides official minutes; Transfermarkt match reports confirm pairings and documented causes.
+-- TFF confirms official minutes; match reports confirm substitution pairings.
+-- TFF 283822: https://www.tff.org/Default.aspx?macId=283822&pageID=29
+-- Mynet 283822: https://www.mynet.com/spor/canli-mac-anlatimi-ve-sonuclari/1924530-fenerbahce-caykur-rizespor
+-- TFF 283834: https://www.tff.org/Default.aspx?macId=283834&pageID=29
+-- Mynet 283834: https://www.mynet.com/spor/canli-mac-anlatimi-ve-sonuclari/1924545-caykur-rizespor-tumosan-konyaspor
+-- TFF 283836: https://www.tff.org/Default.aspx?macId=283836&pageID=29
+-- DHA 283836: https://www.dha.com.tr/yerel-haberler/antalya/hesap-com-antalyaspor-corendon-alanyaspor-0-2866023
+-- Nesine 283836: https://www.nesine.com/Iddaa/Mac-Merkezi/20260503/2837976
+-- TFF 283854: https://www.tff.org/Default.aspx?macId=283854&pageID=29
+-- İHA 283854: https://www.gazeterize.com/trendyol-super-lig-fatih-karagumruk-2-corendon-alanyaspor-1-mac-sonucu
 SET NOCOUNT ON;
 SET XACT_ABORT ON;
 
@@ -11,8 +20,10 @@ DECLARE @MatchInput TABLE (
 
 INSERT INTO @MatchInput (source_match_id, week, home_club_name, away_club_name)
 VALUES
-    (283606, 6, N'Gençlerbirliği', N'İkas Eyüpspor'),
-    (283614, 7, N'Fenerbahçe A.Ş.', N'Hesap.com Antalyaspor');
+    (283822, 30, N'Fenerbahçe A.Ş.', N'Çaykur Rizespor A.Ş.'),
+    (283834, 32, N'Çaykur Rizespor A.Ş.', N'Tümosan Konyaspor'),
+    (283836, 32, N'Hesap.com Antalyaspor', N'Corendon Alanyaspor'),
+    (283854, 34, N'Mısırlı.com.tr Fatih Karagümrük', N'Corendon Alanyaspor');
 
 DECLARE @SubstitutionInput TABLE (
     source_match_id INT NOT NULL,
@@ -35,25 +46,37 @@ INSERT INTO @SubstitutionInput (
     is_injury
 )
 VALUES
-    (283606, 46, N'DENIS MIHAI DRAGUS', N'substituted_in_away', N'HALİL AKBUNAR', N'substituted_out_away', 0),
-    (283606, 46, N'THIAM MAME BABA', N'substituted_in_away', N'UMUT DİLAN BOZOK', N'substituted_out_away', 0),
-    (283606, 60, N'AYOTOMIWA SHERIF DELE BASHIRU', N'substituted_in_home', N'DAL VARESANOVIC', N'substituted_out_home', 0),
-    (283606, 60, N'ZAN ZUZEK', N'substituted_in_home', N'OĞULCAN ÜLGÜN', N'substituted_out_home', 0),
-    (283606, 71, N'EMRE AKBABA', N'substituted_in_away', N'YALÇIN KAYAN', N'substituted_out_away', 0),
-    (283606, 71, N'PRINCE OBENG AMPEM', N'substituted_in_away', N'SERDAR GÜRLER', N'substituted_out_away', 0),
-    (283606, 80, N'SAMED ONUR', N'substituted_in_home', N'FRANCO DARYL TONGYA HEUBANG', N'substituted_out_home', 0),
-    (283606, 80, N'METEHAN MİMAROĞLU', N'substituted_in_home', N'SEKOU KOITA', N'substituted_out_home', 0),
-    (283614, 67, N'JESPER ISMAILA CEESAY', N'substituted_in_away', N'SONER DİKMEN', N'substituted_out_away', 0),
-    (283614, 67, N'YOHAN ALEXANDRE MADY BOLI', N'substituted_in_away', N'HASAN YAKUB İLÇİN', N'substituted_out_away', 0),
-    (283614, 77, N'İRFAN CAN KAHVECİ', N'substituted_in_home', N'MUHAMMED KEREM AKTÜRKOĞLU', N'substituted_out_home', 0),
-    (283614, 77, N'CENK TOSUN', N'substituted_in_home', N'YOUSSEF EN NESYRI', N'substituted_out_home', 0),
-    (283614, 80, N'DOĞUKAN SİNİK', N'substituted_in_away', N'NIKOLA STORM', N'substituted_out_away', 0),
-    (283614, 80, N'SAMET KARAKOÇ', N'substituted_in_away', N'BÜNYAMİN BALCI', N'substituted_out_away', 0),
-    (283614, 87, N'FREDERICO RODRIGUES DE PAULA SANTOS', N'substituted_in_home', N'İSMAİL YÜKSEK', N'substituted_out_home', 0),
-    (283614, 87, N'SEBASTIAN SZYMANSKI', N'substituted_in_home', N'ANDERSON SOUZA CONCEIÇAO', N'substituted_out_home', 0);
+    (283822, 55, N'ANTHONY TİTE EMMANUEL MUSABA', N'substituted_in_home', N'DORGELES NENE', N'substituted_out_home', 0),
+    (283822, 55, N'MÜNİR LEVENT MERCAN', N'substituted_in_home', N'ARCHIBALD NORMAN BROWN', N'substituted_out_home', 0),
+    (283822, 97, N'OĞUZ AYDIN', N'substituted_in_home', N'ANDERSON SOUZA CONCEIÇAO', N'substituted_out_home', 0),
+    (283822, 97, N'MERT MÜLDÜR', N'substituted_in_home', N'NELSON CABRAL SEMEDO', N'substituted_out_home', 0),
+    (283822, 80, N'EMİR ORTAKAYA', N'substituted_in_away', N'MIHAI-VALENTIN MIHAILA', N'substituted_out_away', 0),
+    (283822, 80, N'MODIBO SAGNAN', N'substituted_in_away', N'LOIDE ANTONIO AUGUSTO', N'substituted_out_away', 0),
+    (283822, 80, N'IOANNIS PAPANIKOLAOU', N'substituted_in_away', N'TAYLAN ANTALYALI', N'substituted_out_away', 0),
+    (283834, 81, N'EMİR ORTAKAYA', N'substituted_in_home', N'SAMET AKAYDİN', N'substituted_out_home', 0),
+    (283834, 81, N'HALİL İBRAHİM DERVİŞOĞLU', N'substituted_in_home', N'OLASUNKANMI IBRAHIM OLAWOYIN', N'substituted_out_home', 0),
+    (283834, 72, N'IOANNIS PAPANIKOLAOU', N'substituted_in_home', N'TAYLAN ANTALYALI', N'substituted_out_home', 0),
+    (283834, 72, N'MUHAMMET TAHA ŞAHİN', N'substituted_in_home', N'LOIDE ANTONIO AUGUSTO', N'substituted_out_home', 0),
+    (283834, 62, N'RAYYAN BANİYA', N'substituted_in_away', N'UĞURCAN YAZĞILI', N'substituted_out_away', 0),
+    (283834, 62, N'MARKO JEVTOVIC', N'substituted_in_away', N'DIOGO ANTONIO CUPIDO GONÇALVES', N'substituted_out_away', 0),
+    (283834, 62, N'ENIS BARDHI', N'substituted_in_away', N'KAZEEM ADEREMI J. OLAIGBE', N'substituted_out_away', 0),
+    (283836, 61, N'İBRAHİM KAYA', N'substituted_in_away', N'GÜVEN YALÇIN', N'substituted_out_away', 0),
+    (283836, 61, N'NICOLAS JEAN PAUL NOEL JANVIER', N'substituted_in_away', N'ANTONIO SIMAO MUANZA', N'substituted_out_away', 0),
+    (283836, 91, N'ENES KESKİN', N'substituted_in_away', N'MESCHACK ELIA LINA', N'substituted_out_away', 0),
+    (283836, 91, N'İZZET ÇELİK', N'substituted_in_away', N'RUAN PEREIRA DUARTE', N'substituted_out_away', 0),
+    (283836, 77, N'LAUTARO DANIEL GIANNETTI', N'substituted_in_home', N'VEYSEL SARI', N'substituted_out_home', 0),
+    (283836, 77, N'DARIO SARIC', N'substituted_in_home', N'SONER DİKMEN', N'substituted_out_home', 0),
+    (283836, 77, N'KENNETH IMMANUEL PAAL', N'substituted_in_home', N'BÜNYAMİN BALCI', N'substituted_out_home', 0),
+    (283854, 72, N'İBRAHİM KAYA', N'substituted_in_away', N'ENES KESKİN', N'substituted_out_away', 0),
+    (283854, 72, N'İZZET ÇELİK', N'substituted_in_away', N'GAİUS ABRAHAM JERED MAKOUTA', N'substituted_out_away', 0),
+    (283854, 72, N'IANIS HAGI', N'substituted_in_away', N'UI JO HWANG', N'substituted_out_away', 0),
+    (283854, 82, N'EFECAN KARACA', N'substituted_in_away', N'ANTONIO SIMAO MUANZA', N'substituted_out_away', 0),
+    (283854, 82, N'GÜVEN YALÇIN', N'substituted_in_away', N'BRUNO VIANA WILLEMEM DA SILVA', N'substituted_out_away', 0),
+    (283854, 90, N'FATİH KURUCUK', N'substituted_in_home', N'SAM ANDREAS LARSSON', N'substituted_out_home', 0),
+    (283854, 90, N'TARIK BUĞRA KALPAKLI', N'substituted_in_home', N'BARIŞ JAKOB KALAYCI', N'substituted_out_home', 0);
 
-IF (SELECT COUNT(*) FROM @SubstitutionInput) <> 16
-    THROW 514301, 'Expected 16 report-confirmed substitutions.', 1;
+IF (SELECT COUNT(*) FROM @SubstitutionInput) <> 28
+    THROW 514801, 'Expected 28 source-confirmed substitutions.', 1;
 
 DECLARE @MatchMap TABLE (
     source_match_id INT NOT NULL PRIMARY KEY,
@@ -75,8 +98,8 @@ INNER JOIN dbo.club AS away_club
     ON away_club.club_id = match_row.away_club_id
     AND away_club.name = input.away_club_name;
 
-IF (SELECT COUNT(*) FROM @MatchMap) <> 2
-    THROW 514302, 'Each TFF source fixture must resolve to one database match.', 1;
+IF (SELECT COUNT(*) FROM @MatchMap) <> 4
+    THROW 514802, 'Each TFF source fixture must resolve to one database match.', 1;
 
 IF EXISTS (
     SELECT 1
@@ -100,7 +123,7 @@ IF EXISTS (
     WHERE incoming_appearance.player_id IS NULL
         OR outgoing_appearance.player_id IS NULL
 )
-    THROW 514303, 'Each substitution participant must have an appearance in the fixture.', 1;
+    THROW 514803, 'Each substitution participant must have an appearance in the fixture.', 1;
 
 IF EXISTS (
     SELECT 1
@@ -128,7 +151,7 @@ IF EXISTS (
         ON existing_substitution.match_id = incoming_event_player.match_id
         AND existing_substitution.event_no = incoming_event_player.event_no
 )
-    THROW 514304, 'A source-confirmed substitution already exists.', 1;
+    THROW 514804, 'A source-confirmed substitution already exists.', 1;
 
 DECLARE @EventMap TABLE (
     match_id INT NOT NULL,
@@ -217,10 +240,3 @@ BEGIN CATCH
         ROLLBACK TRANSACTION;
     THROW;
 END CATCH;
-
--- Sources: TFF 283606 https://www.tff.org/Default.aspx?macId=283606&pageID=29; Transfermarkt https://www.transfermarkt.com/spielbericht/index/spielbericht/4646442
--- Sources: TFF 283614 https://www.tff.org/Default.aspx?macId=283614&pageID=29; Transfermarkt https://www.transfermarkt.co.uk/fenerbahce-sk_antalyaspor/index/spielbericht/4646734
-SELECT
-    COUNT(*) AS sourced_substitution_events,
-    SUM(CASE WHEN is_injury = 1 THEN 1 ELSE 0 END) AS injury_substitution_events
-FROM @EventMap;

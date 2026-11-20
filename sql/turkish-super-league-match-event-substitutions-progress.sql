@@ -151,7 +151,7 @@ VALUES
     (283558, 66, N'MARUIS TRESOR DOH', N'substituted_in_home', N'ANDRE ANTHONY GRAY', N'substituted_out_home', 0),
     (283558, 59, N'IVAN BRNIC', N'substituted_in_away', N'DENİZ TÜRÜÇ', N'substituted_out_away', 0),
     (283558, 72, N'NUNO MIGUEL DA COSTA JOIA', N'substituted_in_away', N'OLIVER MICHEL KEMEN', N'substituted_out_away', 0),
-    (283559, 35, N'ENVER KULASIN', N'substituted_in_home', N'SALEM M'BAKATA', N'substituted_out_home', 0),
+    (283559, 35, N'ENVER KULASIN', N'substituted_in_home', N'SALEM M''BAKATA', N'substituted_out_home', 0),
     (283559, 45, N'PAPA ALIOUNE NDIAYE', N'substituted_in_home', N'CHRISTOPHER LUNGOYI', N'substituted_out_home', 0),
     (283559, 67, N'SOKRATIS DIOUDIS', N'substituted_in_home', N'ALEXANDRU IULIAN MAXIM', N'substituted_out_home', 0),
     (283559, 73, N'NICOLO ZANIOLO', N'substituted_in_away', N'EVREN EREN ELMALI', N'substituted_out_away', 0),

@@ -12,9 +12,7 @@ DECLARE @MatchInput TABLE (
 INSERT INTO @MatchInput (source_match_id, week, home_club_name, away_club_name)
 VALUES
     (283621, 8, N'Mısırlı.com.tr Fatih Karagümrük', N'Gaziantep Futbol Kulübü A.Ş.'),
-    (283625, 8, N'Kocaelispor', N'İkas Eyüpspor'),
-    (283626, 9, N'İkas Eyüpspor', N'Kasımpaşa A.Ş.'),
-    (283632, 9, N'Fenerbahçe A.Ş.', N'Mısırlı.com.tr Fatih Karagümrük');
+    (283625, 8, N'Kocaelispor', N'İkas Eyüpspor');
 
 DECLARE @SubstitutionInput TABLE (
     source_match_id INT NOT NULL,
@@ -39,32 +37,13 @@ INSERT INTO @SubstitutionInput (
 VALUES
     (283621, 46, N'JOAO PEDRO GOMES CAMACHO', N'substituted_in_home', N'TİAGO SÜER BARBAROS ÇUKUR', N'substituted_out_home', 0),
     (283621, 46, N'DATRO DAVID FOFANA', N'substituted_in_home', N'ANDRE ANTHONY GRAY', N'substituted_out_home', 0),
-    (283621, 80, N'AHMET SİVRİ', N'substituted_in_home', N'BERKAY ÖZCAN', N'substituted_out_home', 0),
-    (283621, 80, N'ÇAĞTAY KURUKALIP', N'substituted_in_home', N'JURE BALKOVEC', N'substituted_out_home', 0),
-    (283621, 86, N'JUNINHO GRACIELO BACUNA', N'substituted_in_away', N'DRISSA CAMARA', N'substituted_out_away', 0),
-    (283621, 86, N'PAPA ALIOUNE NDIAYE', N'substituted_in_away', N'MELİH KABASAKAL', N'substituted_out_away', 0),
     (283625, 68, N'JOSEPH NONGE BOENDE', N'substituted_in_home', N'RIGOBERTO MANUEL RIVAS VINDEL', N'substituted_out_home', 0),
     (283625, 68, N'KAROL LINETTY', N'substituted_in_home', N'HABIB ALI KEITA', N'substituted_out_home', 0),
     (283625, 74, N'YALÇIN KAYAN', N'substituted_in_away', N'MATEUSZ JACEK LEGOWSKI', N'substituted_out_away', 0),
-    (283625, 74, N'UMUT DİLAN BOZOK', N'substituted_in_away', N'THIAM MAME BABA', N'substituted_out_away', 0),
-    (283625, 87, N'CENGİZ UMUT MERAŞ', N'substituted_in_away', N'NIHAD MUJAKIC', N'substituted_out_away', 0),
-    (283625, 87, N'METEHAN ALTUNBAŞ', N'substituted_in_away', N'PRINCE OBENG AMPEM', N'substituted_out_away', 0),
-    (283626, 85, N'EMRE AKBABA', N'substituted_in_home', N'KEREM DEMİRBAY', N'substituted_out_home', 0),
-    (283626, 85, N'UMUT DİLAN BOZOK', N'substituted_in_home', N'THIAM MAME BABA', N'substituted_out_home', 0),
-    (283626, 85, N'SVIT SESLAR', N'substituted_in_home', N'SERDAR GÜRLER', N'substituted_out_home', 0),
-    (283626, 85, N'YUSUF BARASI', N'substituted_in_away', N'CEM ÜSTÜNDAĞ', N'substituted_out_away', 0),
-    (283626, 85, N'EMRE TAŞDEMİR', N'substituted_in_away', N'GODFRİED AYESU OWUSU FRİMPONG', N'substituted_out_away', 0),
-    (283632, 60, N'BERKAY ÖZCAN', N'substituted_in_away', N'DANIEL ANTHONY JOHNSON', N'substituted_out_away', 0),
-    (283632, 60, N'MARUIS TRESOR DOH', N'substituted_in_away', N'CLAUDIO MATIAS KRANEVITTER', N'substituted_out_away', 0),
-    (283632, 72, N'TARIK BUĞRA KALPAKLI', N'substituted_in_away', N'SERGIO ANTONIO DA LUZ JUNIOR', N'substituted_out_away', 0),
-    (283632, 72, N'AHMET SİVRİ', N'substituted_in_away', N'SAM ANDREAS LARSSON', N'substituted_out_away', 0),
-    (283632, 65, N'YOUSSEF EN NESYRI', N'substituted_in_home', N'ANDERSON SOUZA CONCEIÇAO', N'substituted_out_home', 0),
-    (283632, 65, N'FREDERICO RODRIGUES DE PAULA SANTOS', N'substituted_in_home', N'EDSON OMAR ALVAREZ VELAZQUEZ', N'substituted_out_home', 0),
-    (283632, 78, N'SEBASTIAN SZYMANSKI', N'substituted_in_home', N'DORGELES NENE', N'substituted_out_home', 0),
-    (283632, 78, N'OĞUZ AYDIN', N'substituted_in_home', N'MUHAMMED KEREM AKTÜRKOĞLU', N'substituted_out_home', 0);
+    (283625, 74, N'UMUT DİLAN BOZOK', N'substituted_in_away', N'THIAM MAME BABA', N'substituted_out_away', 0);
 
-IF (SELECT COUNT(*) FROM @SubstitutionInput) <> 25
-    THROW 514301, 'Expected 25 report-confirmed substitutions.', 1;
+IF (SELECT COUNT(*) FROM @SubstitutionInput) <> 6
+    THROW 514301, 'Expected six report-confirmed substitutions.', 1;
 
 DECLARE @MatchMap TABLE (
     source_match_id INT NOT NULL PRIMARY KEY,
@@ -86,7 +65,7 @@ INNER JOIN dbo.club AS away_club
     ON away_club.club_id = match_row.away_club_id
     AND away_club.name = input.away_club_name;
 
-IF (SELECT COUNT(*) FROM @MatchMap) <> 4
+IF (SELECT COUNT(*) FROM @MatchMap) <> 2
     THROW 514302, 'Each TFF source fixture must resolve to one database match.', 1;
 
 IF EXISTS (

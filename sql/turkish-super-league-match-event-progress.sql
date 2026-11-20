@@ -305,6 +305,7 @@ VALUES
 -- TFF 283682: https://www.tff.org/Default.aspx?macId=283682&pageID=29; MaçPeşinde: https://macpesinde.com/mac/super-lig/sezon-25-26/hafta-15/2025-12-08/besiktas-vs-gaziantep/mac-gunu; Transfermarkt: https://www.transfermarkt.com.tr/besiktas-jk_gaziantep-fk/index/spielbericht/4647860
 -- TFF 283683: https://www.tff.org/Default.aspx?macId=283683&pageID=29; MaçPeşinde: https://macpesinde.com/mac/super-lig/sezon-25-26/hafta-15/2025-12-08/alanyaspor-vs-antalyaspor/mac-gunu
 -- TFF 283684: https://www.tff.org/Default.aspx?macId=283684&pageID=29; MaçPeşinde: https://macpesinde.com/mac/super-lig/sezon-25-26/hafta-15/2025-12-06/basaksehir-vs-fenerbahce/mac-gunu
+-- Transfermarkt and Mackolik confirm İsmail Yüksek entered for Fred at 78': https://www.transfermarkt.com/spielbericht/index/spielbericht/4647862; https://www.mackolik.com/mac/ba%C5%9Fak%C5%9Fehir-vs-fenerbah%C3%A7e/8kzh5yckv04jn5pgencep280k
 -- TFF 283685: https://www.tff.org/Default.aspx?macId=283685&pageID=29; MaçPeşinde: https://macpesinde.com/mac/super-lig/sezon-25-26/hafta-15/2025-12-07/goztepe-vs-trabzonspor/mac-gunu
 -- TFF 283686: https://www.tff.org/Default.aspx?macId=283686&pageID=29; MaçPeşinde: https://macpesinde.com/mac/super-lig/sezon-25-26/hafta-15/2025-12-05/galatasaray-vs-samsunspor/mac-gunu; Transfermarkt: https://www.transfermarkt.com.tr/galatasaray-sk-samsunspor/index/spielbericht/4647864
 -- TFF 283687: https://www.tff.org/Default.aspx?macId=283687&pageID=29; MaçPeşinde: https://macpesinde.com/mac/super-lig/sezon-25-26/hafta-15/2025-12-07/genclerbirligi-vs-karagumruk/mac-gunu; Transfermarkt: https://www.transfermarkt.com.tr/genclerbirligi-sk_fatih-karagumruk/index/spielbericht/4647865
@@ -3210,11 +3211,11 @@ VALUES
     (283684, N'MILAN SKRINIAR', 1),
     (283684, N'OĞUZ AYDIN', 1),
     (283684, N'ANDERSON SOUZA CONCEIÇAO', 1),
-    (283684, N'FREDERICO RODRIGUES DE PAULA SANTOS', 0),
     (283684, N'DORGELES NENE', 0),
     (283684, N'MUHAMMED KEREM AKTÜRKOĞLU', 0),
     (283684, N'YOUSSEF EN NESYRI', 0),
     (283684, N'ARCHIBALD NORMAN BROWN', 0),
+    (283684, N'İSMAİL YÜKSEK', 0),
     (283685, N'MATEUSZ LIS', 1),
     (283685, N'ARDA OKAN KURTULAN', 1),
     (283685, N'TAHA ALTIKARDEŞ', 1),
@@ -8088,7 +8089,7 @@ VALUES
     (283684, 10, 71, N'substitution', N'BERTUĞ ÖZGÜR YILDIRIM', N'substituted_in_home', N'ABBOSBEK FAYZULLAYEV', N'substituted_out_home', NULL, NULL, 0),
     (283684, 11, 73, N'card', N'ARCHIBALD NORMAN BROWN', N'carded_away', NULL, NULL, NULL, N'yellow', NULL),
     (283684, 12, 78, N'substitution', N'IVAN BRNIC', N'substituted_in_home', N'NUNO MIGUEL DA COSTA JOIA', N'substituted_out_home', NULL, NULL, 0),
-    (283684, 13, 78, N'substitution', N'FREDERICO RODRIGUES DE PAULA SANTOS', N'substituted_in_away', N'İSMAİL YÜKSEK', N'substituted_out_away', NULL, NULL, 0),
+    (283684, 13, 78, N'substitution', N'İSMAİL YÜKSEK', N'substituted_in_away', N'FREDERICO RODRIGUES DE PAULA SANTOS', N'substituted_out_away', NULL, NULL, 0),
     (283684, 14, 81, N'goal', N'BERTUĞ ÖZGÜR YILDIRIM', N'scorer_home', NULL, NULL, N'H', NULL, NULL),
     (283684, 15, 86, N'substitution', N'FESTY OSEIWE EBOSELE', N'substituted_in_home', N'ÖMER ALİ ŞAHİNER', N'substituted_out_home', NULL, NULL, 0),
     (283684, 16, 86, N'substitution', N'ONUR ERGÜN', N'substituted_in_home', N'UMUT GÜNEŞ', N'substituted_out_home', NULL, NULL, 0),
