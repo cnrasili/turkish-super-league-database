@@ -1,6 +1,7 @@
 -- Source-matched one-in/one-out substitutions for 370 unambiguous TFF match-sheet records.
 -- Same-minute groups with multiple players remain pending supplemental pairing sources.
--- These records have no TFF injury marker; injury-cause checks remain open.
+-- TFF has no injury marker; set is_injury only when a report documents injury.
+-- The remaining injury-cause audit is open.
 SET NOCOUNT ON;
 SET XACT_ABORT ON;
 
@@ -365,12 +366,12 @@ VALUES
     (283765, 21, N'ANIL YİĞİT ÇINAR', N'substituted_in_away', N'DAVIDE BIRASCHI', N'substituted_out_away', 0),
     (283765, 46, N'BERKAY ÖZCAN', N'substituted_in_away', N'CLAUDIO MATIAS KRANEVITTER', N'substituted_out_away', 0),
     (283765, 63, N'TİAGO SÜER BARBAROS ÇUKUR', N'substituted_in_away', N'SAM ANDREAS LARSSON', N'substituted_out_away', 0),
-    (283766, 25, N'CARL JOHAN HOLSE JUSTESEN', N'substituted_in_home', N'KOUADOU JAURES ASSOUMOU', N'substituted_out_home', 0),
+    (283766, 25, N'CARL JOHAN HOLSE JUSTESEN', N'substituted_in_home', N'KOUADOU JAURES ASSOUMOU', N'substituted_out_home', 1),
     (283766, 89, N'ALI BADRA DIABATE', N'substituted_in_home', N'CELİL YÜKSEL', N'substituted_out_home', 0),
     (283766, 46, N'DEIAN CRISTIAN SORESCU', N'substituted_in_away', N'LEO MYENTY JANNA ABENA', N'substituted_out_away', 0),
     (283766, 57, N'VICTOR NTINO-EMO GIDADO', N'substituted_in_away', N'DRISSA CAMARA', N'substituted_out_away', 0),
     (283766, 67, N'ALEXANDRU IULIAN MAXIM', N'substituted_in_away', N'OGÜN ÖZÇİÇEK', N'substituted_out_away', 0),
-    (283771, 62, N'MUHAMMET TAHA ŞAHİN', N'substituted_in_home', N'CASPER SOMMER HOJER', N'substituted_out_home', 0),
+    (283771, 62, N'MUHAMMET TAHA ŞAHİN', N'substituted_in_home', N'CASPER SOMMER HOJER', N'substituted_out_home', 1),
     (283771, 59, N'DARIO SARIC', N'substituted_in_away', N'NIKOLA STORM', N'substituted_out_away', 0),
     (283771, 68, N'SAMET KARAKOÇ', N'substituted_in_away', N'DOĞUKAN SİNİK', N'substituted_out_away', 0),
     (283771, 85, N'YOHAN ALEXANDRE MADY BOLI', N'substituted_in_away', N'BÜNYAMİN BALCI', N'substituted_out_away', 0),
