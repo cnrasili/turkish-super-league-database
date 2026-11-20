@@ -2,6 +2,7 @@
 -- Same-minute groups with multiple players remain pending supplemental pairing sources.
 -- TFF has no injury marker; set is_injury only when a report documents injury.
 -- The remaining injury-cause audit is open.
+-- Sahadan confirms Ianis Hagi's injury substitution and reports Luis Perez's injury before their exits in match 283800.
 SET NOCOUNT ON;
 SET XACT_ABORT ON;
 
@@ -418,7 +419,7 @@ VALUES
     (283800, 46, N'YUSUF KARHAN KABADAYI', N'substituted_in_home', N'MOHAMED LAMINE BAYO', N'substituted_out_home', 0),
     (283800, 52, N'KEVIN MANUEL RODRIGUES', N'substituted_in_home', N'DRISSA CAMARA', N'substituted_out_home', 0),
     (283800, 89, N'DENIS MIHAI DRAGUS', N'substituted_in_home', N'CHRISTOPHER LUNGOYI', N'substituted_out_home', 0),
-    (283800, 40, N'İBRAHİM KAYA', N'substituted_in_away', N'IANIS HAGI', N'substituted_out_away', 0),
+    (283800, 40, N'İBRAHİM KAYA', N'substituted_in_away', N'IANIS HAGI', N'substituted_out_away', 1),
     (283802, 46, N'MATEJ HANOUSEK', N'substituted_in_home', N'OĞULCAN ÜLGÜN', N'substituted_out_home', 0),
     (283802, 82, N'CİHAN ÇANAK', N'substituted_in_home', N'AYOTOMIWA SHERIF DELE BASHIRU', N'substituted_out_home', 0),
     (283802, 46, N'FILIP YAVOROV KRASTEV', N'substituted_in_away', N'ALEXIS ANTUNES GOMEZ', N'substituted_out_away', 0),
