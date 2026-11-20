@@ -19,7 +19,7 @@ A relational database project for clubs, players, matches, and match events in T
 ## Implementation Status
 
 - The scripts have been executed against SQL Server 2022 (database `TurkishSuperLeague2526`) in the documented order, and the loaded data has been validated against TFF records.
-- The 18-table schema covers every relation, entity, and attribute in the proposal and EER; the integrity script and four reporting views are drafted.
+- The 18-table schema covers every relation, entity, and attribute in the proposal and EER; the integrity script and the four reporting views are loaded and in use.
 - `sql/turkish-super-league-reference-data.sql` seeds the 2025-2026 season, its 18 clubs, their TFF profile stadiums, and source-backed club colours.
 - `sql/turkish-super-league-player-data.sql` contains 599 contracted roster rows across 18 teams and 599 distinct TFF license numbers. All 18 club blocks have been selected for the post-winter 2025-2026 rosters using TFF's final A-team lists and owner-provided squad screenshots. The latest review includes 28 Gençlerbirliği players, 25 Antalyaspor players, and 28 Fatih Karagümrük players; Antalyaspor includes one screenshot-backed U21 first-team player verified in TFF senior-match records. Verified winter transfers are reconciled across clubs, including Rodrigo Nascimento Franca from Fenerbahçe to Kasımpaşa, Emir Ortakaya from Eyüpspor to Rizespor, and Bedirhan Özyurt from Alanyaspor to Eyüpspor. The four big-club blocks remain closed; revisit them only if another roster review reveals a concrete conflict. Ensar Buğra Tivsiz and Deniz Ceylan are omitted from the roster because they had no professional contract during 2025-2026. TFF's first-window Rizespor and Gaziantep PDFs returned errors after retries.
 - `sql/turkish-super-league-match-participant-profiles.sql` adds profiles for 18 additional players confirmed in TFF match sheets, including season-overlapping contract periods for the nine players with verified professional contracts. The other nine have player profiles for their recorded match appearances but no season contract row. Together, the seeds contain 617 distinct player profiles and 608 professional contract periods.
@@ -28,7 +28,7 @@ A relational database project for clubs, players, matches, and match events in T
 - `sql/turkish-super-league-match-data.sql` seeds all 306 2025-2026 fixtures.
 - `sql/turkish-super-league-match-event-sample.sql` seeds the first fixture's 31 appearances and 17 events: 5 goals, 3 cards, and 9 substitutions.
 - `sql/turkish-super-league-match-event-progress.sql` seeds 201 additional fixtures with source-matched appearances and event records; ambiguous same-minute groups are added by source-backed substitution supplements.
-- `sql/turkish-super-league-match-event-progress-batch-2.sql` adds 84 fixtures with 2,610 appearances, 196 goals, and 377 cards. It does not seed substitution events pending source verification.
+- `sql/turkish-super-league-match-event-progress-batch-2.sql` adds 84 fixtures with 2,610 appearances, 196 goals, and 377 cards. Its substitution events are loaded by the substitution scripts that follow it.
 - `sql/turkish-super-league-match-event-progress-batch-3.sql` adds the remaining 20 fixtures with 622 appearances, 58 goals, and 95 cards. All 306 fixtures now have sourced appearance, goal, and card data.
 - `sql/turkish-super-league-match-event-substitutions-progress.sql` adds 370 substitutions that have one incoming and one outgoing player at that minute in the TFF sheet. Across the event seeds and supplements through supplement 61, all 2,702 nonstarter appearances have a unique source-verified substitution pairing (100%). 250 rows are marked as injury-related; see the Injury-Cause Audit section for the sources and the sweep that produced them.
 - `sql/turkish-super-league-match-event-substitutions-supplement-1.sql` adds eight pairings confirmed by the DHA report for Antalyaspor-Fatih Karagümrük (TFF match 283582).
@@ -88,7 +88,7 @@ A relational database project for clubs, players, matches, and match events in T
 
 `is_injury` is set on 250 of the 2,702 substitutions. Every substitution was audited, in both directions.
 
-The 37 rows flagged before the sweep were each checked against a match-specific source; the table below lists those sources. The remaining 213 come from a sweep of all 306 Transfermarkt match reports, which label every substitution with a reason (`Taktik`, `Sakatlık`, `Dinlendirme`, `Zaman geçirmek`, or `Kırmızı kart riski`). Each report's substitutions were matched to the loaded rows by club side and outgoing player; 2,694 of the 2,702 rows matched automatically and the 8 that did not were read off the reports by hand, all of them `Taktik`. Rows labelled `Sakatlık` and not yet flagged were set to 1.
+The 37 rows flagged before the sweep were each checked against a match-specific source; the table below gives that source for each of the 23 fixtures they fall in. The remaining 213 come from a sweep of all 306 Transfermarkt match reports, which label every substitution with a reason (`Taktik`, `Sakatlık`, `Dinlendirme`, `Zaman geçirmek`, or `Kırmızı kart riski`). Each report's substitutions were matched to the loaded rows by club side and outgoing player; 2,694 of the 2,702 rows matched automatically and the 8 that did not were read off the reports by hand, all of them `Taktik`. Rows labelled `Sakatlık` and not yet flagged were set to 1.
 
 Two rows stay flagged although Transfermarkt labels them `Taktik`, because match-specific sources in the table below record an injury: the 62nd-minute substitution in TFF match 283794 and the 76th-minute substitution in TFF match 283800.
 
@@ -96,6 +96,7 @@ TFF remains authoritative for match identity, participants, and minute, while th
 
 | TFF match | Match-specific cause evidence |
 |---:|---|
+| 283554 | [Transfermarkt](https://www.transfermarkt.com.tr/eyupspor_konyaspor/index/spielbericht/4646338) marks both substitutions as `Sakatlık` |
 | 283565 | [Beşiktaş match centre](https://www.bjk.com.tr/tr/mobil/mac_merkezi_canli/23784) and [Transfermarkt](https://www.transfermarkt.co.in/spielbericht/index/spielbericht/4646349) |
 | 283600 | [Transfermarkt](https://www.transfermarkt.co.in/vorbericht/index/spielbericht/4646436) |
 | 283602 | [Transfermarkt](https://www.transfermarkt.com/vorbericht/index/spielbericht/4646438) and [T-Online event log](https://www.t-online.de/sport/live-ticker/fussball/turkish-super-lig/sdc_fm-54026/samsunspor-fatih-karaguemruek-turkish-super-lig-im-liveticker.html) |
@@ -108,6 +109,7 @@ TFF remains authoritative for match identity, participants, and minute, while th
 | 283678 | [Transfermarkt](https://www.transfermarkt.com/spielbericht/index/spielbericht/4647883) |
 | 283681 | [Transfermarkt](https://www.transfermarkt.ch/konyaspor_caykur-rizespor/index/spielbericht/4647859) |
 | 283697 | [e-Scorespot event log](https://e-scorespot.com/match/kayserispor-alanyaspor/84835) |
+| 283695 | [Transfermarkt](https://www.transfermarkt.com.tr/spielbericht/index/spielbericht/4647873) marks both the 54th- and 67th-minute substitutions as `Sakatlık` |
 | 283698 | [Transfermarkt](https://www.transfermarkt.com/eyupspor_fenerbahce/index/spielbericht/4647912) |
 | 283700 | [Sahadan event log](https://www.sahadan.com/en/match/besiktas-vs-c-rizespor/8rfofyx4975kpnc6yxas515as/commentary) |
 | 283709 | [Transfermarkt](https://www.transfermarkt.com/spielbericht/index/spielbericht/4647923) and [Sahadan event log](https://www.sahadan.com/mac/kocaelispor-vs-trabzonspor/8v0akgoke9jg43yrj1qmegutw/anlatim) |
@@ -117,8 +119,6 @@ TFF remains authoritative for match identity, participants, and minute, while th
 | 283775 | [Sahadan event log](https://www.sahadan.com/mac/basaksehir-vs-goztepe/9lwijsfyxlm81k44ybwiriz9w/anlatim) |
 | 283794 | [Galatasaray medical report](https://www.galatasaray.org/haber/futbol/acibadem-saglik-raporu/acibadem-saglik-raporu/60069) |
 | 283800 | [Sahadan event log](https://www.sahadan.com/mac/gaziantep-fk-vs-alanyaspor/9vxgjl7z2o4ljotod3v3emz9w/anlatim) |
-| 283554 | [Transfermarkt](https://www.transfermarkt.com.tr/eyupspor_konyaspor/index/spielbericht/4646338) marks both substitutions as `Sakatlık` |
-| 283695 | [Transfermarkt](https://www.transfermarkt.com.tr/spielbericht/index/spielbericht/4647873) marks both the 54th- and 67th-minute substitutions as `Sakatlık` |
 
 - Match-event participants must have an appearance in that match, except card participants: a card may be shown to a squad member who never entered the field. Run `dbo.assert_match_event_subtypes_complete` after data loading to verify every event has exactly one goal, card, or substitution subtype.
 - Own goals use the `own_goal_by_home_player` and `own_goal_by_away_player` roles, so the league-table view credits them to the club that benefits. The scorer roles are reserved for goals credited to the scorer's own club.
@@ -335,12 +335,25 @@ Corrections applied during loading:
 
 - All 23 own goals were recorded with scorer roles, which credited them to the conceding club. They now use the `own_goal_by_home_player` and `own_goal_by_away_player` roles, which changed 21 match results and the final standings.
 - 30 cards that TFF marks red were stored as yellow and have been corrected.
+- The 14 cards that TFF records with the minute code `MS` instead of a numeric minute were missing; `sql/turkish-super-league-match-event-cards-supplement-1.sql` loads them with minute 90, so all 1,428 TFF cards are present: 1,362 yellow and 66 red.
 - 213 further substitutions that Transfermarkt labels `Sakatlık` are now flagged as injury-related, which raises the `is_injury` total from 37 to 250.
 - The appearance requirement for event participants no longer applies to card participants, because 17 cards were shown to squad members who never entered the field.
 - The appearance and event `VALUES` lists in `sql/turkish-super-league-match-event-progress.sql` and `...-progress-batch-2.sql` are split into statements of at most 900 rows, which is below the T-SQL limit of 1,000 row values per `INSERT`.
 - The roster guard in `sql/turkish-super-league-coach-referee-data.sql` accepts 599 or more player profiles, so it passes after the match-participant profiles are loaded.
 
-- The 14 cards that TFF records with the minute code `MS` instead of a numeric minute are loaded by `sql/turkish-super-league-match-event-cards-supplement-1.sql` with minute 90, so all 1,428 TFF cards are present: 1,362 yellow and 66 red.
+### Conformance with the Proposal and EER
+
+The loaded database was compared with the proposal's relational schema (Table 1) and the EER diagram:
+
+- All 18 relations exist, and every primary key matches the proposal, including the composite keys of `contract`, `coaching`, `appearance`, `match_event`, `event_player`, `club_colour`, and `season_club`.
+- `PERSON` keeps its three disjoint subclasses, `MATCH_EVENT` is a weak entity identified by `match_id` and `event_no` with its three disjoint subtypes, club colours are a separate relation, and the score stays derived rather than stored.
+- The `match` relation carries only season, home club, away club, referee, and week, as the approved model requires.
+- The constraint, trigger, and view examples named in the proposal are present: the home club must differ from the away club, a goal cannot be recorded for a player outside the lineup, and the league table and top scorers are views.
+
+Two deliberate differences are worth naming:
+
+- The proposal lists the foreign keys of `match` as season, club (twice), and referee. The implementation instead points the home and away sides at `season_club (season_id, club_id)`, which keeps the same columns while enforcing declaratively that both clubs take part in that season, a rule the proposal's data flow requires.
+- The lineup requirement does not apply to card participants, because TFF match sheets record cards shown to substitutes who never entered the field. Goals and substitutions still require an appearance.
 
 ## Reference Materials
 
