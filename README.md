@@ -20,14 +20,15 @@ A relational database project for clubs, players, matches, and match events in T
 
 - The 18-table schema covers every relation, entity, and attribute in the proposal and EER; the integrity script and four reporting views are drafted.
 - `sql/turkish-super-league-reference-data.sql` seeds the 2025-2026 season, its 18 clubs, their TFF profile stadiums, and source-backed club colours.
-- `sql/turkish-super-league-player-data.sql` contains 599 roster rows across 18 teams and 599 distinct TFF license numbers. All 18 club blocks have been selected for the post-winter 2025-2026 rosters using TFF's final A-team lists and owner-provided squad screenshots. The latest review includes 28 Gençlerbirliği players, 25 Antalyaspor players, and 28 Fatih Karagümrük players; Antalyaspor includes one screenshot-backed U21 first-team player verified in TFF senior-match records. Verified winter transfers are reconciled across clubs, including Rodrigo Nascimento Franca from Fenerbahçe to Kasımpaşa, Emir Ortakaya from Eyüpspor to Rizespor, and Bedirhan Özyurt from Alanyaspor to Eyüpspor. The four big-club blocks remain closed; revisit them only if another roster review reveals a concrete conflict. All player profile fields and season-overlapping professional contract periods are populated for the selected players. Ensar Buğra Tivsiz and Deniz Ceylan are omitted because they had no professional contract during 2025-2026. TFF's first-window Rizespor and Gaziantep PDFs returned errors after retries.
+- `sql/turkish-super-league-player-data.sql` contains 599 contracted roster rows across 18 teams and 599 distinct TFF license numbers. All 18 club blocks have been selected for the post-winter 2025-2026 rosters using TFF's final A-team lists and owner-provided squad screenshots. The latest review includes 28 Gençlerbirliği players, 25 Antalyaspor players, and 28 Fatih Karagümrük players; Antalyaspor includes one screenshot-backed U21 first-team player verified in TFF senior-match records. Verified winter transfers are reconciled across clubs, including Rodrigo Nascimento Franca from Fenerbahçe to Kasımpaşa, Emir Ortakaya from Eyüpspor to Rizespor, and Bedirhan Özyurt from Alanyaspor to Eyüpspor. The four big-club blocks remain closed; revisit them only if another roster review reveals a concrete conflict. Ensar Buğra Tivsiz and Deniz Ceylan are omitted from the roster because they had no professional contract during 2025-2026. TFF's first-window Rizespor and Gaziantep PDFs returned errors after retries.
+- `sql/turkish-super-league-match-participant-profiles.sql` adds profiles for 18 additional players confirmed in TFF match sheets, including season-overlapping contract periods for the nine players with verified professional contracts. The other nine have player profiles for their recorded match appearances but no season contract row. Together, the seeds contain 617 distinct player profiles and 608 professional contract periods.
 - `sql/turkish-super-league-coach-referee-data.sql` contains 35 coach profiles, 42 coaching periods within the 2025-2026 season, and 29 referee profiles with TFF class values. UEFA A is recorded for Burak Yılmaz and Selçuk Şahin based on their participation in UEFA Pro courses and the TFF Pro-course prerequisite; this does not claim that either had completed a Pro diploma.
 - The match relation follows the approved model: season, home club, away club, referee, and week; it has no date, kickoff-time, or venue attributes.
 - `sql/turkish-super-league-match-data.sql` seeds all 306 2025-2026 fixtures.
 - `sql/turkish-super-league-match-event-sample.sql` seeds the first fixture's 31 appearances and 17 events: 5 goals, 3 cards, and 9 substitutions.
 - `sql/turkish-super-league-match-event-progress.sql` seeds 201 additional fixtures with source-matched appearances and event records; unpaired same-minute substitutions remain excluded.
 - `sql/turkish-super-league-match-event-progress-batch-2.sql` adds 84 fixtures with 2,610 appearances, 196 goals, and 377 cards. It does not seed substitution events pending source verification.
-- Twenty fixtures remain outside the event seeds because 18 match-sheet participants lack player profiles; substitution research also remains open for the seeded fixtures.
+- `sql/turkish-super-league-match-event-progress-batch-3.sql` adds the remaining 20 fixtures with 622 appearances, 58 goals, and 95 cards. All 306 fixtures now have sourced appearance, goal, and card data; substitution research remains open.
 - Match-event participants must have an appearance in that match. Run `dbo.assert_match_event_subtypes_complete` after data loading to verify every event has exactly one goal, card, or substitution subtype.
 - The scripts have not yet been executed against SQL Server.
 - The selected sample season is 2025-2026.
@@ -35,20 +36,22 @@ A relational database project for clubs, players, matches, and match events in T
 - All 306 TFF fixture results reconcile with the computed final records for the 18 clubs; all 306 linked match details now confirm the score and goal-event total.
 - The [TFF detail page for Alanyaspor 1-3 Eyüpspor](https://www.tff.org/Default.aspx?macId=283725&pageID=29), which timed out in an earlier review, is now accessible and exposes its lineups, goals, cards, and substitution minutes.
 - TFF goal type codes are `F` (foot), `H` (header), `K` (own goal), and `P` (penalty); card colours are yellow and red.
-- Include numbered first-team players. Exclude unnumbered academy entries, while retaining unnumbered players whose 2025-2026 loan is confirmed by TFF. All 599 selected player rows have birth date, nationality, position, and a professional contract period overlapping the season, matched to TFF records and the supplied squad screenshots. Coach profiles and season coaching periods are prepared. All 29 main referees have profiles. Source-backed match data is prepared for all 306 fixtures. Match-event data is seeded for the first fixture and 285 of the other 305 fixtures; 20 fixtures await player-profile matches. TFF match-sheet player links expose license numbers for matching participants to roster records. For `appearance`, use starters and substitutes who entered; do not count unused substitutes. Store stoppage notation as elapsed integer minutes (`45+12` as `57`, `90+4` as `94`). Use a supplementary match report to verify same-minute substitution pairings and substitution causes.
-- Do not use a post-2025-2026 contract start date as the historical season contract. Omit players who had no professional contract during 2025-2026.
+- Include numbered first-team players. Exclude unnumbered academy entries, while retaining unnumbered players whose 2025-2026 loan is confirmed by TFF. All 599 selected roster rows have birth date, nationality, position, and a professional contract period overlapping the season, matched to TFF records and the supplied squad screenshots. The additional 18 participant profiles are sourced from TFF match sheets; no professional contract row is added where no season-overlapping contract is recorded. Coach profiles and season coaching periods are prepared. All 29 main referees have profiles. Source-backed match data is prepared for all 306 fixtures. Match-event data has appearance, goal, and card records for all fixtures. TFF match-sheet player links expose license numbers for matching participants to roster records. For `appearance`, use starters and substitutes who entered; do not count unused substitutes. Store stoppage notation as elapsed integer minutes (`45+12` as `57`, `90+4` as `94`). Use a supplementary match report to verify same-minute substitution pairings and substitution causes.
+- Do not use a post-2025-2026 contract start date as the historical season contract. Omit players without a season-overlapping professional contract from the contracted roster and do not create contract rows for them; retain profiles required by official match-sheet appearances.
 - The league-table view applies TFF head-to-head tie-break rules while keeping the proposal and EER table set unchanged.
 
 ## SQL Scripts
 
 - `sql/turkish-super-league-schema.sql`: create the relational tables and constraints.
 - `sql/turkish-super-league-reference-data.sql`: seed source-backed 2025-2026 clubs, colours, stadiums, and season participation.
-- `sql/turkish-super-league-player-data.sql`: load the 599 sourced player profiles and 599 professional contract periods for the 2025-2026 roster.
+- `sql/turkish-super-league-player-data.sql`: load the 599 sourced roster profiles and their 599 professional contract periods.
+- `sql/turkish-super-league-match-participant-profiles.sql`: load 18 additional match participant profiles and nine sourced season contract periods.
 - `sql/turkish-super-league-coach-referee-data.sql`: load sourced coach and referee profiles and season coaching periods.
 - `sql/turkish-super-league-match-data.sql`: load all 306 fixtures.
 - `sql/turkish-super-league-match-event-sample.sql`: load appearances and events for the first fixture.
 - `sql/turkish-super-league-match-event-progress.sql`: load the first 201 additional fixture event batches.
 - `sql/turkish-super-league-match-event-progress-batch-2.sql`: load appearances, goals, and cards for 84 additional fixtures; substitution events are deferred.
+- `sql/turkish-super-league-match-event-progress-batch-3.sql`: load appearances, goals, and cards for the final 20 additional fixtures; substitution events are deferred.
 - `sql/turkish-super-league-integrity.sql`: apply subtype and goal-lineup integrity rules.
 - `sql/turkish-super-league-reports.sql`: create the league table, top scorers, cards by club, and player club history views.
 
@@ -59,12 +62,13 @@ A relational database project for clubs, players, matches, and match events in T
 3. Execute `sql/turkish-super-league-reference-data.sql` to load the available club and season reference rows.
 4. Execute `sql/turkish-super-league-integrity.sql` before loading people and match data.
 5. Execute `sql/turkish-super-league-reports.sql` after the schema exists.
-6. Run `sql/turkish-super-league-player-data.sql` to load the player profiles and available professional contract periods before loading coach, referee, match, lineup, and event rows.
-7. Run `sql/turkish-super-league-coach-referee-data.sql` after player data and before match data.
-8. Run `sql/turkish-super-league-match-data.sql` after the coach and referee data.
-9. Run `sql/turkish-super-league-match-event-sample.sql` after match rows to load the first fixture's appearances and events.
-10. Run `sql/turkish-super-league-match-event-progress.sql` and `sql/turkish-super-league-match-event-progress-batch-2.sql` after the sample event script.
-11. After all appearance and event scripts are loaded, run the event-subtype assertion:
+6. Run `sql/turkish-super-league-player-data.sql` to load the 599 contracted roster profiles.
+7. Run `sql/turkish-super-league-match-participant-profiles.sql` to load additional TFF match-sheet participants and their available contract periods.
+8. Run `sql/turkish-super-league-coach-referee-data.sql` after player data and before match data.
+9. Run `sql/turkish-super-league-match-data.sql` after the coach and referee data.
+10. Run `sql/turkish-super-league-match-event-sample.sql` after match rows to load the first fixture's appearances and events.
+11. Run `sql/turkish-super-league-match-event-progress.sql`, `sql/turkish-super-league-match-event-progress-batch-2.sql`, and `sql/turkish-super-league-match-event-progress-batch-3.sql` after the sample event script.
+12. After all appearance and event scripts are loaded, run the event-subtype assertion:
 
 ```sql
 EXEC dbo.assert_match_event_subtypes_complete;
